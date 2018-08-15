@@ -11,8 +11,10 @@
 	</title>
 
 	<!-- CSS -->
-	<link href="./css/osu_navbar-resp.css" rel="stylesheet" type="text/css" />
-	<link href="./css/main.css" rel="stylesheet" type="text/css" />
+	<link href="./css/osu-navbar.css" rel="stylesheet" type="text/css" />
+	<link href="./css/old.css" rel="stylesheet" type="text/css" />
+	<link href="./css/base.css" rel="stylesheet" type="text/css" />
+	<link href="./css/new.css" rel="stylesheet" type="text/css" />
 
 	<!-- OSU Webfonts -->
 	<link rel="stylesheet" href="http://www.osu.edu/assets/fonts/webfonts.css">
@@ -121,7 +123,7 @@
 		<div role="navigation" id="osu_navbar" aria-labelledby="osu_navbar_heading">
 
 		  <h2 id="osu_navbar_heading" class="osu-semantic">Ohio State nav bar</h2>
-			<a href="#content" id="skip" class="osu-semantic">Skip to main content</a>
+			<a href="#main-content" id="skip" class="osu-semantic">Skip to main content</a>
 
 			<div class="container">
 		    	<div class="univ_info">
@@ -143,13 +145,9 @@
 
 		</div><!-- /osu_navbar -->
 
-		<div id="header">
+		<header id="header">
 			<h2>masthead will go here</h2>
-		</div>
-
-		<div id="gatewayLinks">
-			<h2>main menu will go here</h2>
-		</div>
+		</header>
 
 		<div id="container">
 			<div id="main">
@@ -179,23 +177,17 @@
 
 
 				<div id="bodyContent">
-					<div id="content">
+					<div id="main-content">
 
-						<h1>Web Style Guide</h1>
+						<h1>Ohio State News Web Style Guide</h1>
 
-						<div class="first one-half">
+						<div class="category">
 							<p>Here you'll find a collection of guides and tips for managing &amp; formatting content on the web.</p>
 							<p>This design leverages the latest HTML 5 &amp; CSS3 technologies. Some advanced visual features are only seen when using modern browsers (including Chrome, Firefox, Safari, and IE9 and above). Other legacy browsers (IE8 and older) will still work
 								just fine for browsing the site.</p>
 							<div class="box">
 								<p>The term <em> <strong>responsive</strong> </em> means that the site is designed to stretch and adapt to any screen size. This means that the site looks great on a full-size monitor on a desktop, all the way down to a tiny cell phone screen.</p>
 								<p>Of course this approach means that a little extra care is needed when arranging a page. Stick to the basics &amp; follow the tips on this page, and the web design will take care of itself, automatically!</p>
-							</div>
-						</div>
-
-						<div class="one-half">
-							<div class="box">
-								<p> one-half box if needed </p>
 							</div>
 						</div>
 
@@ -912,8 +904,7 @@ $(document).ready(function()
 
 
 
-	</div>
+	</div><!-- /wrap -->
 
 </body>
-
 </html>

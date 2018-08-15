@@ -1,0 +1,71 @@
+
+
+h1, h2, h3, h4, h5, h6{
+ color:#303030;
+ margin:20px 0 20px 0;
+ font-family:Georgia, 'Times New Roman', serif;
+ font-weight:normal;
+ letter-spacing:-0.035em;
+ line-height:1.2;
+}
+h1 *, h2 *, h3 *, h4 *, h5 *, h6 *{
+ font-family:Georgia, 'Times New Roman', serif;
+}
+.fslabel, .fslabel *{
+ border:none;
+}
+h1{
+ font-size:45px;
+}
+h2{
+ font-size:34px;
+ border-bottom:1px solid #cccccc;
+ padding-bottom:5px;
+}
+h2.plain{
+ border-bottom:0;
+ padding-bottom:0;
+}
+h2 strong{
+ font-weight:normal;
+}
+h3{
+ font-size:27px;
+}
+h4{
+ font-size:22px;
+}
+h5{
+ font-size:20px;
+}
+h6{
+ font-size:18px;
+}
+.slim h1, .slim h2, .slim h3, .slim h4, .slim h5, .slim h6{
+ margin:8px 0 8px 0;
+}
+h1:first-child, h2:first-child, h3:first-child, h4:first-child, h5:first-child, h6:first-child{
+ margin-top:0;
+}
+a img{
+ border:none;
+}
+a{
+ color:#0053C0;
+ font-weight:bold;
+ text-decoration:underline;
+}
+a:link{
+}
+a:visited{
+}
+a:hover, a:focus{
+ color:#552D81;
+}
+a:active{
+ background-color:transparent;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{
+ color:#046937;
+ font-weight:normal;
+}
