@@ -1,53 +1,81 @@
-
-
-h1, h2, h3, h4, h5, h6{
- color:#202024;
- font-weight: 400;
+html {
+  //setting base font-size to use rems elsewhere
+  font-size: 16px;
+  font-family: 'proximanova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-h1{
- font-size:45px;
+*{
+	margin:0;
+	padding:0;
 }
-h2{
- font-size:34px;
+
+h1, h2, h3, h4, h5, h6 {
+  color: #202024;
+  font-weight: 400;
 }
-h3{
- font-size:27px;
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
 }
-h4{
- font-size:22px;
+
+h2 {
+  font-size: 2.4rem;
+  font-family: 'Capita', serif;
+  font-weight: 300;
+  font-style: italic;
 }
-h5{
- font-size:20px;
+
+h3 {
+  font-size: 2.1rem;
 }
-h6{
- font-size:18px;
+
+h4 {
+  font-size: 1.8rem;
 }
-.slim h1, .slim h2, .slim h3, .slim h4, .slim h5, .slim h6{
- margin:8px 0 8px 0;
+
+h5 {
+  font-size: 1.5rem;
 }
-h1:first-child, h2:first-child, h3:first-child, h4:first-child, h5:first-child, h6:first-child{
- margin-top:0;
+
+h6 {
+  font-size: 1.3rem;
 }
-a img{
- border:none;
+
+
+a img {
+  border: none;
 }
-a{
- color:#0053C0;
- font-weight:bold;
- text-decoration:underline;
+
+a {
+  color: #0053C0;
+  font-weight: bold;
+  text-decoration: underline;
 }
-a:link{
+
+a:link {}
+
+a:visited {}
+
+a:hover, a:focus {
+  color: #552D81;
 }
-a:visited{
+
+a:active {
+  background-color: transparent;
 }
-a:hover, a:focus{
- color:#552D81;
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  color: #046937;
 }
-a:active{
- background-color:transparent;
-}
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{
- color:#046937;
- font-weight:normal;
+
+/* variations */
+h2.category-header {
+  font-family: 'proximanova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: uppercase;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 0.5em;
 }
