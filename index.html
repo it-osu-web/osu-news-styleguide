@@ -1,486 +1,475 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
 <head>
-	<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
-	<meta charset="utf-8"/>
-	<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-	<meta content="#046937" name="theme-color"/>
-	<!-- STC 1.5 -->
+	<meta content="IE=edge" http-equiv="X-UA-Compatible" />
+	<meta charset="utf-8" />
+	<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
 	<title>
-		Web Style Guide | South Texas College
+		Web Style Guide | Ohio State News
 	</title>
-	
-	<link href="https://global.southtexascollege.edu/css/global_.css" rel="stylesheet" type="text/css"/>
-	
-<script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
-<script src="https://code.jquery.com/jquery-migrate-3.0.1.js"></script>
-<script defer="defer" src="https://global.southtexascollege.edu/js/global.js" type="text/javascript"></script>
 
-	<link href="https://global.southtexascollege.edu/js/fancybox/jquery.fancybox.css" rel="stylesheet" type="text/css"/>
-<script defer="defer" src="https://global.southtexascollege.edu/js/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
-<link href="https://global.southtexascollege.edu/js/prism/prism-twilight.css" rel="stylesheet" type="text/css"/>
-<script defer="defer" src="https://global.southtexascollege.edu/js/prism/prism.js" type="text/javascript"></script>
-    <script language="javascript" type="text/javascript">// <![CDATA[
-$(document).ready(function()
-{
+	<!-- CSS -->
+	<link href="./css/main.css" rel="stylesheet" type="text/css" />
 
-    $(".fancybox").fancybox();
+	<!-- OSU Webfonts -->
+	<link rel="stylesheet" href="http://www.osu.edu/assets/fonts/webfonts.css">
 
 
-//Set your tab size here, and in the CSS.
-var tabSize = 4;
-var codeElements = document.getElementsByTagName('code'),
-preElements = document.getElementsByTagName('pre'),
-textareas = document.getElementsByTagName('textarea'),
-e = document.createElement('i');
-if(e.style.tabSize !== '' && e.style.MozTabSize !== '' && e.style.oTabSize !== '')
-{
-//      console.log(e.style);
-//      replaceTabs(codeElements);
-        replaceTabs(preElements);
-//      replaceTabs(textareas);
-}
 
-function replaceTabs(ele)
-{
-        for(var i = 0; i < ele.length; i++)
-        {
-                ele[i].innerHTML = ele[i].innerHTML.replace(/\t/g, repeat(" ", tabSize));
-        }
-}
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
+	<script src="https://code.jquery.com/jquery-migrate-3.0.1.js"></script>
+	<script defer="defer" src="https://global.southtexascollege.edu/js/global.js" type="text/javascript"></script>
 
-function repeat(st, n) {
-        var s = "";
-        while (--n >= 0) {
-                s += st;
-        }
-        return s;
-}
+	<link href="https://global.southtexascollege.edu/js/fancybox/jquery.fancybox.css" rel="stylesheet" type="text/css" />
+	<script defer="defer" src="https://global.southtexascollege.edu/js/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
+	<link href="https://global.southtexascollege.edu/js/prism/prism-twilight.css" rel="stylesheet" type="text/css" />
+	<script defer="defer" src="https://global.southtexascollege.edu/js/prism/prism.js" type="text/javascript"></script>
+	<script language="javascript" type="text/javascript">
+		// <![CDATA[
+		$(document).ready(function() {
+
+			$(".fancybox").fancybox();
 
 
-});
-// ]]></script>
-<style type="text/css"><!--
-code{
-        font-family:Consolas,Monaco,'Andale Mono',monospace;
-        font-size:14px;
-}
-pre{
-        background-color:#EEEEEE;
-        overflow:auto;
-}
-:not(pre) > code[class*="language-"], pre[class*="language-"]{
-    border-width:0;
-}
-code[class*="language-"],code[class*="language-"] *,
-pre[class*="language-"], pre[class*="language-"] * {
-	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace !important;
-    line-height:1;
-}
---></style>
+			//Set your tab size here, and in the CSS.
+			var tabSize = 4;
+			var codeElements = document.getElementsByTagName('code'),
+				preElements = document.getElementsByTagName('pre'),
+				textareas = document.getElementsByTagName('textarea'),
+				e = document.createElement('i');
+			if (e.style.tabSize !== '' && e.style.MozTabSize !== '' && e.style.oTabSize !== '') {
+				//      console.log(e.style);
+				//      replaceTabs(codeElements);
+				replaceTabs(preElements);
+				//      replaceTabs(textareas);
+			}
+
+			function replaceTabs(ele) {
+				for (var i = 0; i < ele.length; i++) {
+					ele[i].innerHTML = ele[i].innerHTML.replace(/\t/g, repeat(" ", tabSize));
+				}
+			}
+
+			function repeat(st, n) {
+				var s = "";
+				while (--n >= 0) {
+					s += st;
+				}
+				return s;
+			}
+
+
+		});
+		// ]]>
+	</script>
+	<style type="text/css">
+		< !-- code {
+			font-family: Consolas, Monaco, 'Andale Mono', monospace;
+			font-size: 14px;
+		}
+
+		pre {
+			background-color: #EEEEEE;
+			overflow: auto;
+		}
+
+		:not(pre)>code[class*="language-"],
+		pre[class*="language-"] {
+			border-width: 0;
+		}
+
+		code[class*="language-"],
+		code[class*="language-"] *,
+		pre[class*="language-"],
+		pre[class*="language-"] * {
+			font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace !important;
+			line-height: 1;
+		}
+
+		-->
+	</style>
 
 	<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+		(function(i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r;
+			i[r] = i[r] || function() {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date();
+			a = s.createElement(o),
+				m = s.getElementsByTagName(o)[0];
+			a.async = 1;
+			a.src = g;
+			m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-  ga('create', 'UA-6914392-1', 'auto');
-  ga('require', 'linkid');
-  ga('send', 'pageview');
-
-</script>
+		ga('create', 'UA-6914392-1', 'auto');
+		ga('require', 'linkid');
+		ga('send', 'pageview');
+	</script>
 </head>
+
 <body class=" ">
-	<script type="text/javascript">// <![CDATA[
-var versaTag = {};
-versaTag.id = "6811";
-versaTag.sync = 0;
-versaTag.dispType = "js";
-versaTag.ptcl = "HTTPS";
-versaTag.bsUrl = "bs.serving-sys.com/BurstingPipe";
-versaTag.activityParams = {"Session":""};
-versaTag.retargetParams = {};
-versaTag.dynamicRetargetParams = {};
-versaTag.conditionalParams = {};
-// ]]></script>
-<script id="ebOneTagUrlId" src="https://secure-ds.serving-sys.com/SemiCachedScripts/ebOneTag.js" type="text/javascript"></script>
-<noscript><iframe src="https://bs.serving-sys.com/BurstingPipe?cn=ot&amp;onetagid=6811&amp;ns=1&amp;activityValues=$$Session=%5BSession%5D$$&amp;retargetingValues=$$$$&amp;dynamicRetargetingValues=$$$$&amp;acp=$$$$&amp;" style="display:none;width:0px;height:0px" title="marketing analytics"></iframe></noscript>
+	<script type="text/javascript">
+		// <![CDATA[
+		var versaTag = {};
+		versaTag.id = "6811";
+		versaTag.sync = 0;
+		versaTag.dispType = "js";
+		versaTag.ptcl = "HTTPS";
+		versaTag.bsUrl = "bs.serving-sys.com/BurstingPipe";
+		versaTag.activityParams = {
+			"Session": ""
+		};
+		versaTag.retargetParams = {};
+		versaTag.dynamicRetargetParams = {};
+		versaTag.conditionalParams = {};
+		// ]]>
+	</script>
+	<script id="ebOneTagUrlId" src="https://secure-ds.serving-sys.com/SemiCachedScripts/ebOneTag.js" type="text/javascript"></script>
+	<noscript><iframe src="https://bs.serving-sys.com/BurstingPipe?cn=ot&amp;onetagid=6811&amp;ns=1&amp;activityValues=$$Session=%5BSession%5D$$&amp;retargetingValues=$$$$&amp;dynamicRetargetingValues=$$$$&amp;acp=$$$$&amp;" style="display:none;width:0px;height:0px" title="marketing analytics"></iframe></noscript>
+
+
 	<div id="wrap">
 		<div id="top">
-		    <div class="w">
-			    <a href="#content">Skip to main content</a>
+			<div class="w">
+				<a href="#content">Skip to main content</a>
 			</div>
 		</div>
+
 		<div id="top-global">
-	        <div class="w">
-                <p><a href="https://www.southtexascollege.edu/current/index.html">Students</a> <a href="https://www.southtexascollege.edu/facstaff/index.html">Faculty/Staff</a> <a href="https://jagnet.southtexascollege.edu/">JagNet</a> <a href="https://southtexascollege.blackboard.com/">Blackboard</a> <a href="https://www.southtexascollege.edu/search/site/index.html">A-Z Index</a></p>
-	        </div>
+			<h2>OSU Navbar will go here</h2>
 		</div>
+
 		<div id="header">
-		    <div class="w">
-    			<div id="topLeft">
-    				<a href="https://www.southtexascollege.edu/index.html"><img alt="South Texas College" src="https://global.southtexascollege.edu/graphics/South-Texas-College.png"/></a>
-    			</div>
-    			<div id="topRight">
-    				<div id="topRightContent">
-    					<form action="https://www.southtexascollege.edu/search/index.html" id="gs" method="get" name="gs"><input class="mainsearch" id="q" maxlength="255" name="q" size="15" title="Search Website" type="text"/> <label for="q" style="display: none;">Search Website</label> <input alt="search" id="sbt" src="https://global.southtexascollege.edu/graphics/search.gif" type="image"/></form>
-    				</div>
-    			</div>
-    		</div>
+			<h2>masthead will go here</h2>
 		</div>
+
 		<div id="gatewayLinks">
-		    <div class="w">
-			    <ul>
-<li><a href="https://discover.southtexascollege.edu/">Future Students</a></li>
-<li><a href="https://www.southtexascollege.edu/getting-started/index.php">Apply Now</a></li>
-<li><a href="https://www.southtexascollege.edu/academics/index.html">Academics</a></li>
-<li><a href="https://studentservices.southtexascollege.edu/index.html">Student Services</a></li>
-<li><a href="https://life.southtexascollege.edu/">Campus Life</a></li>
-<li><a href="https://www.southtexascollege.edu/about/index.html">About</a></li>
-</ul>
-			</div>
+			<h2>main menu will go here</h2>
 		</div>
-		<div class="breadCrumbs" id="breadCrumbs">
-		    <div class="w">
-                <div id="breadCrumbsContent">   <ul>
-<li><a href="https://www.southtexascollege.edu/" target="_top">South Texas College</a></li>   <li><a href="/" target="_top">Administrative Division</a></li> <li><a href="../index.html">Public Relations &amp; Marketing</a></li> <li>Web Style Guide</li></ul>
-</div>
-            </div>
-        </div>
+
 		<div id="container">
 			<div id="main">
 				<div id="side">
-<div id="sideNav">
-<p class="navsection">Styling Web Content</p>
-<ul>
-<li><a href="#headings">Headings</a></li>
-<li><a href="#regular_text">Regular Text</a></li>
-<li><a href="#lists">Lists</a></li>
-<li><a href="#links_and_buttons">Links &amp; Buttons</a></li>
-<li><a href="#tables">Tables</a></li>
-<li><a href="#embed_media">Embedded Media</a></li>
-</ul>
-<p class="navsection">Arranging the Page</p>
-<ul>
-<li><a href="#templates">Templates</a></li>
-<li><a href="#columns">Columns</a></li>
-<li><a href="#boxes">Boxes</a></li>
-<li><a href="#floats">Floats</a></li>
-<li><a href="#spacing">Spacing</a></li>
-<li><a href="#modal">Modal Boxes</a></li>
-<li><a href="#accordion">Panels, Accordions &amp; Tabs</a></li>
-</ul>
-</div>
-</div>
+					<div id="sideNav">
+						<p class="navsection">Styling Web Content</p>
+						<ul>
+							<li><a href="#headings">Headings</a></li>
+							<li><a href="#regular_text">Regular Text</a></li>
+							<li><a href="#lists">Lists</a></li>
+							<li><a href="#links_and_buttons">Links &amp; Buttons</a></li>
+							<li><a href="#tables">Tables</a></li>
+							<li><a href="#embed_media">Embedded Media</a></li>
+						</ul>
+						<p class="navsection">Arranging the Page</p>
+						<ul>
+							<li><a href="#templates">Templates</a></li>
+							<li><a href="#columns">Columns</a></li>
+							<li><a href="#boxes">Boxes</a></li>
+							<li><a href="#floats">Floats</a></li>
+							<li><a href="#spacing">Spacing</a></li>
+							<li><a href="#modal">Modal Boxes</a></li>
+							<li><a href="#accordion">Panels, Accordions &amp; Tabs</a></li>
+						</ul>
+					</div>
+				</div>
+
+
 				<div id="bodyContent">
-					    
-
-
-
-
 					<div id="content">
-						
+
+						<h1>Web Style Guide</h1>
+
+						<div class="first one-half">
+							<p>Here you'll find a collection of guides and tips for managing &amp; formatting content on the web.</p>
+							<p>This design leverages the latest HTML 5 &amp; CSS3 technologies. Some advanced visual features are only seen when using modern browsers (including Chrome, Firefox, Safari, and IE9 and above). Other legacy browsers (IE8 and older) will still work
+								just fine for browsing the site.</p>
+							<div class="box">
+								<p>The term <em> <strong>responsive</strong> </em> means that the site is designed to stretch and adapt to any screen size. This means that the site looks great on a full-size monitor on a desktop, all the way down to a tiny cell phone screen.</p>
+								<p>Of course this approach means that a little extra care is needed when arranging a page. Stick to the basics &amp; follow the tips on this page, and the web design will take care of itself, automatically!</p>
+							</div>
+						</div>
+
+						<div class="one-half">
+							<div class="box">
+								<p> one-half box if needed </p>
+							</div>
+						</div>
 
 
+						<div class="clear"></div>
 
+						<h2>Styling Web Content</h2>
+						<p>Consistency is one major goal for the South Texas College website. Text content should be setup using the basic HTML elements outlined on this page. The website system is designed to automatically apply proper fonts, sizes and colors to the content.
+							This approach allows you to focus on the text itself, instead of worrying about formatting styles. If the text content is straightforward &amp; easy to read, and separated into nice paragraphs, there will be no need to look for weird fonts or tacky
+							colors to draw attention.</p>
+						<p><strong>If it is necessary to draw attention to important information, consider the following options:</strong></p>
+						<ul>
+							<li><strong>Bold text</strong> - A short line of bold text can draw the eye</li>
+							<li><strong>Headings</strong> - choose an appropriate heading level for big, bold text</li>
+							<li><strong>Boxes</strong> - wrapping text inside a styled box will draw attention</li>
+						</ul>
+						<a id="headings"></a>
+						<h2>Headings</h2>
+						<p>Headings 1 through 6 are available to label and identify sections of content. The primary page heading should be h1, and ideally match the title of the HTML document. Subsequent headings should use H2, etc.</p>
+						<div class="first two-thirds">
 
-       
- 
-
-   
-    <h1>Web Style Guide</h1>
-    
-                    
-
-
-                                                                                    <div class="first one-half">
-<p>Here you'll find a collection of guides and tips for managing &amp; formatting content on the web.</p>
-<p>This design leverages the latest HTML 5 &amp; CSS3 technologies. Some advanced visual features are only seen when using modern browsers (including Chrome, Firefox, Safari, and IE9 and above). Other legacy browsers (IE8 and older) will still work just fine for browsing the site.</p>
-<div class="box">
-<p>The term <em> <strong>responsive</strong> </em> means that the site is designed to stretch and adapt to any screen size. This means that the site looks great on a full-size monitor on a desktop, all the way down to a tiny cell phone screen.</p>
-<p>Of course this approach means that a little extra care is needed when arranging a page. Stick to the basics &amp; follow the tips on this page, and the web design will take care of itself, automatically!</p>
-</div>
-</div>
-<div class="one-half">
-<div class="box">
-<h2 class="blue">Contact the Web Team</h2>
-<p>Have a question about your area of the STC website? Click or call!</p>
-<div class="block_buttons darkblue-b" style="width: 75%;">
-<p><a class="button" href="mailto:wmcollin@southtexascollege.edu">William Collins</a> <br/> <em>Digital Services Manager</em> <br/> 872-2592</p>
-<p><a class="button" href="mailto:dkchiu@southtexascollege.edu">Don-Dale Chiu</a> <br/> <em>Web Specialist</em> <br/> 872-2171</p>
-<p><a class="button" href="mailto:amantle_5024@southtexascollege.edu">Andrew Mantle</a> <br/> <em>Web Specialist</em> <br/> 872-2125</p>
-</div>
-</div>
-</div>
-<div class="clear"></div>
-<h1>Styling Web Content</h1>
-<p>Consistency is one major goal for the South Texas College website. Text content should be setup using the basic HTML elements outlined on this page. The website system is designed to automatically apply proper fonts, sizes and colors to the content. This approach allows you to focus on the text itself, instead of worrying about formatting styles. If the text content is straightforward &amp; easy to read, and separated into nice paragraphs, there will be no need to look for weird fonts or tacky colors to draw attention.</p>
-<p><strong>If it is necessary to draw attention to important information, consider the following options:</strong></p>
-<ul>
-<li><strong>Bold text</strong> - A short line of bold text can draw the eye</li>
-<li><strong>Headings</strong> - choose an appropriate heading level for big, bold text</li>
-<li><strong>Boxes</strong> - wrapping text inside a styled box will draw attention</li>
-</ul>
-<a id="headings"></a>
-<h2>Headings</h2>
-<p>Headings 1 through 6 are available to label and identify sections of content. The primary page heading should be h1, and ideally match the title of the HTML document. Subsequent headings should use H2, etc.</p>
-<div class="first two-thirds">
-<pre><code class="language-markup">&lt;h1&gt;Heading 1&lt;/h1&gt;
-&lt;h2&gt;Heading 2&lt;/h2&gt;
-&lt;h3&gt;Heading 3&lt;/h3&gt;
-&lt;h4&gt;Heading 4&lt;/h4&gt;
-&lt;h5&gt;Heading 5&lt;/h5&gt;
-&lt;h6&gt;Heading 6&lt;/h6&gt;</code></pre>
-<h3>Color Options</h3>
-<p>Headings may have a color class for an additional highlight, especially inside a div with the .box class. Color options include red, orange, green, olive, teal, blue and purple.</p>
-<h3 class="blue">Blue Heading</h3>
-<div class="box">
-<h3 class="purple">Purple Heading</h3>
-<p>...</p>
-</div>
-</div>
-<div class="one-third">
-<h1>Heading 1</h1>
-<h2>Heading 2</h2>
-<h3>Heading 3</h3>
-<h4>Heading 4</h4>
-<h5>Heading 5</h5>
-<h6>Heading 6</h6>
-</div>
-<div class="clear"></div>
-<a id="regular_text"></a>
-<h2>Regular Text</h2>
-<p>The majority of the text content will be regular paragraphs: <code class="language-markup">&lt;p&gt;</code></p>
-<p>Style the text as needed using <code class="language-markup">&lt;strong&gt;</code> for <strong>bold</strong>, and <code class="language-markup">&lt;em&gt;</code> for <em>italics</em>. Avoid underlining text for emphasis (web users are accustomed to identifying underlined, colored text as a link).</p>
-<a id="images_and_photos"></a>
-<h2>Images &amp; Photos</h2>
-<p>Adding graphics to a page certainly improves the visual appeal, but if we are careless they may also make things unpleasant for our visitors.</p>
-<h3>Be aware of image size!</h3>
-<p>The website system will automatically resize images to fit inside their area. This makes the website look great on large monitors, all the way down to tiny screens on cell phones. Even though it is very easy to drop in a full-size photo straight from the camera, don't do it! It will still fit nicely on the page, but will take very long to load.</p>
-<p>When discussing size we refer to both possible meanings:</p>
-<ol>
-<li>the image filesize (kilobytes)</li>
-<li>the dimensions of the image (pixels)</li>
-</ol>
-<p>The filesize of an image refers to the storage space it fills. An image that is too large will make the page load slowly - and nobody likes to wait! The dimensions of an image affect the filesize: more pixels means longer waiting!</p>
-<h3>Resize the image first, then add it to the page</h3>
-<p>You'll need graphics software to resize the photo. The content area of a normal page is only <strong>690 pixels</strong> across. If your image is any wider it's only wasting bandwidth. If the image is inside a column, it should be even smaller.</p>
-<a id="lists"></a>
-<h2>Lists</h2>
-<p>Use <code class="language-markup">&lt;ul&gt;</code> for bulleted lists, and <code class="language-markup">&lt;ol&gt;</code> for numbered lists.</p>
-<p>Use <code class="language-markup">&lt;ul class="plain"&gt;</code> for no bullets at all.</p>
-<div class="first one-third">
-<h3>Unordered List</h3>
-<ul>
-<li>List Item</li>
-<li>List Item</li>
-<li>List Item</li>
-</ul>
-<pre><code class="language-markup">&lt;ul&gt;
+							<h3>Color Options</h3>
+							<p>Headings may have a color class for an additional highlight, especially inside a div with the .box class. Color options include red, orange, green, olive, teal, blue and purple.</p>
+							<h3 class="blue">Blue Heading</h3>
+							<div class="box">
+								<h3 class="purple">Purple Heading</h3>
+								<p>...</p>
+							</div>
+						</div>
+						<div class="one-third">
+							<h1>Heading 1</h1>
+							<h2>Heading 2</h2>
+							<h3>Heading 3</h3>
+							<h4>Heading 4</h4>
+							<h5>Heading 5</h5>
+							<h6>Heading 6</h6>
+						</div>
+						<div class="clear"></div>
+						<a id="regular_text"></a>
+						<h2>Regular Text</h2>
+						<p>The majority of the text content will be regular paragraphs: <code class="language-markup">&lt;p&gt;</code></p>
+						<p>Style the text as needed using <code class="language-markup">&lt;strong&gt;</code> for <strong>bold</strong>, and <code class="language-markup">&lt;em&gt;</code> for <em>italics</em>. Avoid underlining text for emphasis (web users are accustomed
+							to identifying underlined, colored text as a link).</p>
+						<a id="images_and_photos"></a>
+						<h2>Images &amp; Photos</h2>
+						<p>Adding graphics to a page certainly improves the visual appeal, but if we are careless they may also make things unpleasant for our visitors.</p>
+						<h3>Be aware of image size!</h3>
+						<p>The website system will automatically resize images to fit inside their area. This makes the website look great on large monitors, all the way down to tiny screens on cell phones. Even though it is very easy to drop in a full-size photo straight
+							from the camera, don't do it! It will still fit nicely on the page, but will take very long to load.</p>
+						<p>When discussing size we refer to both possible meanings:</p>
+						<ol>
+							<li>the image filesize (kilobytes)</li>
+							<li>the dimensions of the image (pixels)</li>
+						</ol>
+						<p>The filesize of an image refers to the storage space it fills. An image that is too large will make the page load slowly - and nobody likes to wait! The dimensions of an image affect the filesize: more pixels means longer waiting!</p>
+						<h3>Resize the image first, then add it to the page</h3>
+						<p>You'll need graphics software to resize the photo. The content area of a normal page is only <strong>690 pixels</strong> across. If your image is any wider it's only wasting bandwidth. If the image is inside a column, it should be even smaller.</p>
+						<a id="lists"></a>
+						<h2>Lists</h2>
+						<p>Use <code class="language-markup">&lt;ul&gt;</code> for bulleted lists, and <code class="language-markup">&lt;ol&gt;</code> for numbered lists.</p>
+						<p>Use <code class="language-markup">&lt;ul class="plain"&gt;</code> for no bullets at all.</p>
+						<div class="first one-third">
+							<h3>Unordered List</h3>
+							<ul>
+								<li>List Item</li>
+								<li>List Item</li>
+								<li>List Item</li>
+							</ul>
+							<pre><code class="language-markup">&lt;ul&gt;
     &lt;li&gt;List Item&lt;/li&gt;
     &lt;li&gt;List Item&lt;/li&gt;
     &lt;li&gt;List Item&lt;/li&gt;
 &lt;/ul&gt;</code></pre>
-</div>
-<div class="one-third">
-<h3>Ordered List:</h3>
-<ol>
-<li>List Item</li>
-<li>List Item</li>
-<li>List Item</li>
-</ol>
-<pre><code class="language-markup">&lt;ol&gt;
+						</div>
+						<div class="one-third">
+							<h3>Ordered List:</h3>
+							<ol>
+								<li>List Item</li>
+								<li>List Item</li>
+								<li>List Item</li>
+							</ol>
+							<pre><code class="language-markup">&lt;ol&gt;
     &lt;li&gt;List Item&lt;/li&gt;
     &lt;li&gt;List Item&lt;/li&gt;
     &lt;li&gt;List Item&lt;/li&gt;
 &lt;/ol&gt;</code></pre>
-</div>
-<div class="one-third">
-<h3>Plain List:</h3>
-<ul class="plain">
-<li>List Item</li>
-<li>List Item</li>
-<li>List Item</li>
-</ul>
-<pre><code class="language-markup">&lt;ul class="plain"&gt;
+						</div>
+						<div class="one-third">
+							<h3>Plain List:</h3>
+							<ul class="plain">
+								<li>List Item</li>
+								<li>List Item</li>
+								<li>List Item</li>
+							</ul>
+							<pre><code class="language-markup">&lt;ul class="plain"&gt;
     &lt;li&gt;List Item&lt;/li&gt;
     &lt;li&gt;List Item&lt;/li&gt;
     &lt;li&gt;List Item&lt;/li&gt;
 &lt;/ul&gt;</code></pre>
-</div>
-<div class="clear"></div>
-<p>Tip: Occasionally a list is divided across columns. When viewed on a smaller screen the individual lists will stack on top of each other. However, the bottom margins on the <code class="language-markup">ul</code> or <code class="language-markup">ol</code> will create gaps in the stacked list. To eliminate the gap, add <code class="language-markup">class="cont"</code> to indicate that the list 'continues'.</p>
-<a id="links_and_buttons"></a>
-<h2>Links &amp; Buttons</h2>
-<div class="one-third righty">
-<div class="box">
-<h3>Tip:</h3>
-<p>When linking to an external website, use the following target to open it in a new tab/window. This will let users resume browsing from their current spot when they close the other page.</p>
-<p style="text-align: center;"><code class="language-markup">&lt;a target="_blank" ... &gt;</code></p>
-</div>
-</div>
-<p>For links and buttons, choose the linked text wisely. Avoid linking entire sentences or long phrases. Also, avoid meaningless labels on links/buttons - it is best to try to use the title/name of the thing as the linked text. Example:</p>
-<ul>
-<li>OK: Read this important document: <a>DOWNLOAD</a></li>
-<li>BETTER: Read this <a>IMPORTANT DOCUMENT</a></li>
-<li>OK: Visit our department home page: <a>VISIT</a></li>
-<li>BETTER: Visit our <a>DEPARTMENT HOME PAGE</a></li>
-</ul>
-<p>Use the <code class="language-css">.button</code> class to make a link appear as a gray button. Add any of the color classes together with the button class to set the color: <strong>purple, green, yellow, blue, etc.</strong></p>
-<p>Buttons within a paragraph of text may interrupt the normal line spacing. Instead, a single button looks great in its own paragraph:</p>
-<p style="text-align: center;"><a class="button purple">Sample Button</a></p>
-<pre><code class="language-markup">&lt;p style="text-align:center"&gt;&lt;a class="button purple" href="your-link.html"&gt;Sample Button&lt;/a&gt;&lt;/p&gt;</code></pre>
-<div class="first one-third">
-<h3>Button Colors</h3>
-<ul class="plain" style="text-align: center;">
-<li><a class="button">Regular Button</a></li>
-<li><a class="button white">White Button</a></li>
-<li><a class="button red">Red Button</a></li>
-<li><a class="button orange">Orange Button</a></li>
-<li><a class="button yellow">Yellow Button</a></li>
-<li><a class="button brightgreen">Bright Green Button</a></li>
-<li><a class="button olive">Olive Button</a></li>
-<li><a class="button green">Green Button</a></li>
-<li><a class="button teal">Teal Button</a></li>
-<li><a class="button blue">Blue Button</a></li>
-<li><a class="button purple">Purple Button</a></li>
-<li><a class="button brightpurple">Bright Purple Button</a></li>
-</ul>
-<h3>Button Sizes</h3>
-<p>Buttons get their size automatically from their container - simply use headings or CSS to alter the size:</p>
-<h2 style="text-align: center;"><a class="button purple" href="#">Heading 2 Button</a></h2>
-<h3 style="text-align: center;"><a class="button green" href="#">Heading 3 Button</a></h3>
-</div>
-<div class="two-thirds">
-<div class="box">
-<h3>Block Buttons</h3>
-<p>A list of buttons with even widths! Use the following code, and set the width as a percentage:</p>
-<pre><code class="language-markup">&lt;ul class="plain block_buttons" style="width:75%"&gt;</code></pre>
-<ul class="plain block_buttons green-b" style="width: 75%; text-align: center;">
-<li><a class="button">Button</a></li>
-<li><a class="button">Button</a></li>
-<li><a class="button">Button</a></li>
-</ul>
-</div>
-<div class="box">
-<h3>Wide Buttons</h3>
-<p>These specialty buttons have generous padding, and always fill the width of their container.</p>
-<p>Only available in gray (default), red, orange, green, olive, teal, blue, and purple.</p>
-<pre><code class="language-markup">&lt;a class="wide-button purple"&gt;</code></pre>
-<p><a class="wide-button">Wide Button</a></p>
-<p><a class="wide-button purple">Wide Button</a></p>
-<p>Use <code class="language-markup">class="wide-button slim"</code> for less padding:</p>
-<p><a class="wide-button purple slim">Wide Button</a></p>
-</div>
-</div>
-<div class="clear"></div>
-<div class="box blue-b">
-<h2>Button Tips:</h2>
-<p>You can easily color an entire set of buttons by using <code class="language-markup">class="color-b"</code> on their container, e.g., "blue-b" or "yellow-b". You can still give individual buttons a color.</p>
-<p style="text-align: center;"><a class="button">Button</a> <a class="button">Button</a> <a class="button yellow">Button</a> <a class="button">Button</a> <a class="button">Button</a></p>
-</div>
-<a id="tables"></a>
-<h2>Tables</h2>
-<p>Tables should be used for data - not for arranging the layout of a page. Always include a caption to label the table, similar to the alt-text of an image. If the table structure is complex, also describe the arrangement in the caption.</p>
-<table class="grid"><caption>
-<h3>Sample Table Caption</h3>
-</caption>
-<tbody>
-<tr>
-<th>Table Heading</th>
-<th>Table Heading</th>
-<th>Table Heading</th>
-</tr>
-<tr>
-<td>Table Data</td>
-<td>Table Data</td>
-<td>Table Data</td>
-</tr>
-<tr>
-<td>Table Data</td>
-<td>Table Data</td>
-<td>Table Data</td>
-</tr>
-</tbody>
-</table>
-<p>A table with row striping: <code class="language-markup">class="grid stripe"</code></p>
-<table class="grid stripe">
-<tbody>
-<tr>
-<th>Table Heading</th>
-<th>Table Heading</th>
-<th>Table Heading</th>
-</tr>
-<tr>
-<td>Table Data</td>
-<td>Table Data</td>
-<td>Table Data</td>
-</tr>
-<tr>
-<td>Table Data</td>
-<td>Table Data</td>
-<td>Table Data</td>
-</tr>
-<tr>
-<td>Table Data</td>
-<td>Table Data</td>
-<td>Table Data</td>
-</tr>
-<tr>
-<td>Table Data</td>
-<td>Table Data</td>
-<td>Table Data</td>
-</tr>
-<tr>
-<td>Table Data</td>
-<td>Table Data</td>
-<td>Table Data</td>
-</tr>
-</tbody>
-</table>
-<p>Any table that extends wider than its container will scroll side to side, allowing you to still view the entire contents. Below is a table with <code class="language-markup">class="grid nowrap"</code>. This class prevents line wrapping inside the table cells.</p>
-<table class="grid nowrap">
-<tbody>
-<tr>
-<th>A Longer Table Heading</th>
-<th>Table Heading</th>
-<th>Table Heading</th>
-</tr>
-<tr>
-<td>Some Longer Table Data</td>
-<td>Some Longer Table Data</td>
-<td>Some Longer Table Data</td>
-</tr>
-<tr>
-<td>Table Data</td>
-<td>Table Data</td>
-<td>Table Data</td>
-</tr>
-</tbody>
-</table>
-<p>Since table widths are flexible, the contents are compressed when viewed on a smaller screen. Sometimes this creates too much wrapping inside narrow columns. To keep the table wider than the viewport, add <code class="language-markup">class="grid wide"</code>. This forces the table to be double the screen width (but only for mobile-sized screens).</p>
-<table class="grid wide">
-<tbody>
-<tr>
-<th>A Longer Table Heading</th>
-<th>Table Heading</th>
-<th>Table Heading</th>
-</tr>
-<tr>
-<td>Some Longer Table Data</td>
-<td>Some Longer Table Data</td>
-<td>Some Longer Table Data</td>
-</tr>
-<tr>
-<td>Table Data</td>
-<td>Table Data</td>
-<td>Table Data</td>
-</tr>
-</tbody>
-</table>
-<div class="one-half">
-<pre><code class="language-markup">&lt;table class="grid"&gt;
+						</div>
+						<div class="clear"></div>
+						<p>Tip: Occasionally a list is divided across columns. When viewed on a smaller screen the individual lists will stack on top of each other. However, the bottom margins on the <code class="language-markup">ul</code> or <code class="language-markup">ol</code>							will create gaps in the stacked list. To eliminate the gap, add <code class="language-markup">class="cont"</code> to indicate that the list 'continues'.</p>
+						<a id="links_and_buttons"></a>
+						<h2>Links &amp; Buttons</h2>
+						<div class="one-third righty">
+							<div class="box">
+								<h3>Tip:</h3>
+								<p>When linking to an external website, use the following target to open it in a new tab/window. This will let users resume browsing from their current spot when they close the other page.</p>
+								<p style="text-align: center;"><code class="language-markup">&lt;a target="_blank" ... &gt;</code></p>
+							</div>
+						</div>
+						<p>For links and buttons, choose the linked text wisely. Avoid linking entire sentences or long phrases. Also, avoid meaningless labels on links/buttons - it is best to try to use the title/name of the thing as the linked text. Example:</p>
+						<ul>
+							<li>OK: Read this important document: <a>DOWNLOAD</a></li>
+							<li>BETTER: Read this <a>IMPORTANT DOCUMENT</a></li>
+							<li>OK: Visit our department home page: <a>VISIT</a></li>
+							<li>BETTER: Visit our <a>DEPARTMENT HOME PAGE</a></li>
+						</ul>
+						<p>Use the <code class="language-css">.button</code> class to make a link appear as a gray button. Add any of the color classes together with the button class to set the color: <strong>purple, green, yellow, blue, etc.</strong></p>
+						<p>Buttons within a paragraph of text may interrupt the normal line spacing. Instead, a single button looks great in its own paragraph:</p>
+						<p style="text-align: center;"><a class="button purple">Sample Button</a></p>
+						<pre><code class="language-markup">&lt;p style="text-align:center"&gt;&lt;a class="button purple" href="your-link.html"&gt;Sample Button&lt;/a&gt;&lt;/p&gt;</code></pre>
+						<div class="first one-third">
+							<h3>Button Colors</h3>
+							<ul class="plain" style="text-align: center;">
+								<li><a class="button">Regular Button</a></li>
+								<li><a class="button white">White Button</a></li>
+								<li><a class="button red">Red Button</a></li>
+								<li><a class="button orange">Orange Button</a></li>
+								<li><a class="button yellow">Yellow Button</a></li>
+								<li><a class="button brightgreen">Bright Green Button</a></li>
+								<li><a class="button olive">Olive Button</a></li>
+								<li><a class="button green">Green Button</a></li>
+								<li><a class="button teal">Teal Button</a></li>
+								<li><a class="button blue">Blue Button</a></li>
+								<li><a class="button purple">Purple Button</a></li>
+								<li><a class="button brightpurple">Bright Purple Button</a></li>
+							</ul>
+							<h3>Button Sizes</h3>
+							<p>Buttons get their size automatically from their container - simply use headings or CSS to alter the size:</p>
+							<h2 style="text-align: center;"><a class="button purple" href="#">Heading 2 Button</a></h2>
+							<h3 style="text-align: center;"><a class="button green" href="#">Heading 3 Button</a></h3>
+						</div>
+						<div class="two-thirds">
+							<div class="box">
+								<h3>Block Buttons</h3>
+								<p>A list of buttons with even widths! Use the following code, and set the width as a percentage:</p>
+								<pre><code class="language-markup">&lt;ul class="plain block_buttons" style="width:75%"&gt;</code></pre>
+								<ul class="plain block_buttons green-b" style="width: 75%; text-align: center;">
+									<li><a class="button">Button</a></li>
+									<li><a class="button">Button</a></li>
+									<li><a class="button">Button</a></li>
+								</ul>
+							</div>
+							<div class="box">
+								<h3>Wide Buttons</h3>
+								<p>These specialty buttons have generous padding, and always fill the width of their container.</p>
+								<p>Only available in gray (default), red, orange, green, olive, teal, blue, and purple.</p>
+								<pre><code class="language-markup">&lt;a class="wide-button purple"&gt;</code></pre>
+								<p><a class="wide-button">Wide Button</a></p>
+								<p><a class="wide-button purple">Wide Button</a></p>
+								<p>Use <code class="language-markup">class="wide-button slim"</code> for less padding:</p>
+								<p><a class="wide-button purple slim">Wide Button</a></p>
+							</div>
+						</div>
+						<div class="clear"></div>
+						<div class="box blue-b">
+							<h2>Button Tips:</h2>
+							<p>You can easily color an entire set of buttons by using <code class="language-markup">class="color-b"</code> on their container, e.g., "blue-b" or "yellow-b". You can still give individual buttons a color.</p>
+							<p style="text-align: center;"><a class="button">Button</a> <a class="button">Button</a> <a class="button yellow">Button</a> <a class="button">Button</a> <a class="button">Button</a></p>
+						</div>
+						<a id="tables"></a>
+						<h2>Tables</h2>
+						<p>Tables should be used for data - not for arranging the layout of a page. Always include a caption to label the table, similar to the alt-text of an image. If the table structure is complex, also describe the arrangement in the caption.</p>
+						<table class="grid">
+							<caption>
+								<h3>Sample Table Caption</h3>
+							</caption>
+							<tbody>
+								<tr>
+									<th>Table Heading</th>
+									<th>Table Heading</th>
+									<th>Table Heading</th>
+								</tr>
+								<tr>
+									<td>Table Data</td>
+									<td>Table Data</td>
+									<td>Table Data</td>
+								</tr>
+								<tr>
+									<td>Table Data</td>
+									<td>Table Data</td>
+									<td>Table Data</td>
+								</tr>
+							</tbody>
+						</table>
+						<p>A table with row striping: <code class="language-markup">class="grid stripe"</code></p>
+						<table class="grid stripe">
+							<tbody>
+								<tr>
+									<th>Table Heading</th>
+									<th>Table Heading</th>
+									<th>Table Heading</th>
+								</tr>
+								<tr>
+									<td>Table Data</td>
+									<td>Table Data</td>
+									<td>Table Data</td>
+								</tr>
+								<tr>
+									<td>Table Data</td>
+									<td>Table Data</td>
+									<td>Table Data</td>
+								</tr>
+								<tr>
+									<td>Table Data</td>
+									<td>Table Data</td>
+									<td>Table Data</td>
+								</tr>
+								<tr>
+									<td>Table Data</td>
+									<td>Table Data</td>
+									<td>Table Data</td>
+								</tr>
+								<tr>
+									<td>Table Data</td>
+									<td>Table Data</td>
+									<td>Table Data</td>
+								</tr>
+							</tbody>
+						</table>
+						<p>Any table that extends wider than its container will scroll side to side, allowing you to still view the entire contents. Below is a table with <code class="language-markup">class="grid nowrap"</code>. This class prevents line wrapping inside the
+							table cells.</p>
+						<table class="grid nowrap">
+							<tbody>
+								<tr>
+									<th>A Longer Table Heading</th>
+									<th>Table Heading</th>
+									<th>Table Heading</th>
+								</tr>
+								<tr>
+									<td>Some Longer Table Data</td>
+									<td>Some Longer Table Data</td>
+									<td>Some Longer Table Data</td>
+								</tr>
+								<tr>
+									<td>Table Data</td>
+									<td>Table Data</td>
+									<td>Table Data</td>
+								</tr>
+							</tbody>
+						</table>
+						<p>Since table widths are flexible, the contents are compressed when viewed on a smaller screen. Sometimes this creates too much wrapping inside narrow columns. To keep the table wider than the viewport, add <code class="language-markup">class="grid wide"</code>.
+							This forces the table to be double the screen width (but only for mobile-sized screens).</p>
+						<table class="grid wide">
+							<tbody>
+								<tr>
+									<th>A Longer Table Heading</th>
+									<th>Table Heading</th>
+									<th>Table Heading</th>
+								</tr>
+								<tr>
+									<td>Some Longer Table Data</td>
+									<td>Some Longer Table Data</td>
+									<td>Some Longer Table Data</td>
+								</tr>
+								<tr>
+									<td>Table Data</td>
+									<td>Table Data</td>
+									<td>Table Data</td>
+								</tr>
+							</tbody>
+						</table>
+						<div class="one-half">
+							<pre><code class="language-markup">&lt;table class="grid"&gt;
     &lt;caption&gt;Sample Table Caption&lt;/caption&gt;
     &lt;tr&gt;
         &lt;th&gt;Table Heading&lt;/th&gt;
@@ -498,276 +487,280 @@ versaTag.conditionalParams = {};
         &lt;td&gt;Table Data&lt;/td&gt;
     &lt;/tr&gt;
 &lt;/table&gt;</code></pre>
-<p>A table with <code class="language-markup">class="grid plain"</code>:</p>
-<table class="grid plain">
-<tbody>
-<tr>
-<th>Table Heading</th>
-<th>Table Heading</th>
-<th>Table Heading</th>
-</tr>
-<tr>
-<td>Table Data</td>
-<td>Table Data</td>
-<td>Table Data</td>
-</tr>
-<tr>
-<td>Table Data</td>
-<td>Table Data</td>
-<td>Table Data</td>
-</tr>
-<tr>
-<td>Table Data</td>
-<td>Table Data</td>
-<td>Table Data</td>
-</tr>
-</tbody>
-</table>
-<p>A table with <code class="language-markup">class="grid hover"</code>:</p>
-<table class="grid hover">
-<tbody>
-<tr>
-<th>Table Heading</th>
-<th>Table Heading</th>
-<th>Table Heading</th>
-</tr>
-<tr>
-<td>Table Data</td>
-<td>Table Data</td>
-<td>Table Data</td>
-</tr>
-<tr>
-<td>Table Data</td>
-<td>Table Data</td>
-<td>Table Data</td>
-</tr>
-<tr>
-<td>Table Data</td>
-<td>Table Data</td>
-<td>Table Data</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="clear"></div>
-<div class="box">
-<h3>Table Tips:</h3>
-<p>Add a color class to a table <code class="language-markup">.grid</code> to get colored backgrounds on <code class="language-markup">&lt;th&gt;</code> headers,similar to the button color styles. If used along with the optional <code class="language-markup">.hover</code> class, then hover effects on rows also gain color tints. Available color classes: purple, green, red, teal, blue, orange and olive.</p>
-<div class="first one-third">
-<table class="grid hover">
-<tbody>
-<tr>
-<th>Table Heading</th>
-<th>Table Heading</th>
-</tr>
-<tr>
-<td>Table Data</td>
-<td>Table Data</td>
-</tr>
-<tr>
-<td>Table Data</td>
-<td>Table Data</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="one-third">
-<table class="grid hover purple">
-<tbody>
-<tr>
-<th>Table Heading</th>
-<th>Table Heading</th>
-</tr>
-<tr>
-<td>Table Data</td>
-<td>Table Data</td>
-</tr>
-<tr>
-<td>Table Data</td>
-<td>Table Data</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="one-third">
-<table class="grid hover green">
-<tbody>
-<tr>
-<th>Table Heading</th>
-<th>Table Heading</th>
-</tr>
-<tr>
-<td>Table Data</td>
-<td>Table Data</td>
-</tr>
-<tr>
-<td>Table Data</td>
-<td>Table Data</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="clear"></div>
-<div class="first one-third">
-<table class="grid hover red">
-<tbody>
-<tr>
-<th>Table Heading</th>
-<th>Table Heading</th>
-</tr>
-<tr>
-<td>Table Data</td>
-<td>Table Data</td>
-</tr>
-<tr>
-<td>Table Data</td>
-<td>Table Data</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="one-third">
-<table class="grid hover teal">
-<tbody>
-<tr>
-<th>Table Heading</th>
-<th>Table Heading</th>
-</tr>
-<tr>
-<td>Table Data</td>
-<td>Table Data</td>
-</tr>
-<tr>
-<td>Table Data</td>
-<td>Table Data</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="one-third">
-<table class="grid hover blue">
-<tbody>
-<tr>
-<th>Table Heading</th>
-<th>Table Heading</th>
-</tr>
-<tr>
-<td>Table Data</td>
-<td>Table Data</td>
-</tr>
-<tr>
-<td>Table Data</td>
-<td>Table Data</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="clear"></div>
-<div class="first one-third">
-<table class="grid hover orange">
-<tbody>
-<tr>
-<th>Table Heading</th>
-<th>Table Heading</th>
-</tr>
-<tr>
-<td>Table Data</td>
-<td>Table Data</td>
-</tr>
-<tr>
-<td>Table Data</td>
-<td>Table Data</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="one-third">
-<table class="grid hover olive">
-<tbody>
-<tr>
-<th>Table Heading</th>
-<th>Table Heading</th>
-</tr>
-<tr>
-<td>Table Data</td>
-<td>Table Data</td>
-</tr>
-<tr>
-<td>Table Data</td>
-<td>Table Data</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="one-third"></div>
-<div class="clear"></div>
-</div>
-<h3>Responsive Tables</h3>
-<p>All tables are given special consideration for use on smaller devices. When the page loads in the browser, a special <code>&lt;div class="table-resp"&gt;</code> wrapper is applied to every table. This allows the table to overflow horizontally off-screen, and lets the user drag back and forth to view the complete content. Below are additional considerations when working with responsive tables.</p>
-<p><strong>Images inside tables:</strong></p>
-<p>Using tables to arrange a set of images is quick &amp; easy, but it also poses issues when dealing with a responsive site. To ensure proper scaling of images, use the <code>.prop</code> class. This will keep the images from expanding to fill the cell, and also prevent it from shrinking down to nothing on smaller screens.</p>
-<p>For a single image in a table, add the class to the cell: <code class="language-markup">&lt;td class="prop"&gt;&lt;img src="the-image.jpg" /&gt;&lt;/td&gt;</code></p>
-<p>For a table with several images, use the class on the table: <code class="language-markup">&lt;table class="grid prop"&gt;</code></p>
-<p><strong>Opt-Out:</strong></p>
-<p>There are rare occasions where this special treatment of tables might cause issues with non-standard embed codes. To keep a table untouched, you may opt out of this special treatment by adding the <code>.omit</code> class to the table element.</p>
-<hr/><a id="embed_media"></a>
-<div class="first one-third">
-<h2>Embedded Media</h2>
-<p>Other services such as YouTube or Google Maps provide ways to add their content on our sites.</p>
-<ol>
-<li>Get the embed code (the code will be for an iframe)</li>
-<li>Remove the height &amp; width attributes</li>
-<li>Wrap the iframe inside <code class="language-markup">&lt;div class="media-box"&gt;</code></li>
-</ol>
-</div>
-<div class="two-thirds">
-<h3>Before:</h3>
-<pre><code class="language-markup">&lt;iframe width="560" height="315"
+							<p>A table with <code class="language-markup">class="grid plain"</code>:</p>
+							<table class="grid plain">
+								<tbody>
+									<tr>
+										<th>Table Heading</th>
+										<th>Table Heading</th>
+										<th>Table Heading</th>
+									</tr>
+									<tr>
+										<td>Table Data</td>
+										<td>Table Data</td>
+										<td>Table Data</td>
+									</tr>
+									<tr>
+										<td>Table Data</td>
+										<td>Table Data</td>
+										<td>Table Data</td>
+									</tr>
+									<tr>
+										<td>Table Data</td>
+										<td>Table Data</td>
+										<td>Table Data</td>
+									</tr>
+								</tbody>
+							</table>
+							<p>A table with <code class="language-markup">class="grid hover"</code>:</p>
+							<table class="grid hover">
+								<tbody>
+									<tr>
+										<th>Table Heading</th>
+										<th>Table Heading</th>
+										<th>Table Heading</th>
+									</tr>
+									<tr>
+										<td>Table Data</td>
+										<td>Table Data</td>
+										<td>Table Data</td>
+									</tr>
+									<tr>
+										<td>Table Data</td>
+										<td>Table Data</td>
+										<td>Table Data</td>
+									</tr>
+									<tr>
+										<td>Table Data</td>
+										<td>Table Data</td>
+										<td>Table Data</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div class="clear"></div>
+						<div class="box">
+							<h3>Table Tips:</h3>
+							<p>Add a color class to a table <code class="language-markup">.grid</code> to get colored backgrounds on <code class="language-markup">&lt;th&gt;</code> headers,similar to the button color styles. If used along with the optional <code class="language-markup">.hover</code>								class, then hover effects on rows also gain color tints. Available color classes: purple, green, red, teal, blue, orange and olive.</p>
+							<div class="first one-third">
+								<table class="grid hover">
+									<tbody>
+										<tr>
+											<th>Table Heading</th>
+											<th>Table Heading</th>
+										</tr>
+										<tr>
+											<td>Table Data</td>
+											<td>Table Data</td>
+										</tr>
+										<tr>
+											<td>Table Data</td>
+											<td>Table Data</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<div class="one-third">
+								<table class="grid hover purple">
+									<tbody>
+										<tr>
+											<th>Table Heading</th>
+											<th>Table Heading</th>
+										</tr>
+										<tr>
+											<td>Table Data</td>
+											<td>Table Data</td>
+										</tr>
+										<tr>
+											<td>Table Data</td>
+											<td>Table Data</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<div class="one-third">
+								<table class="grid hover green">
+									<tbody>
+										<tr>
+											<th>Table Heading</th>
+											<th>Table Heading</th>
+										</tr>
+										<tr>
+											<td>Table Data</td>
+											<td>Table Data</td>
+										</tr>
+										<tr>
+											<td>Table Data</td>
+											<td>Table Data</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<div class="clear"></div>
+							<div class="first one-third">
+								<table class="grid hover red">
+									<tbody>
+										<tr>
+											<th>Table Heading</th>
+											<th>Table Heading</th>
+										</tr>
+										<tr>
+											<td>Table Data</td>
+											<td>Table Data</td>
+										</tr>
+										<tr>
+											<td>Table Data</td>
+											<td>Table Data</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<div class="one-third">
+								<table class="grid hover teal">
+									<tbody>
+										<tr>
+											<th>Table Heading</th>
+											<th>Table Heading</th>
+										</tr>
+										<tr>
+											<td>Table Data</td>
+											<td>Table Data</td>
+										</tr>
+										<tr>
+											<td>Table Data</td>
+											<td>Table Data</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<div class="one-third">
+								<table class="grid hover blue">
+									<tbody>
+										<tr>
+											<th>Table Heading</th>
+											<th>Table Heading</th>
+										</tr>
+										<tr>
+											<td>Table Data</td>
+											<td>Table Data</td>
+										</tr>
+										<tr>
+											<td>Table Data</td>
+											<td>Table Data</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<div class="clear"></div>
+							<div class="first one-third">
+								<table class="grid hover orange">
+									<tbody>
+										<tr>
+											<th>Table Heading</th>
+											<th>Table Heading</th>
+										</tr>
+										<tr>
+											<td>Table Data</td>
+											<td>Table Data</td>
+										</tr>
+										<tr>
+											<td>Table Data</td>
+											<td>Table Data</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<div class="one-third">
+								<table class="grid hover olive">
+									<tbody>
+										<tr>
+											<th>Table Heading</th>
+											<th>Table Heading</th>
+										</tr>
+										<tr>
+											<td>Table Data</td>
+											<td>Table Data</td>
+										</tr>
+										<tr>
+											<td>Table Data</td>
+											<td>Table Data</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<div class="one-third"></div>
+							<div class="clear"></div>
+						</div>
+						<h3>Responsive Tables</h3>
+						<p>All tables are given special consideration for use on smaller devices. When the page loads in the browser, a special <code>&lt;div class="table-resp"&gt;</code> wrapper is applied to every table. This allows the table to overflow horizontally off-screen,
+							and lets the user drag back and forth to view the complete content. Below are additional considerations when working with responsive tables.</p>
+						<p><strong>Images inside tables:</strong></p>
+						<p>Using tables to arrange a set of images is quick &amp; easy, but it also poses issues when dealing with a responsive site. To ensure proper scaling of images, use the <code>.prop</code> class. This will keep the images from expanding to fill the
+							cell, and also prevent it from shrinking down to nothing on smaller screens.</p>
+						<p>For a single image in a table, add the class to the cell: <code class="language-markup">&lt;td class="prop"&gt;&lt;img src="the-image.jpg" /&gt;&lt;/td&gt;</code></p>
+						<p>For a table with several images, use the class on the table: <code class="language-markup">&lt;table class="grid prop"&gt;</code></p>
+						<p><strong>Opt-Out:</strong></p>
+						<p>There are rare occasions where this special treatment of tables might cause issues with non-standard embed codes. To keep a table untouched, you may opt out of this special treatment by adding the <code>.omit</code> class to the table element.</p>
+						<hr/><a id="embed_media"></a>
+						<div class="first one-third">
+							<h2>Embedded Media</h2>
+							<p>Other services such as YouTube or Google Maps provide ways to add their content on our sites.</p>
+							<ol>
+								<li>Get the embed code (the code will be for an iframe)</li>
+								<li>Remove the height &amp; width attributes</li>
+								<li>Wrap the iframe inside <code class="language-markup">&lt;div class="media-box"&gt;</code></li>
+							</ol>
+						</div>
+						<div class="two-thirds">
+							<h3>Before:</h3>
+							<pre><code class="language-markup">&lt;iframe width="560" height="315"
     src="//www.youtube.com/embed/kA9XK7MMpS4?rel=0"
     frameborder="0" allowfullscreen&gt;
 &lt;/iframe&gt;</code></pre>
-<h3>After:</h3>
-<pre><code class="language-markup">&lt;div class="media-box"&gt;
-    &lt;iframe 
-        src="//www.youtube.com/embed/kA9XK7MMpS4?rel=0" 
-            frameborder="0" allowfullscreen&gt; 
-    &lt;/iframe&gt; 
+							<h3>After:</h3>
+							<pre><code class="language-markup">&lt;div class="media-box"&gt;
+    &lt;iframe
+        src="//www.youtube.com/embed/kA9XK7MMpS4?rel=0"
+            frameborder="0" allowfullscreen&gt;
+    &lt;/iframe&gt;
 &lt;/div&gt;</code></pre>
-</div>
-<div class="clear"></div>
-<h1>Arranging the Page</h1>
-<a id="templates"></a>
-<h2>Templates</h2>
-<p>Templates control the layout of the page.</p>
-<ul>
-<li><strong>master.dwt:</strong> The main master template that controls the page appearance: header, footer, sidebar, etc.</li>
-<li><strong>landing.dwt:</strong> for 'Landing Pages'. This is an alternate layout that has no sidebar - only a full-width content area. Also includes an optional region for banners, sliders, etc.</li>
-<li><strong>full.dwt:</strong> for 'Full-Width Pages'. Similar to Landing, this layout has no sidebar, but does keep the Breadcrumbs. Use <strong>Landing</strong> for top-level entry pages, but use <strong>Full</strong> for pages where Breadcrumbs would give the user some context.</li>
-</ul>
-<a id="columns"></a>
-<h2>Columns</h2>
-<p>Columns come in a variety of widths, from one-half through one-fourth. Use any combination of columns to reach the full width of the area. Columns can be nested - columns within columns work perfectly well. Remember - the first column must always include <code class="language-markup">class="first"</code>. After every set of columns, you must clear the float with <code class="language-markup">&lt;div class="clear"&gt;&lt;/div&gt;</code>.</p>
-<p>When viewed on a smaller screen, columns will stack vertically: left to right, becomes top to bottom.</p>
-<div class="first one-half">
-<div class="box">
-<h3>One-Half</h3>
-<p>This is a paragraph</p>
-</div>
-</div>
-<div class="one-fourth">
-<div class="box">
-<h3>One-Fourth</h3>
-<p>This is a paragraph</p>
-</div>
-</div>
-<div class="one-fourth">
-<div class="box">
-<h3>One-Fourth</h3>
-<p>This is a paragraph</p>
-</div>
-</div>
-<div class="clear"></div>
-<pre><code class="language-markup">&lt;div class="first one-half"&gt;
+						</div>
+						<div class="clear"></div>
+						<h1>Arranging the Page</h1>
+						<a id="templates"></a>
+						<h2>Templates</h2>
+						<p>Templates control the layout of the page.</p>
+						<ul>
+							<li><strong>master.dwt:</strong> The main master template that controls the page appearance: header, footer, sidebar, etc.</li>
+							<li><strong>landing.dwt:</strong> for 'Landing Pages'. This is an alternate layout that has no sidebar - only a full-width content area. Also includes an optional region for banners, sliders, etc.</li>
+							<li><strong>full.dwt:</strong> for 'Full-Width Pages'. Similar to Landing, this layout has no sidebar, but does keep the Breadcrumbs. Use <strong>Landing</strong> for top-level entry pages, but use <strong>Full</strong> for pages where Breadcrumbs
+								would give the user some context.</li>
+						</ul>
+						<a id="columns"></a>
+						<h2>Columns</h2>
+						<p>Columns come in a variety of widths, from one-half through one-fourth. Use any combination of columns to reach the full width of the area. Columns can be nested - columns within columns work perfectly well. Remember - the first column must always
+							include <code class="language-markup">class="first"</code>. After every set of columns, you must clear the float with <code class="language-markup">&lt;div class="clear"&gt;&lt;/div&gt;</code>.</p>
+						<p>When viewed on a smaller screen, columns will stack vertically: left to right, becomes top to bottom.</p>
+						<div class="first one-half">
+							<div class="box">
+								<h3>One-Half</h3>
+								<p>This is a paragraph</p>
+							</div>
+						</div>
+						<div class="one-fourth">
+							<div class="box">
+								<h3>One-Fourth</h3>
+								<p>This is a paragraph</p>
+							</div>
+						</div>
+						<div class="one-fourth">
+							<div class="box">
+								<h3>One-Fourth</h3>
+								<p>This is a paragraph</p>
+							</div>
+						</div>
+						<div class="clear"></div>
+						<pre><code class="language-markup">&lt;div class="first one-half"&gt;
     &lt;div class="box"&gt;
         &lt;h3&gt;One-Half&lt;/h3&gt;
         &lt;p&gt;This is a paragraph&lt;/p&gt;
@@ -786,282 +779,292 @@ versaTag.conditionalParams = {};
     &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="clear"&gt;&lt;/div&gt;</code></pre>
-<br/>
-<p>For rare circumstances, you can force a set of columns to stay side-by-side, <strong> <em>regardless of the screen width</em> </strong>. Add the <code class="language-css">.stay</code> class on each column, but use with caution, since this will make the columns squeeze down to fit even tiny phone screens.</p>
-<a id="boxes"></a>
-<h2>Boxes</h2>
-<div class="first one-half">
-<p>The <code class="language-css">.box</code> class is a styled div, providing contrast/focus to the content.</p>
-<p>When using columns, do <strong>not</strong> add the box class directly on the column divs. First, setup the column divs, and then add a separate box div inside. See the example above.</p>
-</div>
-<div class="one-half">
-<div class="box">
-<h3>Watch Out:</h3>
-<p><em>Please don't use the box class directly on a column - the extra padding from the box means that a column will become larger than the proper width.</em></p>
-<p>See the section on <a href="#floats">Floats</a> for other options when you don't need a full set of columns.</p>
-</div>
-</div>
-<div class="clear"></div>
-<p>Note: Always use care when using color classes within a color class to avoid unpleasant combinations.</p>
-<div class="first one-third">
-<div class="box">
-<h3>A regular Box...</h3>
-<p><code class="language-markup">&lt;div class="box"&gt;</code></p>
-<hr/>
-<p>Text &amp; <a href="#" onclick="return false;">links</a> use normal styles.</p>
-<p style="text-align: center;"><a class="button white" href="#">White Button</a></p>
-</div>
-<div class="box green">
-<h3>A Green Box...</h3>
-<p><code class="language-markup">&lt;div class="box green"&gt;</code></p>
-</div>
-<div class="box orange">
-<h3>An Orange Box...</h3>
-<p><code class="language-markup">&lt;div class="box orange"&gt;</code></p>
-</div>
-</div>
-<div class="one-third">
-<div class="box purple">
-<h3>A Purple Box...</h3>
-<p><code class="language-markup">&lt;div class="box purple"&gt;</code></p>
-</div>
-<div class="box red">
-<h3>A Red Box...</h3>
-<p><code class="language-markup">&lt;div class="box red"&gt;</code></p>
-</div>
-<div class="box teal">
-<h3>A Teal Box...</h3>
-<p><code class="language-markup">&lt;div class="box teal"&gt;</code></p>
-</div>
-<div class="box blue">
-<h3>A Blue Box...</h3>
-<p><code class="language-markup">&lt;div class="box blue"&gt;</code></p>
-</div>
-</div>
-<div class="one-third">
-<div class="box olive">
-<h3>An Olive Box...</h3>
-<p><code class="language-markup">&lt;div class="box olive"&gt;</code></p>
-</div>
-<div class="box">
-<div class="box white">
-<h3>A White Box...</h3>
-<p><code class="language-markup">&lt;div class="box white"&gt;</code></p>
-<hr/>
-<p>Text &amp; <a href="#" onclick="return false;">links</a> use normal styles.</p>
-<p>Only useful when nested inside another box with color.</p>
-</div>
-</div>
-</div>
-<div class="clear"></div>
-<a id="floats"></a>
-<h2>Floats</h2>
-<div class="lefty one-third">
-<div class="box">
-<p>A <code class="language-markup">.lefty</code> box. <strong>Always</strong> give width to a floated item. Keep things responsive by <strong>not</strong> using pixel widths. Use percentages, or even better, choose one of the column classes for convenient predefined widths.</p>
-</div>
-</div>
-<div class="righty one-third">
-<div class="box">
-<p>A <code class="language-markup">.righty</code> box. <strong>Always</strong> give width to a floated item. Keep things responsive by <strong>not</strong> using pixel widths. Use percentages, or even better, choose one of the column classes for convenient predefined widths.</p>
-</div>
-</div>
-<p><strong>Floating an element allows text to wrap around it. Use the .lefty and .righty classes on an image or div to easily arrange a floating element on the page.</strong></p>
-<p>Here is some filler text to demonstrate the text wrapping. Notice how this is different than the text in a set of columns. Here is some filler text to demonstrate the text wrapping. Notice how this is different than the text in a set of columns. Here is some filler text to demonstrate the text wrapping. Notice how this is different than the text in a set of columns. Here is some filler text to demonstrate the text wrapping. Notice how this is different than the text in a set of columns. Here is some filler text to demonstrate the text wrapping. Notice how this is different than the text in a set of columns. Here is some filler text to demonstrate the text wrapping. Notice how this is different than the text in a set of columns.</p>
-<div class="clear"></div>
-<a id="spacing"></a>
-<h2>Spacing:</h2>
-<p>Adding <code class="language-markup">class="slim"</code> to a div will condense the content. Here's what happens:</p>
-<ul>
-<li>the spacing is smaller before and after all headings &amp; paragraphs</li>
-<li>the line spacing is smaller for paragraphs</li>
-<li>the spacing for table cells is smaller</li>
-</ul>
-<div class="first one-half">
-<div class="box">
-<h3>A normal div</h3>
-<p>A sample paragraph to demonstrate styling. A sample paragraph to demonstrate styling. A sample paragraph to demonstrate styling. A sample paragraph to demonstrate styling. A sample paragraph to demonstrate styling.</p>
-<table class="grid stripe">
-<tbody>
-<tr>
-<th>Table Heading</th>
-<th>Table Heading</th>
-<th>Table Heading</th>
-</tr>
-<tr>
-<td>Table Data</td>
-<td>Table Data</td>
-<td>Table Data</td>
-</tr>
-<tr>
-<td>Table Data</td>
-<td>Table Data</td>
-<td>Table Data</td>
-</tr>
-<tr>
-<td>Table Data</td>
-<td>Table Data</td>
-<td>Table Data</td>
-</tr>
-<tr>
-<td>Table Data</td>
-<td>Table Data</td>
-<td>Table Data</td>
-</tr>
-<tr>
-<td>Table Data</td>
-<td>Table Data</td>
-<td>Table Data</td>
-</tr>
-</tbody>
-</table>
-<ul>
-<li>List Item</li>
-<li>List Item</li>
-<li>List Item</li>
-</ul>
-</div>
-</div>
-<div class="one-half">
-<div class="slim box">
-<h3>A 'slim' div</h3>
-<p>A sample paragraph to demonstrate styling. A sample paragraph to demonstrate styling. A sample paragraph to demonstrate styling. A sample paragraph to demonstrate styling. A sample paragraph to demonstrate styling.</p>
-<table class="grid stripe">
-<tbody>
-<tr>
-<th>Table Heading</th>
-<th>Table Heading</th>
-<th>Table Heading</th>
-</tr>
-<tr>
-<td>Table Data</td>
-<td>Table Data</td>
-<td>Table Data</td>
-</tr>
-<tr>
-<td>Table Data</td>
-<td>Table Data</td>
-<td>Table Data</td>
-</tr>
-<tr>
-<td>Table Data</td>
-<td>Table Data</td>
-<td>Table Data</td>
-</tr>
-<tr>
-<td>Table Data</td>
-<td>Table Data</td>
-<td>Table Data</td>
-</tr>
-<tr>
-<td>Table Data</td>
-<td>Table Data</td>
-<td>Table Data</td>
-</tr>
-</tbody>
-</table>
-<ul>
-<li>List Item</li>
-<li>List Item</li>
-<li>List Item</li>
-</ul>
-</div>
-</div>
-<div class="clear"></div>
-<a id="modal"></a>
-<h2>Modal Boxes</h2>
-<p>A modal box is a 'pop-up' that only appears when a trigger is clicked. The page is dimmed while the box is displayed. Clicking the 'X' or the dimmed area will close the modal box. The modal box may show content from any of the following:</p>
-<ul>
-<li>a hidden div from that same page</li>
-<li>a full-size photo</li>
-<li>a YouTube video</li>
-</ul>
-<div class="first one-third">
-<div class="box">
-<h3>Modal Samples</h3>
-<p>Show a div (hidden on this page).</p>
-<p class="slim">Note: if your div is already visible on the page, fancybox will automatically hide it after closing. Add data-restore="true" to keep it visible on the page.</p>
-<p style="text-align: center;"><a class="fancybox button purple" href="#sample">View Inline Div</a></p>
-<p>Show an image</p>
-<p style="text-align: center;"><a class="fancybox button purple" href="../images/bg_trees.jpg">View Image</a></p>
-<p>Show another site/page (add data-type="iframe" to the trigger)</p>
-<p style="text-align: center;"><a class="fancybox button purple" data-type="iframe" href="https://www.southtexascollege.edu">View Iframe</a></p>
-<p>Show a single div from another page (add data-type="ajax" and data-filter="#div-id" to the trigger)</p>
-<p style="text-align: center;"><a class="fancybox button purple" data-filter="#content" data-type="ajax" href="../staff.html">View Ajax Div</a></p>
-<hr hr=""/>
-<p>For more options, visit <a href="https://fancyapps.com/fancybox/3/">Fancybox</a>.</p>
-</div>
-</div>
-<div class="two-thirds">
-<h3>The Setup:</h3>
-<p>Add the Fancybox CSS and JS, then a bit of jQuery in the document head. This will take all links with <code class="language-markup">class="fancybox"</code> and turn them into triggers.</p>
-<pre><code class="language-markup">&lt;script language="javascript"&gt;
+						<br/>
+						<p>For rare circumstances, you can force a set of columns to stay side-by-side, <strong> <em>regardless of the screen width</em> </strong>. Add the <code class="language-css">.stay</code> class on each column, but use with caution, since this will
+							make the columns squeeze down to fit even tiny phone screens.</p>
+						<a id="boxes"></a>
+						<h2>Boxes</h2>
+						<div class="first one-half">
+							<p>The <code class="language-css">.box</code> class is a styled div, providing contrast/focus to the content.</p>
+							<p>When using columns, do <strong>not</strong> add the box class directly on the column divs. First, setup the column divs, and then add a separate box div inside. See the example above.</p>
+						</div>
+						<div class="one-half">
+							<div class="box">
+								<h3>Watch Out:</h3>
+								<p><em>Please don't use the box class directly on a column - the extra padding from the box means that a column will become larger than the proper width.</em></p>
+								<p>See the section on <a href="#floats">Floats</a> for other options when you don't need a full set of columns.</p>
+							</div>
+						</div>
+						<div class="clear"></div>
+						<p>Note: Always use care when using color classes within a color class to avoid unpleasant combinations.</p>
+						<div class="first one-third">
+							<div class="box">
+								<h3>A regular Box...</h3>
+								<p><code class="language-markup">&lt;div class="box"&gt;</code></p>
+								<hr/>
+								<p>Text &amp; <a href="#" onclick="return false;">links</a> use normal styles.</p>
+								<p style="text-align: center;"><a class="button white" href="#">White Button</a></p>
+							</div>
+							<div class="box green">
+								<h3>A Green Box...</h3>
+								<p><code class="language-markup">&lt;div class="box green"&gt;</code></p>
+							</div>
+							<div class="box orange">
+								<h3>An Orange Box...</h3>
+								<p><code class="language-markup">&lt;div class="box orange"&gt;</code></p>
+							</div>
+						</div>
+						<div class="one-third">
+							<div class="box purple">
+								<h3>A Purple Box...</h3>
+								<p><code class="language-markup">&lt;div class="box purple"&gt;</code></p>
+							</div>
+							<div class="box red">
+								<h3>A Red Box...</h3>
+								<p><code class="language-markup">&lt;div class="box red"&gt;</code></p>
+							</div>
+							<div class="box teal">
+								<h3>A Teal Box...</h3>
+								<p><code class="language-markup">&lt;div class="box teal"&gt;</code></p>
+							</div>
+							<div class="box blue">
+								<h3>A Blue Box...</h3>
+								<p><code class="language-markup">&lt;div class="box blue"&gt;</code></p>
+							</div>
+						</div>
+						<div class="one-third">
+							<div class="box olive">
+								<h3>An Olive Box...</h3>
+								<p><code class="language-markup">&lt;div class="box olive"&gt;</code></p>
+							</div>
+							<div class="box">
+								<div class="box white">
+									<h3>A White Box...</h3>
+									<p><code class="language-markup">&lt;div class="box white"&gt;</code></p>
+									<hr/>
+									<p>Text &amp; <a href="#" onclick="return false;">links</a> use normal styles.</p>
+									<p>Only useful when nested inside another box with color.</p>
+								</div>
+							</div>
+						</div>
+						<div class="clear"></div>
+						<a id="floats"></a>
+						<h2>Floats</h2>
+						<div class="lefty one-third">
+							<div class="box">
+								<p>A <code class="language-markup">.lefty</code> box. <strong>Always</strong> give width to a floated item. Keep things responsive by <strong>not</strong> using pixel widths. Use percentages, or even better, choose one of the column classes for convenient
+									predefined widths.</p>
+							</div>
+						</div>
+						<div class="righty one-third">
+							<div class="box">
+								<p>A <code class="language-markup">.righty</code> box. <strong>Always</strong> give width to a floated item. Keep things responsive by <strong>not</strong> using pixel widths. Use percentages, or even better, choose one of the column classes for
+									convenient predefined widths.</p>
+							</div>
+						</div>
+						<p><strong>Floating an element allows text to wrap around it. Use the .lefty and .righty classes on an image or div to easily arrange a floating element on the page.</strong></p>
+						<p>Here is some filler text to demonstrate the text wrapping. Notice how this is different than the text in a set of columns. Here is some filler text to demonstrate the text wrapping. Notice how this is different than the text in a set of columns.
+							Here is some filler text to demonstrate the text wrapping. Notice how this is different than the text in a set of columns. Here is some filler text to demonstrate the text wrapping. Notice how this is different than the text in a set of columns.
+							Here is some filler text to demonstrate the text wrapping. Notice how this is different than the text in a set of columns. Here is some filler text to demonstrate the text wrapping. Notice how this is different than the text in a set of columns.</p>
+						<div class="clear"></div>
+						<a id="spacing"></a>
+						<h2>Spacing:</h2>
+						<p>Adding <code class="language-markup">class="slim"</code> to a div will condense the content. Here's what happens:</p>
+						<ul>
+							<li>the spacing is smaller before and after all headings &amp; paragraphs</li>
+							<li>the line spacing is smaller for paragraphs</li>
+							<li>the spacing for table cells is smaller</li>
+						</ul>
+						<div class="first one-half">
+							<div class="box">
+								<h3>A normal div</h3>
+								<p>A sample paragraph to demonstrate styling. A sample paragraph to demonstrate styling. A sample paragraph to demonstrate styling. A sample paragraph to demonstrate styling. A sample paragraph to demonstrate styling.</p>
+								<table class="grid stripe">
+									<tbody>
+										<tr>
+											<th>Table Heading</th>
+											<th>Table Heading</th>
+											<th>Table Heading</th>
+										</tr>
+										<tr>
+											<td>Table Data</td>
+											<td>Table Data</td>
+											<td>Table Data</td>
+										</tr>
+										<tr>
+											<td>Table Data</td>
+											<td>Table Data</td>
+											<td>Table Data</td>
+										</tr>
+										<tr>
+											<td>Table Data</td>
+											<td>Table Data</td>
+											<td>Table Data</td>
+										</tr>
+										<tr>
+											<td>Table Data</td>
+											<td>Table Data</td>
+											<td>Table Data</td>
+										</tr>
+										<tr>
+											<td>Table Data</td>
+											<td>Table Data</td>
+											<td>Table Data</td>
+										</tr>
+									</tbody>
+								</table>
+								<ul>
+									<li>List Item</li>
+									<li>List Item</li>
+									<li>List Item</li>
+								</ul>
+							</div>
+						</div>
+						<div class="one-half">
+							<div class="slim box">
+								<h3>A 'slim' div</h3>
+								<p>A sample paragraph to demonstrate styling. A sample paragraph to demonstrate styling. A sample paragraph to demonstrate styling. A sample paragraph to demonstrate styling. A sample paragraph to demonstrate styling.</p>
+								<table class="grid stripe">
+									<tbody>
+										<tr>
+											<th>Table Heading</th>
+											<th>Table Heading</th>
+											<th>Table Heading</th>
+										</tr>
+										<tr>
+											<td>Table Data</td>
+											<td>Table Data</td>
+											<td>Table Data</td>
+										</tr>
+										<tr>
+											<td>Table Data</td>
+											<td>Table Data</td>
+											<td>Table Data</td>
+										</tr>
+										<tr>
+											<td>Table Data</td>
+											<td>Table Data</td>
+											<td>Table Data</td>
+										</tr>
+										<tr>
+											<td>Table Data</td>
+											<td>Table Data</td>
+											<td>Table Data</td>
+										</tr>
+										<tr>
+											<td>Table Data</td>
+											<td>Table Data</td>
+											<td>Table Data</td>
+										</tr>
+									</tbody>
+								</table>
+								<ul>
+									<li>List Item</li>
+									<li>List Item</li>
+									<li>List Item</li>
+								</ul>
+							</div>
+						</div>
+						<div class="clear"></div>
+						<a id="modal"></a>
+						<h2>Modal Boxes</h2>
+						<p>A modal box is a 'pop-up' that only appears when a trigger is clicked. The page is dimmed while the box is displayed. Clicking the 'X' or the dimmed area will close the modal box. The modal box may show content from any of the following:</p>
+						<ul>
+							<li>a hidden div from that same page</li>
+							<li>a full-size photo</li>
+							<li>a YouTube video</li>
+						</ul>
+						<div class="first one-third">
+							<div class="box">
+								<h3>Modal Samples</h3>
+								<p>Show a div (hidden on this page).</p>
+								<p class="slim">Note: if your div is already visible on the page, fancybox will automatically hide it after closing. Add data-restore="true" to keep it visible on the page.</p>
+								<p style="text-align: center;"><a class="fancybox button purple" href="#sample">View Inline Div</a></p>
+								<p>Show an image</p>
+								<p style="text-align: center;"><a class="fancybox button purple" href="../images/bg_trees.jpg">View Image</a></p>
+								<p>Show another site/page (add data-type="iframe" to the trigger)</p>
+								<p style="text-align: center;"><a class="fancybox button purple" data-type="iframe" href="https://www.southtexascollege.edu">View Iframe</a></p>
+								<p>Show a single div from another page (add data-type="ajax" and data-filter="#div-id" to the trigger)</p>
+								<p style="text-align: center;"><a class="fancybox button purple" data-filter="#content" data-type="ajax" href="../staff.html">View Ajax Div</a></p>
+								<hr hr="" />
+								<p>For more options, visit <a href="https://fancyapps.com/fancybox/3/">Fancybox</a>.</p>
+							</div>
+						</div>
+						<div class="two-thirds">
+							<h3>The Setup:</h3>
+							<p>Add the Fancybox CSS and JS, then a bit of jQuery in the document head. This will take all links with <code class="language-markup">class="fancybox"</code> and turn them into triggers.</p>
+							<pre><code class="language-markup">&lt;script language="javascript"&gt;
 $(document).ready(function()
 {
     $(".fancybox").fancybox();    //links of class fancybox are a trigger
 });
 &lt;/script&gt;</code></pre>
-<h3>The Trigger:</h3>
-<p>The link destination determines the content of the modal box:</p>
-<pre><code class="language-markup">&lt;a href="#sample" class="fancybox button"&gt;Click Me&lt;/a&gt;</code></pre>
-<h3>The Target:</h3>
-<p>Using <code class="language-markup">&lt;div class="modal"&gt;</code> keeps it hidden until the trigger shows the box:</p>
-<pre><code class="language-markup">&lt;div class="modal" id="sample"&gt;
+							<h3>The Trigger:</h3>
+							<p>The link destination determines the content of the modal box:</p>
+							<pre><code class="language-markup">&lt;a href="#sample" class="fancybox button"&gt;Click Me&lt;/a&gt;</code></pre>
+							<h3>The Target:</h3>
+							<p>Using <code class="language-markup">&lt;div class="modal"&gt;</code> keeps it hidden until the trigger shows the box:</p>
+							<pre><code class="language-markup">&lt;div class="modal" id="sample"&gt;
     &lt;h1&gt;Sample modal box&lt;/h1&gt;
 &lt;/div&gt;</code></pre>
-</div>
-<div class="clear"></div>
-<div class="modal" id="sample">
-<h1>Sample modal box</h1>
-</div>
-<a id="accordion"></a>
-<h2>Hidden Panels, Accordions &amp; Tabs</h2>
-<div class="first two-thirds">
-<p>These are all regions that show and hide content when a user clicks on something. This setup requires a <strong>pair</strong> of HTML elements with special classes. Panels, Accordions, and Tabs all use these same basic classes:</p>
-<ol>
-<li>The <strong>Trigger</strong>: add <code class="language-markup">class="trigger"</code> to any HTML element and it will become the activating element. Also add <code class="language-markup">href="#section"</code> to the trigger to allow users to bookmark/share links to a specific Panel/Accordion/Tab.</li>
-<li>The hidden <strong>Panel</strong>: add <code class="language-markup">class="panel"</code> to any HTML element</li>
-</ol>
-<p>The 'closest' set of a trigger &amp; panel will be paired together automatically. <strong>The pair does not have to be next to each other.</strong> For example, the 3rd trigger in your code will automatically control the 3rd panel region, regardless of where they appear on the page, even if there is extra markup around and between them.</p>
-<p><em> <strong>Note:</strong> The following HTML samples <strong>do not</strong> have the be followed exactly. You may use the appropriate classes with <strong>any</strong> element! </em></p>
-<h3>Default Panels</h3>
-<p>Panels are hidden when the page is loaded. Use <code class="language-markup">class="panel default"</code> on any panel(s) to keep it open when the page loads. This works not just for regular Panels, but inside Accordions and Tabs too.</p>
-<h3>Accordions</h3>
-<p>Wrap a set of triggers and panels inside an element with <code class="language-markup">class="accordion"</code> to create an Accordion. Only one panel is shown at a time; when an accordion panel is opened, any other open panel is closed automatically.</p>
-<h3>Tabs</h3>
-<p>Creating a tabset requires stricter markup than the other trigger/panels groups. Wrap a set of triggers and panels inside an element with <code class="language-markup">class="tabset"</code> to create a set of Tabs. Instead of alternating between triggers and panels, wrap all the triggers inside <code class="language-markup">class="tabs"</code>, and then the panels come after. The triggers should be <code class="language-markup">&lt;a class="trigger button"&gt;&lt;/a&gt;</code> to maintain the correct appearance.</p>
-</div>
-<div class="one-third">
-<div class="box">
-<h3>Tips on Panels:</h3>
-<h4>Animation Performance</h4>
-<p>IE8 will show animation flickering &amp; jumping issues when the panel is also a box. To prevent this (and other glitches), just use <code class="language-markup">class="panel"</code> and put the content and styled containers inside it.</p>
-<hr/>
-<h4>Watch Out when Nesting!</h4>
-<p>If you have a regular, stand-alone Panel, you may put other Panels inside of it, even Accordions or Tabs.</p>
-<p><strong>But when working inside an Accordion or Tab, <em>never</em> put a panel inside another panel. </strong></p>
-</div>
-</div>
-<div class="clear"></div>
-<h3>Notice: Optional Enhancement</h3>
-<p>If you think users will want to bookmark or share links that point to an <em> <strong>open</strong> </em> Panel, it isn't enough to mark the Panel with id="section". The browser would scroll there, but the Panel would still be closed. To fix this, just add href="#section" to each Trigger. This will allow the website framework to automatically "click" on the right Trigger when the page loads. The browser will scroll to the right position, <strong>and</strong> the Panel will be opened. <em>The samples below include this <strong>optional</strong> feature. </em></p>
-<div class="first one-half">
-<h2>Independent Panels</h2>
-<p><a class="trigger" href="#trigger1">Trigger 1</a></p>
-<div class="panel default" id="trigger1">
-<p>Default Content 1</p>
-</div>
-<p><a class="trigger" href="#trigger2" id="trigger2">Trigger 2</a></p>
-<div class="panel">
-<p>Hidden Content 2</p>
-</div>
-<p><a class="trigger" href="#trigger3" id="trigger3">Trigger 3</a></p>
-<div class="panel">
-<p>Hidden Content 3</p>
-</div>
-</div>
-<div class="one-half">
-<pre><code class="language-markup">&lt;p&gt;&lt;a class="trigger" href="#trigger1"&gt;Trigger 1&lt;/a&gt;&lt;/p&gt;
+						</div>
+						<div class="clear"></div>
+						<div class="modal" id="sample">
+							<h1>Sample modal box</h1>
+						</div>
+						<a id="accordion"></a>
+						<h2>Hidden Panels, Accordions &amp; Tabs</h2>
+						<div class="first two-thirds">
+							<p>These are all regions that show and hide content when a user clicks on something. This setup requires a <strong>pair</strong> of HTML elements with special classes. Panels, Accordions, and Tabs all use these same basic classes:</p>
+							<ol>
+								<li>The <strong>Trigger</strong>: add <code class="language-markup">class="trigger"</code> to any HTML element and it will become the activating element. Also add <code class="language-markup">href="#section"</code> to the trigger to allow users to
+									bookmark/share links to a specific Panel/Accordion/Tab.</li>
+								<li>The hidden <strong>Panel</strong>: add <code class="language-markup">class="panel"</code> to any HTML element</li>
+							</ol>
+							<p>The 'closest' set of a trigger &amp; panel will be paired together automatically. <strong>The pair does not have to be next to each other.</strong> For example, the 3rd trigger in your code will automatically control the 3rd panel region, regardless
+								of where they appear on the page, even if there is extra markup around and between them.</p>
+							<p><em> <strong>Note:</strong> The following HTML samples <strong>do not</strong> have the be followed exactly. You may use the appropriate classes with <strong>any</strong> element! </em></p>
+							<h3>Default Panels</h3>
+							<p>Panels are hidden when the page is loaded. Use <code class="language-markup">class="panel default"</code> on any panel(s) to keep it open when the page loads. This works not just for regular Panels, but inside Accordions and Tabs too.</p>
+							<h3>Accordions</h3>
+							<p>Wrap a set of triggers and panels inside an element with <code class="language-markup">class="accordion"</code> to create an Accordion. Only one panel is shown at a time; when an accordion panel is opened, any other open panel is closed automatically.</p>
+							<h3>Tabs</h3>
+							<p>Creating a tabset requires stricter markup than the other trigger/panels groups. Wrap a set of triggers and panels inside an element with <code class="language-markup">class="tabset"</code> to create a set of Tabs. Instead of alternating between
+								triggers and panels, wrap all the triggers inside <code class="language-markup">class="tabs"</code>, and then the panels come after. The triggers should be <code class="language-markup">&lt;a class="trigger button"&gt;&lt;/a&gt;</code> to maintain
+								the correct appearance.</p>
+						</div>
+						<div class="one-third">
+							<div class="box">
+								<h3>Tips on Panels:</h3>
+								<h4>Animation Performance</h4>
+								<p>IE8 will show animation flickering &amp; jumping issues when the panel is also a box. To prevent this (and other glitches), just use <code class="language-markup">class="panel"</code> and put the content and styled containers inside it.</p>
+								<hr/>
+								<h4>Watch Out when Nesting!</h4>
+								<p>If you have a regular, stand-alone Panel, you may put other Panels inside of it, even Accordions or Tabs.</p>
+								<p><strong>But when working inside an Accordion or Tab, <em>never</em> put a panel inside another panel. </strong></p>
+							</div>
+						</div>
+						<div class="clear"></div>
+						<h3>Notice: Optional Enhancement</h3>
+						<p>If you think users will want to bookmark or share links that point to an <em> <strong>open</strong> </em> Panel, it isn't enough to mark the Panel with id="section". The browser would scroll there, but the Panel would still be closed. To fix this,
+							just add href="#section" to each Trigger. This will allow the website framework to automatically "click" on the right Trigger when the page loads. The browser will scroll to the right position, <strong>and</strong> the Panel will be opened. <em>The samples below include this <strong>optional</strong> feature. </em></p>
+						<div class="first one-half">
+							<h2>Independent Panels</h2>
+							<p><a class="trigger" href="#trigger1">Trigger 1</a></p>
+							<div class="panel default" id="trigger1">
+								<p>Default Content 1</p>
+							</div>
+							<p><a class="trigger" href="#trigger2" id="trigger2">Trigger 2</a></p>
+							<div class="panel">
+								<p>Hidden Content 2</p>
+							</div>
+							<p><a class="trigger" href="#trigger3" id="trigger3">Trigger 3</a></p>
+							<div class="panel">
+								<p>Hidden Content 3</p>
+							</div>
+						</div>
+						<div class="one-half">
+							<pre><code class="language-markup">&lt;p&gt;&lt;a class="trigger" href="#trigger1"&gt;Trigger 1&lt;/a&gt;&lt;/p&gt;
     &lt;div id="trigger1" class="panel default"&gt;
         &lt;p&gt;Default Content 1&lt;/p&gt;
     &lt;/div&gt;
@@ -1073,27 +1076,27 @@ $(document).ready(function()
     &lt;div id="trigger3" class="panel"&gt;
         &lt;p&gt;Hidden Content 3&lt;/p&gt;
 &lt;/div&gt;</code></pre>
-</div>
-<div class="clear"></div>
-<div class="first one-half">
-<h2>Accordion</h2>
-<div class="accordion">
-<p><a class="trigger" href="#trigger4">Trigger 4</a></p>
-<div class="panel default" id="trigger4">
-<p>Default Content 4</p>
-</div>
-<p><a class="trigger" href="#trigger5">Trigger 5</a></p>
-<div class="panel" id="trigger5">
-<p>Hidden Content 5</p>
-</div>
-<p><a class="trigger" href="#trigger6">Trigger 6</a></p>
-<div class="panel" id="trigger6">
-<p>Hidden Content 6</p>
-</div>
-</div>
-</div>
-<div class="one-half">
-<pre><code class="language-markup">&lt;div class="accordion"&gt;
+						</div>
+						<div class="clear"></div>
+						<div class="first one-half">
+							<h2>Accordion</h2>
+							<div class="accordion">
+								<p><a class="trigger" href="#trigger4">Trigger 4</a></p>
+								<div class="panel default" id="trigger4">
+									<p>Default Content 4</p>
+								</div>
+								<p><a class="trigger" href="#trigger5">Trigger 5</a></p>
+								<div class="panel" id="trigger5">
+									<p>Hidden Content 5</p>
+								</div>
+								<p><a class="trigger" href="#trigger6">Trigger 6</a></p>
+								<div class="panel" id="trigger6">
+									<p>Hidden Content 6</p>
+								</div>
+							</div>
+						</div>
+						<div class="one-half">
+							<pre><code class="language-markup">&lt;div class="accordion"&gt;
     &lt;p&gt;&lt;a class="trigger" href="#trigger4"&gt;Trigger 4&lt;/a&gt;&lt;/p&gt;
     &lt;div id="trigger4" class="panel default"&gt;
         &lt;p&gt;Default Content 4&lt;/p&gt;
@@ -1107,30 +1110,30 @@ $(document).ready(function()
         &lt;p&gt;Hidden Content 6&lt;/p&gt;
     &lt;/div&gt;
 &lt;/div&gt;</code></pre>
-</div>
-<div class="clear"></div>
-<div class="first one-half">
-<h2>Tabs</h2>
-<div class="tabset">
-<p class="tabs"><a class="trigger button" href="#trigger7">Trigger 7</a> <a class="trigger button active" href="#trigger8">Trigger 8</a> <a class="trigger button" href="#trigger9">Trigger 9</a></p>
-<div class="panel" id="trigger7">
-<p>Content 7</p>
-</div>
-<div class="panel default" id="trigger8">
-<p>Default Content 8</p>
-</div>
-<div class="panel" id="trigger9">
-<p>Content 9</p>
-</div>
-</div>
-<p><strong>Note:</strong> Be sure to setup the initial state of the tabset:</p>
-<ul>
-<li>Use <code class="language-markup">class="trigger button active"</code> for the active tab</li>
-<li>Use <code class="language-markup">class="panel default"</code> to set the open panel</li>
-</ul>
-</div>
-<div class="one-half">
-<pre><code class="language-markup">&lt;div class="tabset"&gt;
+						</div>
+						<div class="clear"></div>
+						<div class="first one-half">
+							<h2>Tabs</h2>
+							<div class="tabset">
+								<p class="tabs"><a class="trigger button" href="#trigger7">Trigger 7</a> <a class="trigger button active" href="#trigger8">Trigger 8</a> <a class="trigger button" href="#trigger9">Trigger 9</a></p>
+								<div class="panel" id="trigger7">
+									<p>Content 7</p>
+								</div>
+								<div class="panel default" id="trigger8">
+									<p>Default Content 8</p>
+								</div>
+								<div class="panel" id="trigger9">
+									<p>Content 9</p>
+								</div>
+							</div>
+							<p><strong>Note:</strong> Be sure to setup the initial state of the tabset:</p>
+							<ul>
+								<li>Use <code class="language-markup">class="trigger button active"</code> for the active tab</li>
+								<li>Use <code class="language-markup">class="panel default"</code> to set the open panel</li>
+							</ul>
+						</div>
+						<div class="one-half">
+							<pre><code class="language-markup">&lt;div class="tabset"&gt;
     &lt;p class="tabs"&gt;
         &lt;a class="trigger button" href="#trigger7"&gt;Trigger 7&lt;/a&gt;
         &lt;a class="trigger button active" href="#trigger8"&gt;Trigger 8&lt;/a&gt;
@@ -1146,102 +1149,43 @@ $(document).ready(function()
         &lt;p&gt;Content 9&lt;/p&gt;
     &lt;/div&gt;
 &lt;/div&gt;</code></pre>
-</div>
-<div class="clear"></div>
-<h3>Click Triggers</h3>
-<div class="first one-half">
-<p>Occasionally you may want a secondary button or link that activates a tab or accordion on the same page. A normal href can't do it, and you can't just add another trigger since it has to be paired with its own panel. Solution: a Click-Trigger will perform a virtual click on any element you choose. Click-Triggers can be anywhere on the page - HTML order doesn't matter.</p>
-<p><em>Requirements:</em></p>
-<ol>
-<li>The target element must have an ID</li>
-<li>The Click Trigger needs <code class="language-markup">class="click-trigger"</code> and also a special <code class="language-markup">data-click="___"</code> attribute that matches the ID of the target element</li>
-<li>Some devices won't respond to the click event if the link is missing the href attribute. Include <code class="language-markup">href=""</code> just to be sure</li>
-</ol>
-</div>
-<div class="one-half">
-<pre><code class="language-markup">...
+						</div>
+						<div class="clear"></div>
+						<h3>Click Triggers</h3>
+						<div class="first one-half">
+							<p>Occasionally you may want a secondary button or link that activates a tab or accordion on the same page. A normal href can't do it, and you can't just add another trigger since it has to be paired with its own panel. Solution: a Click-Trigger will
+								perform a virtual click on any element you choose. Click-Triggers can be anywhere on the page - HTML order doesn't matter.</p>
+							<p><em>Requirements:</em></p>
+							<ol>
+								<li>The target element must have an ID</li>
+								<li>The Click Trigger needs <code class="language-markup">class="click-trigger"</code> and also a special <code class="language-markup">data-click="___"</code> attribute that matches the ID of the target element</li>
+								<li>Some devices won't respond to the click event if the link is missing the href attribute. Include <code class="language-markup">href=""</code> just to be sure</li>
+							</ol>
+						</div>
+						<div class="one-half">
+							<pre><code class="language-markup">...
 &lt;a class="trigger button" id="my_button"&gt;A Trigger&lt;/a&gt;
 ...
 &lt;a href="" class="click-trigger" data-click="my_button"&gt;Click&lt;/a&gt;</code></pre>
-<br/>
-<p><strong>Example:</strong> Open the "Trigger 9" tab above: <a class="click-trigger" data-click="trigger9">Click</a></p>
-</div>
-<div class="clear"></div>
-    
+							<br/>
+							<p><strong>Example:</strong> Open the "Trigger 9" tab above: <a class="click-trigger" data-click="trigger9">Click</a></p>
+						</div>
+						<div class="clear"></div>
+
 
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="footer" id="footer1">
-<div class="footer-wrap">
-<div class="first one-fourth">
-<ul class="plain stack">
-<li>
-<p>Learn More</p>
-</li>
-<li><a href="https://www.southtexascollege.edu/about/index.html">About Us</a></li>
-<li><a href="https://careers.southtexascollege.edu/index.html">Employment</a></li>
-<li><a href="https://staffdir.southtexascollege.edu/">Faculty/Staff Directory</a></li>
-<li><a href="https://www.southtexascollege.edu/about/notices/index.html">Financial &amp; Legal Disclosures</a></li>
-<li><a href="https://www.southtexascollege.edu/about/notices/fraud-hotline.html">Fraud Hotline</a></li>
-<li><a href="https://www.southtexascollege.edu/about/notices/title-ix.html">Title IX</a></li>
-</ul>
-</div>
-<div class="one-fourth">
-<ul class="plain stack">
-<li>
-<p>Academics</p>
-</li>
-<li><a href="https://www.southtexascollege.edu/academics/index.html">Academic Opportunities</a></li>
-<li><a href="https://academicaffairs.southtexascollege.edu/degreeplans/index.html">Degrees</a></li>
-<li><a href="https://www.southtexascollege.edu/academics/catalogs/index.html">Catalog</a></li>
-<li><a href="https://www.southtexascollege.edu/academics/calendar/index.html">Academic Calendar</a></li>
-<li><a href="https://www.southtexascollege.edu/online/">Online Learning</a></li>
-<li><a href="https://www.southtexascollege.edu/cpwe/index.html">Continuing Education</a></li>
-</ul>
-</div>
-<div class="one-fourth">
-<ul class="plain stack">
-<li>
-<p>Students</p>
-</li>
-<li><a href="https://studentservices.southtexascollege.edu/index.html">Student Services</a></li>
-<li><a href="https://jagnet.southtexascollege.edu/">JagNet</a></li>
-<li><a href="https://southtexascollege.blackboard.com/">Blackboard</a></li>
-<li><a href="https://outlook.com/stu.southtexascollege.edu">JagMail</a></li>
-<li><a href="https://www.southtexascollege.edu/cle/index.html">Tutoring</a></li>
-<li><a href="https://library.southtexascollege.edu/">Library</a></li>
-</ul>
-</div>
-<div class="one-fourth footer-contact">
-<p><a class="wide-button purple" href="https://www.southtexascollege.edu/getting-started/index.php">Apply Now</a></p>
-<p class="tel"><a href="tel:855-468-6782">1-855-GoToSTC</a></p>
-<p class="social"><a class="facebook" href="https://www.facebook.com/stcjaguars" rel="noopener noreferrer" target="_blank" title="Facebook"><img alt="Facebook" src="https://global.southtexascollege.edu/graphics/social/facebook.png"/></a> <a class="twitter" href="https://twitter.com/stcpr" rel="noopener noreferrer" target="_blank" title="Twitter"><img alt="Twitter" src="https://global.southtexascollege.edu/graphics/social/twitter.png"/></a> <a class="youtube" href="https://www.youtube.com/southtexascollege" rel="noopener noreferrer" target="_blank" title="YouTube"><img alt="YouTube" src="https://global.southtexascollege.edu/graphics/social/youtube.png"/></a> <a class="instagram" href="https://instagram.com/stcjaguars/" rel="noopener noreferrer" target="_blank" title="Instagram"><img alt="Instagram" src="https://global.southtexascollege.edu/graphics/social/instagram.png"/></a></p>
-<p class="link-list"><a href="https://www.southtexascollege.edu/about/contact/index.html">Contact</a> <a href="https://campuses.southtexascollege.edu/index.html">Campuses</a> <a href="https://studentservices.southtexascollege.edu/hours.html">Hours</a></p>
-<p class="link-list"><a href="https://news.southtexascollege.edu/">News</a> <a href="https://events.southtexascollege.edu/">Events Calendar</a> <a href="https://global.southtexascollege.edu/feedback.php">Feedback</a></p>
-</div>
-<div class="clear"></div>
-</div>
-</div>
-		            
-    <div class="footer" id="footer2">
-        <div class="footer-wrap">
-    		<p><a aria-hidden="true" class="cms-edit" href="http://southtexascollege.cascadecms.com/entity/open.act?type=page&amp;id=b171c9c30ab3b24d232c63ea32d4ad80">©</a> South Texas College</p>
-    	</div>
-    </div>
+
+		<div class="footer" id="footer">
+			/* OSU footer goes here */
+		</div>
+
+
 
 	</div>
-	
-	<script type="text/javascript">
-// <![CDATA[
-(function() {
-var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
-sz.src = '//siteimproveanalytics.com/js/siteanalyze_66356703.js';
-var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
-})();
-// ]]>
-</script>
-	
+
 </body>
+
 </html>
