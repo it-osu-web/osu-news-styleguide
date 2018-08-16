@@ -1,8 +1,114 @@
+/* sidebar */
+
+#side {
+  width: 22%;
+  float: left;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding-right: 3em;
+  position: -webkit-sticky;
+  position: -moz-sticky;
+  position: -ms-sticky;
+  position: -o-sticky;
+  position: sticky;
+  top: 0px;
+}
+
+
+
+/* masthead */
+
+.masthead {
+  padding-top: 1.5em;
+  margin-bottom: 1em;
+}
+
+.masthead__logo {
+  margin-bottom: 3em;
+}
+
+.masthead__text {
+  text-align: center;
+}
+
+.masthead__text--style-guide {
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  display: block;
+}
+
+/* main menu */
+
+#sideNav {
+  height: auto !important;
+}
+
+#sideNav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#sideNav li {
+  font-size: 1.1rem;
+  padding: 0;
+  margin: 0;
+}
+
+#sideNav li a {
+  display: block;
+  position: relative;
+  color: #666;
+  line-height: 1.4;
+  font-weight: normal;
+  text-decoration: none;
+  padding: 7px 5px;
+  border: 1px solid #E9E9E9;
+  border-width: 1px 0 1px 0;
+  margin-top: -1px;
+  transition: box-shadow .3s;
+}
+
+#sideNav li a.current, a.current {
+  color: #000;
+  background-color: #eee;
+}
+
+#sideNav li a:hover, #sideNav li a:focus {
+  color: #000;
+  background-color: #eee;
+}
+
+
+/* #sideNav h1, #sideNav h1 a, #sideNav h2, #sideNav h2 a, #sideNav h3, #sideNav h3 a, #sideNav p.navsection, #sideNav p.navsection a {
+  color: #383838;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+#sideNav h1, #sideNav h2, #sideNav h3, #sideNav p.navsection {
+  margin: 0px;
+  padding: 16px;
+  letter-spacing: -0.035em;
+  line-height: normal;
+} */
+
+
+
+/* #sideNav .sideToggle {
+  display: none;
+} */
+
+
+
+
+
 .category {
   margin-bottom: 1.5em;
 }
 
-/* .sample {
-  background: #eee;
-  padding: 1em;
-} */
+#bodyContent {
+  padding-top: 1.5em;
+}

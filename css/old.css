@@ -564,78 +564,8 @@
 	width:960px;
 	margin:20px 0 20px 0;
 }
- #side{
-	width:25%;
-	float:left;
-	overflow:hidden;
-	box-sizing:border-box;
-	padding-right:25px;
-	position:-webkit-sticky;
-	position:-moz-sticky;
-	position:-ms-sticky;
-	position:-o-sticky;
-	position:sticky;
-	top:0px;
-}
- #sideNav{
-	border-right:1px solid #E9E9E9;
-	height:auto !important;
-}
- #sideNav ul{
-	list-style:none;
-	margin:0 0 6px 0px;
-	padding:0px;
-}
- #sideNav li{
-	font-size:14px;
-	line-height:1.4;
-	padding:0;
-	margin:0;
-}
- #sideNav a{
-	text-decoration:none;
-	font-weight:normal;
-}
- #sideNav li a, .lib-misbuttons-link a{
-	display:block;
-	position:relative;
-	color:#046937;
-	line-height:1.4;
-	font-weight:normal;
-	text-decoration:none;
-	padding:7px 5px 7px 16px;
-	border:1px solid #E9E9E9;
-	border-width:1px 0 1px 0;
-	margin-top:-1px;
-	transition:box-shadow .3s;
-}
- #sideNav li a.current, .lib-misbuttons-link a.current{
-	color:#000;
-	background-color:#E9E9E9;
-	box-shadow:5px 0px 0px 0px #552D81 inset;
-}
- #sideNav li a:hover, #sideNav li a:focus, .stack li a:hover, .stack li a:focus, .lib-misbuttons-link a:hover, .lib-misbuttons-link a:focus{
-	color:#000;
-	background-color:#E9E9E9;
-	box-shadow:8px 0px 0px 0px #552D81 inset;
-}
- .stack li a:hover, .stack li a:focus{
-	background-color:#FFFFFF;
-}
- #sideNav h1, #sideNav h1 a, #sideNav h2, #sideNav h2 a, #sideNav h3, #sideNav h3 a, #sideNav p.navsection, #sideNav p.navsection a{
-	color:#383838;
-	font-size:20px;
-	font-weight:normal;
-}
- #sideNav h1, #sideNav h2, #sideNav h3, #sideNav p.navsection{
-	margin:0px;
-	padding:16px;
-	letter-spacing:-0.035em;
-	line-height:normal;
-}
- #sideNav .sideToggle{
-	display:none;
-}
+
+
  #bodyContent{
 	width:75%;
 	float:right;
