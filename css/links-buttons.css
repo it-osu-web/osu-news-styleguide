@@ -1,0 +1,66 @@
+/* links */
+
+a {
+  color: #b00;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #666;
+}
+
+a:focus {
+  outline: 1px dotted #b00;
+}
+
+a:active {
+  background-color: transparent;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  text-decoration: none;
+  font-weight: inherit;
+}
+
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
+  text-decoration: underline;
+}
+
+/* buttons */
+
+.button, a.button {
+  background-color: #b00;
+  border: 1px solid white;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+  line-height: 1.4;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 0.5em 1em;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+
+a.button {
+  padding: 0.65em 1em 0.5em;
+}
+
+.button:hover, a.button:hover {
+  background-color: white;
+  color: #b00;
+  border-color: #b00;
+}
+
+.button--gray, a.button--gray {
+  background-color: #666;
+}
+
+.button--gray:hover, a.button--gray:hover {
+  color: #666;
+  border-color: #666;
+}
