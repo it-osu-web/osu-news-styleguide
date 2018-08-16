@@ -1,26 +1,28 @@
 p {
   font-size: 1rem;
   line-height: 140%;
-  margin: 0 0 0.5em;
+  margin: 0 0 0.75em;
 }
 
 pre {
   font-family: monospace;
   font-size: 1rem;
-  line-height: 160%;
+  line-height: 170%;
+  padding: 0.75em 1em;
+  background: #f2f2f2;
   white-space: pre-wrap;
 }
 
 h1, h2, h3, h4, h5, h6 {
   color: #202024;
-  font-weight: 400;
   line-height: 125%;
-  margin: 0 0 0.5em;
+  margin: 0.5em 0;
 }
 
 h1 {
   font-size: 3rem;
   font-weight: 700;
+  margin-bottom: 0.25em;
 }
 
 h2 {
@@ -32,22 +34,24 @@ h2 {
 
 h3 {
   font-size: 2.1rem;
+  font-family: 'Capita', serif;
+  font-weight: 700;
 }
 
 h4 {
   font-size: 1.8rem;
+  font-family: 'Capita', serif;
+  font-weight: 600;
 }
 
 h5 {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 
 h6 {
-  font-size: 1.1rem;
-}
-
-a img {
-  border: none;
+  font-size: 1.2rem;
+  font-weight: 400;
 }
 
 a {
