@@ -1,3 +1,33 @@
+/* These styles are only used to display the styleguide. */
+
+.category {
+  margin-bottom: 2.5em;
+}
+
+
+/* headers */
+h2.category__header {
+  font-family: 'proximanova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: uppercase;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 0.5em;
+}
+
+h3.category__header {
+  font-family: 'proximanova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #666;
+  margin: 1em 0 0.25em;
+  padding-left: 0.5em;
+}
+
+/* color swatches */
 .sg-colors {
   display: flex;
   flex-wrap: wrap;
@@ -10,15 +40,14 @@
   flex: auto;
   padding: 0.3em;
   margin: 0 0.3em 1em;
-  min-width: 10em;
-  max-width: 11em;
+  min-width: 8em;
+  max-width: 14em;
 }
 
 .sg-colors__sample {
   display: block;
   height: 100px;
   margin-bottom: 0.3em;
-  border: 1px solid $gray-lighter;
 }
 
 .sg-info {

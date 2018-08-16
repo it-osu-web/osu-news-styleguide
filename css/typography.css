@@ -57,14 +57,3 @@ a:active {
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   color: #046937;
 }
-
-/* variations */
-h2.category__header {
-  font-family: 'proximanova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 1.8rem;
-  font-style: normal;
-  font-weight: 400;
-  text-transform: uppercase;
-  border-bottom: 1px solid #ccc;
-  margin-bottom: 0.5em;
-}
