@@ -9,82 +9,11 @@ html {
 	padding:0;
 }
 
-
 .visually-hidden {
   position: absolute !important;
-  height: 1px; width: 1px;
-  overflow: hidden;
-  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
   clip: rect(1px, 1px, 1px, 1px);
-}
-
-h1, h2, h3, h4, h5, h6 {
-  color: #202024;
-  font-weight: 400;
-}
-
-h1 {
-  font-size: 3rem;
-  font-weight: 700;
-}
-
-h2 {
-  font-size: 2.4rem;
-  font-family: 'Capita', serif;
-  font-weight: 300;
-  font-style: italic;
-}
-
-h3 {
-  font-size: 2.1rem;
-}
-
-h4 {
-  font-size: 1.8rem;
-}
-
-h5 {
-  font-size: 1.5rem;
-}
-
-h6 {
-  font-size: 1.3rem;
-}
-
-
-a img {
-  border: none;
-}
-
-a {
-  color: #0053C0;
-  font-weight: bold;
-  text-decoration: underline;
-}
-
-a:link {}
-
-a:visited {}
-
-a:hover, a:focus {
-  color: #552D81;
-}
-
-a:active {
-  background-color: transparent;
-}
-
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-  color: #046937;
-}
-
-/* variations */
-h2.category-header {
-  font-family: 'proximanova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 1.8rem;
-  font-style: normal;
-  font-weight: 400;
-  text-transform: uppercase;
-  border-bottom: 1px solid #ccc;
-  margin-bottom: 0.5em;
+  overflow: hidden;
+  height: 1px;
+  width: 1px;
+  word-wrap: normal;
 }

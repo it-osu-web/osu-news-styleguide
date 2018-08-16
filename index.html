@@ -11,10 +11,7 @@
 	</title>
 
 	<!-- CSS -->
-	<link href="./css/osu-navbar.css" rel="stylesheet" type="text/css" />
-	<link href="./css/old.css" rel="stylesheet" type="text/css" />
-	<link href="./css/base.css" rel="stylesheet" type="text/css" />
-	<link href="./css/new.css" rel="stylesheet" type="text/css" />
+	<link href="./css/main.css" rel="stylesheet" type="text/css" />
 
 	<!-- OSU Webfonts -->
 	<link rel="stylesheet" href="http://www.osu.edu/assets/fonts/webfonts.css">
@@ -121,26 +118,31 @@
 	<div id="wrap">
 
 		<div role="navigation" id="osu_navbar" aria-labelledby="osu_navbar_heading">
-		  <h2 id="osu_navbar_heading" class="osu-semantic">Ohio State nav bar</h2>
+			<h2 id="osu_navbar_heading" class="osu-semantic">Ohio State nav bar</h2>
 			<a href="#main-content" id="skip" class="osu-semantic">Skip to main content</a>
 			<div class="container">
-		    	<div class="univ_info">
-		    		<p class="univ_name"><a href="http://osu.edu" title="The Ohio State University">The Ohio State University</a></p>
-		    	</div><!-- /univ_info -->
-		    	<div class="univ_links">
-		    		<div class="links">
-		    			<ul>
-		    				<li><a href="http://www.osu.edu/help.php" class="help">Help</a></li>
-		    				<li><a href="http://buckeyelink.osu.edu/" class="buckeyelink" >BuckeyeLink</a></li>
-		    				<li><a href="http://www.osu.edu/map/" class="map">Map</a></li>
-		    				<li><a href="http://www.osu.edu/findpeople.php" class="findpeople">Find People</a></li>
-		    				<li><a href="https://email.osu.edu/" class="webmail">Webmail</a></li>
-		    				<li><a href="http://www.osu.edu/search/" class="search">Search Ohio State</a></li>
-		    			</ul>
-		    		</div><!-- /links -->
-		    	</div><!-- /univ_links -->
-		    </div><!-- /container -->
-		</div><!-- /osu_navbar -->
+				<div class="univ_info">
+					<p class="univ_name"><a href="http://osu.edu" title="The Ohio State University">The Ohio State University</a></p>
+				</div>
+				<!-- /univ_info -->
+				<div class="univ_links">
+					<div class="links">
+						<ul>
+							<li><a href="http://www.osu.edu/help.php" class="help">Help</a></li>
+							<li><a href="http://buckeyelink.osu.edu/" class="buckeyelink">BuckeyeLink</a></li>
+							<li><a href="http://www.osu.edu/map/" class="map">Map</a></li>
+							<li><a href="http://www.osu.edu/findpeople.php" class="findpeople">Find People</a></li>
+							<li><a href="https://email.osu.edu/" class="webmail">Webmail</a></li>
+							<li><a href="http://www.osu.edu/search/" class="search">Search Ohio State</a></li>
+						</ul>
+					</div>
+					<!-- /links -->
+				</div>
+				<!-- /univ_links -->
+			</div>
+			<!-- /container -->
+		</div>
+		<!-- /osu_navbar -->
 
 
 		<div id="container">
@@ -162,7 +164,6 @@
 							<li><a href="#logo">Logo and Wordmarks</a></li>
 							<li><a href="#colors">Colors</a></li>
 							<li><a href="#typography">Typography</a></li>
-							<li><a href="#lists">Lists</a></li>
 							<li><a href="#links_and_buttons">Links &amp; Buttons</a></li>
 							<li><a href="#tables">Tables</a></li>
 							<li><a href="#images">Images</a></li>
@@ -176,19 +177,135 @@
 				<div id="bodyContent">
 					<div id="main-content">
 
-					<div class="category category--logo">
-						<a id="logo"></a>
-						<h2 class="category-header">Logo and Wordmarks</h2>
-					</div>
+						<div class="category category--logo">
+							<a id="logo"></a>
+							<h2 class="category__header">Logo and Wordmarks</h2>
+						</div>
 
-					<div class="category category--colors">
-						<a id="colors"></a>
-						<h2 class="category-header">Colors</h2>
-					</div>
+						<div class="category category--colors">
+							<a id="colors"></a>
+							<h2 class="category__header">Colors</h2>
+							<div class="sg-pattern-example">
+								<ul class="sg-colors">
+									<li>
+										<div class="sg-colors__sample" style="background: #ccc;"></div>
+										<div class="sg-info">
+											<span>#ccc</span> <br/>
+											<code>$gray-lighter</code>
+										</div>
+									</li>
+									<li>
+										<div class="sg-colors__sample" style="background: #999;"></div>
+										<div class="sg-info">
+											<span>#999</span> <br/>
+											<code>$gray-light</code>
+										</div>
+									</li>
+									<li>
+										<div class="sg-colors__sample" style="background: #666;"></div>
+										<div class="sg-info">
+											<span>#666</span> <br/>
+											<code>$gray</code>
+										</div>
+									</li>
+									<li>
+										<div class="sg-colors__sample" style="background: #444446;"></div>
+										<div class="sg-info">
+											<span>#444446</span> <br/>
+											<code>$gray-dark</code>
+										</div>
+									</li>
+									<li>
+										<div class="sg-colors__sample" style="background: #363639;"></div>
+										<div class="sg-info">
+											<span>#363639</span> <br/>
+											<code>$gray-darker</code>
+										</div>
+									</li>
+									<li>
+										<div class="sg-colors__sample" style="background: #202024;"></div>
+										<div class="sg-info">
+											<span>#202024</span> <br/>
+											<code>$gray-darkest</code>
+										</div>
+									</li>
+									<li>
+										<div class="sg-colors__sample" style="background: #000;"></div>
+										<div class="sg-info">
+											<span>#000</span> <br/>
+											<code>$black</code>
+										</div>
+									</li>
+									<li>
+										<div class="sg-colors__sample" style="background: #b00;"></div>
+										<div class="sg-info">
+											<span>#b00</span> <br/>
+											<code>$red</code>
+										</div>
+									</li>
+									<li>
+										<div class="sg-colors__sample" style="background: #830000;"></div>
+										<div class="sg-info">
+											<span>#830000</span> <br/>
+											<code>$red-dark</code>
+										</div>
+									</li>
+									<li>
+										<div class="sg-colors__sample" style="background: #d65828;"></div>
+										<div class="sg-info">
+											<span>#d65828</span> <br/>
+											<code>$orange</code>
+										</div>
+									</li>
+									<li>
+										<div class="sg-colors__sample" style="background: #c04f24;"></div>
+										<div class="sg-info">
+											<span>#c04f24</span> <br/>
+											<code>$orange-dark</code>
+										</div>
+									</li>
+									<li>
+										<div class="sg-colors__sample" style="background: #909738;"></div>
+										<div class="sg-info">
+											<span>#909738</span> <br/>
+											<code>$green</code>
+										</div>
+									</li>
+									<li>
+										<div class="sg-colors__sample" style="background: #73792d;"></div>
+										<div class="sg-info">
+											<span>#73792d</span> <br/>
+											<code>$green-dark</code>
+										</div>
+									</li>
+									<li>
+										<div class="sg-colors__sample" style="background: #1c7c89;"></div>
+										<div class="sg-info">
+											<span>#1c7c89</span> <br/>
+											<code>$teal</code>
+										</div>
+									</li>
+									<li>
+										<div class="sg-colors__sample" style="background: #5d3f82;"></div>
+										<div class="sg-info">
+											<span>#5d3f82</span> <br/>
+											<code>$purple</code>
+										</div>
+									</li>
+									<li>
+										<div class="sg-colors__sample" style="background: #476c97;"></div>
+										<div class="sg-info">
+											<span>#476c97</span> <br/>
+											<code>$blue-dark</code>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
 
 						<div class="category category--typography">
 							<a id="typography"></a>
-							<h2 class="category-header">Typography</h2>
+							<h2 class="category__header">Typography</h2>
 							<div class="one-half first">
 								<p>Headings 1 through 6 are available to label and identify sections of content. The primary page heading should be h1, and ideally match the title of the HTML document. Subsequent headings should use H2, etc.</p>
 							</div>
@@ -202,10 +319,25 @@
 							</div>
 						</div>
 
+						<div class="category category--links-buttons">
+							<a id="links_and_buttons"></a>
+							<h2 class="category__header">Links &amp; Buttons</h2>
+						</div>
+
+						<div class="category category--tables">
+							<a id="tables"></a>
+							<h2 class="category__header">Tables</h2>
+						</div>
+
+						<div class="category category--images">
+							<a id="images"></a>
+							<h2 class="category__header">Images</h2>
+						</div>
+
 
 						<div class="category category--sample">
 							<a id="sample"></a>
-							<h2 class="category-header">Sample Category Block</h2>
+							<h2 class="category__header">Sample Category Block</h2>
 						</div>
 
 
@@ -482,7 +614,9 @@
 
 
 
-	</div><!-- /wrap -->
+	</div>
+	<!-- /wrap -->
 
 </body>
+
 </html>

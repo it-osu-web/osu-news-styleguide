@@ -1,0 +1,26 @@
+.sg-colors {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sg-colors li {
+  flex: auto;
+  padding: 0.3em;
+  margin: 0 0.3em 1em;
+  min-width: 10em;
+  max-width: 11em;
+}
+
+.sg-colors__sample {
+  display: block;
+  height: 100px;
+  margin-bottom: 0.3em;
+  border: 1px solid $gray-lighter;
+}
+
+.sg-info {
+  padding: 0.3em;
+}
