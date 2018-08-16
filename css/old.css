@@ -65,12 +65,7 @@
 	height:100%;
 	border:none;
 }
- p, td, li{
-	font-size:16px;
-	line-height:1.7;
-	margin:0 0 20px 0;
-	color:#2D2D2D;
-}
+
  .slim p, p.slim, .slim td, .slim li{
 	font-size:12px;
 	line-height:1.6;
