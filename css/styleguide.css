@@ -16,6 +16,7 @@
 }
 
 /* headers */
+
 h2.category__header {
   font-family: 'proximanova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 1.7rem;
@@ -38,6 +39,7 @@ h3.category__header {
 }
 
 /* color swatches */
+
 .sg-colors {
   display: flex;
   flex-wrap: wrap;

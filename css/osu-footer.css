@@ -28,7 +28,23 @@
   margin-bottom: 1.25em;
 }
 
-a.socialicon img {height:32px; width:32px; margin:0 .5em .5em 0; border:1px solid #eaeaea;background:#fff;}
-a:hover.socialicon img {background:#ccc; }
-#footer_social a.socialicon img {background:transparent;border:none; }
-#footer_social a:hover.socialicon img {background:#666;}
+a.socialicon img {
+  height: 32px;
+  width: 32px;
+  margin: 0 .5em .5em 0;
+  border: 1px solid #eaeaea;
+  background: #fff;
+}
+
+a:hover.socialicon img {
+  background: #ccc;
+}
+
+#footer_social a.socialicon img {
+  background: transparent;
+  border: none;
+}
+
+#footer_social a:hover.socialicon img {
+  background: #666;
+}

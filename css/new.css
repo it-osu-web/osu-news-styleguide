@@ -1,6 +1,3 @@
-
-
-
 /* masthead */
 
 .masthead {
@@ -65,23 +62,3 @@
   color: #000;
   background-color: #eee;
 }
-
-
-/* #sideNav h1, #sideNav h1 a, #sideNav h2, #sideNav h2 a, #sideNav h3, #sideNav h3 a, #sideNav p.navsection, #sideNav p.navsection a {
-  color: #383838;
-  font-size: 20px;
-  font-weight: normal;
-}
-
-#sideNav h1, #sideNav h2, #sideNav h3, #sideNav p.navsection {
-  margin: 0px;
-  padding: 16px;
-  letter-spacing: -0.035em;
-  line-height: normal;
-} */
-
-
-
-/* #sideNav .sideToggle {
-  display: none;
-} */

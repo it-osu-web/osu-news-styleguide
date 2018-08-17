@@ -1,11 +1,11 @@
 table.table {
-  width:100%;
-	border:1px solid #bbb;
-	border-width:1px;
-	border-collapse:separate;
-	border-spacing:0;
-	margin-bottom: 1.5em;
-	background-color:#FFFFFF;
+  width: 100%;
+  border: 1px solid #bbb;
+  border-width: 1px;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin-bottom: 1.5em;
+  background-color: #FFFFFF;
 }
 
 .table th, .table td {
@@ -20,99 +20,113 @@ table.table {
   margin: 1em 0;
 }
 
+table {
+  max-width: 100%;
+  border-spacing: 0;
+}
 
+td {
+  vertical-align: top;
+}
 
-table{
- max-width:100%;
- border-spacing:0;
+.grid {
+  width: 100%;
+  border: 1px solid #555555;
+  border-width: 1px 1px 5px 1px;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin-bottom: 20px;
+  background-color: #FFFFFF;
 }
-td{
- vertical-align:top;
+
+.grid caption {
+  text-align: left;
 }
-.grid{
- width:100%;
- border:1px solid #555555;
- border-width:1px 1px 5px 1px;
- border-collapse:separate;
- border-spacing:0;
- margin-bottom:20px;
- background-color:#FFFFFF;
+
+.grid th, .grid td.header {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  border-width: 0px 1px 1px 0px;
+  text-align: left;
+  padding: 4px 7px;
+  background-color: #555555;
+  position: relative;
 }
-.grid caption{
- text-align:left;
+
+.grid th * {}
+
+.grid th.sorting_asc, .grid th.sorting_desc {
+  background-color: #606060;
 }
-.grid th, .grid td.header{
- font-weight:bold;
- font-size:16px;
- line-height:1.4;
- color:#FFFFFF;
- border:1px solid #CCCCCC;
- border-width:0px 1px 1px 0px;
- text-align:left;
- padding:4px 7px;
- background-color:#555555;
- position:relative;
+
+.grid tr td:last-child, .grid tr th:last-child {
+  border-right: none;
 }
-.grid th *{
+
+.grid tr {
+  border: 1px solid #CCCCCC;
+  border-width: 0px 1px 1px 1px;
 }
-.grid th.sorting_asc, .grid th.sorting_desc{
- background-color:#606060;
-}
-.grid tr td:last-child, .grid tr th:last-child{
- border-right:none;
-}
-.grid tr{
- border:1px solid #CCCCCC;
- border-width:0px 1px 1px 1px;
-}
+
 .grid th[scope*="colgroup"] {
- background-color: #CCC !important;
- color: #000 !important;
- font-weight: normal;
- border-color:#CCC !important;
-}
-td.prop{
- width:23%;
- min-width:50px;
+  background-color: #CCC !important;
+  color: #000 !important;
+  font-weight: normal;
+  border-color: #CCC !important;
 }
 
-
-.prop img{
- width:auto;
-}
-table.stripe tr:nth-child(2n+1){
-}
-table.stripe tr:nth-child(even){
- background-color:#F6F6F6;
-}
-tr.even{
- background-color:#F6F6F6;
-}
-.grid td{
- border:1px solid #CCCCCC;
- border-width:0px 1px 1px 0px;
- padding:6px 6px;
- font-size:13px;
-}
-.grid td, .grid li, .grid p{
- font-size:13px;
- line-height:1.4;
-}
-.grid caption p{
- font-size:15px;
- line-height:1.4;
-}
-table.hide-caption caption{
- display:none;
-}
-.grid tfoot tr:first-child td{
- border:16px solid #ddd;
- border-width: 16px 0 0 0;
+td.prop {
+  width: 23%;
+  min-width: 50px;
 }
 
-table p, table li{
- color:#2D2D2D !important;
+.prop img {
+  width: auto;
 }
-table a{
- color:#0053c0 !important;
+
+table.stripe tr:nth-child(2n+1) {}
+
+table.stripe tr:nth-child(even) {
+  background-color: #F6F6F6;
+}
+
+tr.even {
+  background-color: #F6F6F6;
+}
+
+.grid td {
+  border: 1px solid #CCCCCC;
+  border-width: 0px 1px 1px 0px;
+  padding: 6px 6px;
+  font-size: 13px;
+}
+
+.grid td, .grid li, .grid p {
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.grid caption p {
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+table.hide-caption caption {
+  display: none;
+}
+
+.grid tfoot tr:first-child td {
+  border: 16px solid #ddd;
+  border-width: 16px 0 0 0;
+}
+
+table p, table li {
+  color: #2D2D2D !important;
+}
+
+table a {
+  color: #0053c0 !important;
 }
