@@ -1,132 +1,37 @@
 table.table {
+  border-collapse: collapse;
   width: 100%;
-  border: 1px solid #bbb;
-  border-width: 1px;
-  border-collapse: separate;
-  border-spacing: 0;
-  margin-bottom: 1.5em;
   background-color: #FFFFFF;
+  margin-bottom: 1.5em;
+  font-size: 0.875rem;
 }
 
 .table th, .table td {
   text-align: left;
-  padding: 0.75em;
+  padding: 0.675em;
+}
+
+.table th {
+  background: #b00;
+  color: white;
+  border-bottom: 1px solid #b00;
+}
+
+.table td {
+  border: 1px solid #ddd;
 }
 
 .table caption {
   text-align: left;
   font-size: 1.2em;
   font-weight: 600;
-  margin: 1em 0;
+  margin: 1em 0 0.75em;
 }
 
-table {
-  max-width: 100%;
-  border-spacing: 0;
-}
-
-td {
-  vertical-align: top;
-}
-
-.grid {
-  width: 100%;
-  border: 1px solid #555555;
-  border-width: 1px 1px 5px 1px;
-  border-collapse: separate;
-  border-spacing: 0;
-  margin-bottom: 20px;
-  background-color: #FFFFFF;
-}
-
-.grid caption {
-  text-align: left;
-}
-
-.grid th, .grid td.header {
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1.4;
-  color: #FFFFFF;
-  border: 1px solid #CCCCCC;
-  border-width: 0px 1px 1px 0px;
-  text-align: left;
-  padding: 4px 7px;
-  background-color: #555555;
-  position: relative;
-}
-
-.grid th * {}
-
-.grid th.sorting_asc, .grid th.sorting_desc {
-  background-color: #606060;
-}
-
-.grid tr td:last-child, .grid tr th:last-child {
-  border-right: none;
-}
-
-.grid tr {
-  border: 1px solid #CCCCCC;
-  border-width: 0px 1px 1px 1px;
-}
-
-.grid th[scope*="colgroup"] {
-  background-color: #CCC !important;
-  color: #000 !important;
+.table caption code {
   font-weight: normal;
-  border-color: #CCC !important;
 }
 
-td.prop {
-  width: 23%;
-  min-width: 50px;
-}
-
-.prop img {
-  width: auto;
-}
-
-table.stripe tr:nth-child(2n+1) {}
-
-table.stripe tr:nth-child(even) {
-  background-color: #F6F6F6;
-}
-
-tr.even {
-  background-color: #F6F6F6;
-}
-
-.grid td {
-  border: 1px solid #CCCCCC;
-  border-width: 0px 1px 1px 0px;
-  padding: 6px 6px;
-  font-size: 13px;
-}
-
-.grid td, .grid li, .grid p {
-  font-size: 13px;
-  line-height: 1.4;
-}
-
-.grid caption p {
-  font-size: 15px;
-  line-height: 1.4;
-}
-
-table.hide-caption caption {
-  display: none;
-}
-
-.grid tfoot tr:first-child td {
-  border: 16px solid #ddd;
-  border-width: 16px 0 0 0;
-}
-
-table p, table li {
-  color: #2D2D2D !important;
-}
-
-table a {
-  color: #0053c0 !important;
+.table--zebra tr.even {
+  background: #eee;
 }
