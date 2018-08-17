@@ -10,6 +10,7 @@
 #container {
   position: relative;
   float: left;
+  padding-bottom: 3em;
 }
 
 #side {
@@ -42,9 +43,44 @@
     float: none;
     width: 100%;
   }
+  #side {
+    position: relative;
+    padding-right: 0;
+    margin-bottom: 3em;
+  }
+  .l-constrained {
+    padding: 0 6%;
+  }
+}
+
+/* floats and clears */
+
+.clearfix:after {
+  content: " ";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+@media only screen and (max-width: 760px) {
+  .left, .right {
+    float: none;
+    clear: both;
+    width: 100%;
+  }
 }
 
 /* grid */
+
 .five-sixths, .four-fifths, .four-sixths, .one-fifth, .one-fourth, .one-half, .one-sixth, .one-third, .three-fifths, .three-fourths, .three-sixths, .two-fifths, .two-fourths, .two-sixths, .two-thirds, .one-eighth {
   float: left;
   margin: 0 0 1px 2.75%;
@@ -69,4 +105,11 @@
 .first {
   float: left;
   margin-left: 0;
+}
+
+@media only screen and (max-width: 760px) {
+  .five-sixths, .four-fifths, .four-sixths, .one-fifth, .one-fourth, .one-half, .one-sixth, .one-third, .three-fifths, .three-fourths, .three-sixths, .two-fifths, .two-fourths, .two-sixths, .two-thirds, .one-eighth {
+    width: 100%;
+    margin-left: 0;
+  }
 }
