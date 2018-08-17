@@ -10,6 +10,11 @@
   padding: 0.5em;
 }
 
+.location {
+  padding-top: 1em;
+  display: block;
+}
+
 /* headers */
 h2.category__header {
   font-family: 'proximanova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
