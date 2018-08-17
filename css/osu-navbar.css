@@ -1,16 +1,3 @@
-/* CSS reset - comment out if already using a reset  */
-
-/* html, body, div, span, p, a, img, ul, li {
-  margin: 0;
-  padding: 0;
-  border: 0;
-} */
-
-#osu_navbar .container {
-  width: 960px;
-  margin: 0 auto;
-}
-
 /* OSU Navbar styles */
 
 .osu-semantic {
@@ -93,7 +80,6 @@ a#skip:active:hover, a#skip:focus:hover {
   display: block;
   text-indent: -9999px;
   background: url(../img/osu-navbar-images/osu_name.png) 0 0 no-repeat;
-  margin-left: 20px;
 }
 
 /* Links */
@@ -112,6 +98,10 @@ a#skip:active:hover, a#skip:focus:hover {
   margin-right: 1em;
 }
 
+#osu_navbar div.links ul li:last-child {
+  margin-right: 0;
+}
+
 #osu_navbar div.links ul li a {
   color: #333;
   text-decoration: none;
@@ -121,21 +111,15 @@ a#skip:active:hover, a#skip:focus:hover {
   text-decoration: underline;
 }
 
-/* Responsive
-   --------------------------
-   Must include: <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> in the <head> of the html file
-*/
-
 /* Switch Navbar container from fixed 960px centered to full-width */
 
 @media only screen and (max-width: 990px) {
-  #osu_navbar .container {
+  #osu_navbar .l-constrained {
     width: 100%;
     margin: 0 10px;
     min-width: 300px;
   }
-  /* Make container full width */
-  #osu_navbar div.container .univ_name a {
+  #osu_navbar div.l-constrained.univ_name a {
     margin-left: 0;
   }
   #osu_navbar div.links ul {
