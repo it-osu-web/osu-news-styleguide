@@ -15,7 +15,7 @@
 #side {
   width: 22%;
   float: left;
-  padding-right: 4em;
+  padding-right: 4.5em;
   box-sizing: border-box;
   position: -webkit-sticky;
   position: -moz-sticky;
@@ -30,6 +30,7 @@
   background: #fff;
   width: 78%;
   float: right;
+  padding-top: 1em;
 }
 
 #footer {
