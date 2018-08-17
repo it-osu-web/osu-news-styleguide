@@ -65,3 +65,9 @@ h3.category__header {
 .sg-info {
   padding: 0.3em;
 }
+
+/* exceptions and overrides */
+
+.category--links-buttons .sample h2 {
+  margin-top: 1em;
+}
