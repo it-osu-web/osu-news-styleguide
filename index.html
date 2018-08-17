@@ -15,87 +15,16 @@
 
 	<!-- OSU Webfonts -->
 	<link rel="stylesheet" href="http://www.osu.edu/assets/fonts/webfonts.css">
+</head>
 
-
-
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
-	<script src="https://code.jquery.com/jquery-migrate-3.0.1.js"></script>
-	<script defer="defer" src="https://global.southtexascollege.edu/js/global.js" type="text/javascript"></script>
-
-	<link href="https://global.southtexascollege.edu/js/fancybox/jquery.fancybox.css" rel="stylesheet" type="text/css" />
-	<script defer="defer" src="https://global.southtexascollege.edu/js/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
-	<link href="https://global.southtexascollege.edu/js/prism/prism-twilight.css" rel="stylesheet" type="text/css" />
-	<script defer="defer" src="https://global.southtexascollege.edu/js/prism/prism.js" type="text/javascript"></script>
-	<script language="javascript" type="text/javascript">
-		// <![CDATA[
-		$(document).ready(function() {
-
-			$(".fancybox").fancybox();
-
-
-			//Set your tab size here, and in the CSS.
-			var tabSize = 4;
-			var codeElements = document.getElementsByTagName('code'),
-				preElements = document.getElementsByTagName('pre'),
-				textareas = document.getElementsByTagName('textarea'),
-				e = document.createElement('i');
-			if (e.style.tabSize !== '' && e.style.MozTabSize !== '' && e.style.oTabSize !== '') {
-				//      console.log(e.style);
-				//      replaceTabs(codeElements);
-				replaceTabs(preElements);
-				//      replaceTabs(textareas);
-			}
-
-			function replaceTabs(ele) {
-				for (var i = 0; i < ele.length; i++) {
-					ele[i].innerHTML = ele[i].innerHTML.replace(/\t/g, repeat(" ", tabSize));
-				}
-			}
-
-			function repeat(st, n) {
-				var s = "";
-				while (--n >= 0) {
-					s += st;
-				}
-				return s;
-			}
-
-
-		});
-
-
-		<
-		/head>
-
-		<
-		body class = " " >
-			<
-			script type = "text/javascript" >
-			// <![CDATA[
-			var versaTag = {};
-		versaTag.id = "6811";
-		versaTag.sync = 0;
-		versaTag.dispType = "js";
-		versaTag.ptcl = "HTTPS";
-		versaTag.bsUrl = "bs.serving-sys.com/BurstingPipe";
-		versaTag.activityParams = {
-			"Session": ""
-		};
-		versaTag.retargetParams = {};
-		versaTag.dynamicRetargetParams = {};
-		versaTag.conditionalParams = {};
-		// ]]>
-	</script>
-	<script id="ebOneTagUrlId" src="https://secure-ds.serving-sys.com/SemiCachedScripts/ebOneTag.js" type="text/javascript"></script>
-	<noscript><iframe src="https://bs.serving-sys.com/BurstingPipe?cn=ot&amp;onetagid=6811&amp;ns=1&amp;activityValues=$$Session=%5BSession%5D$$&amp;retargetingValues=$$$$&amp;dynamicRetargetingValues=$$$$&amp;acp=$$$$&amp;" style="display:none;width:0px;height:0px" title="marketing analytics"></iframe></noscript>
-
+<body>
 
 	<div id="wrap">
 
 		<div role="navigation" id="osu_navbar" aria-labelledby="osu_navbar_heading">
 			<h2 id="osu_navbar_heading" class="osu-semantic">Ohio State nav bar</h2>
 			<a href="#main-content" id="skip" class="osu-semantic">Skip to main content</a>
-			<div class="container">
+			<div class="l-constrained">
 				<div class="univ_info">
 					<p class="univ_name"><a href="http://osu.edu" title="The Ohio State University">The Ohio State University</a></p>
 				</div>
@@ -111,288 +40,290 @@
 							<li><a href="http://www.osu.edu/search/" class="search">Search Ohio State</a></li>
 						</ul>
 					</div>
-					<!-- /links -->
+					<!-- /.links -->
 				</div>
-				<!-- /univ_links -->
+				<!-- /.univ_links -->
 			</div>
-			<!-- /container -->
+			<!-- /.l-constrained -->
 		</div>
-		<!-- /osu_navbar -->
+		<!-- /#osu_navbar -->
 
 
-		<div id="container">
-			<div id="main">
-				<div id="side">
-					<div class="masthead">
-						<div class="masthead__logo">
-							<img src="img/logo-masthead.svg">
-						</div>
-						<div class="masthead__text">
-							<h1>
+		<div id="container" class="l-constrained">
+
+			<div id="side">
+				<div class="masthead">
+					<div class="masthead__logo">
+						<img src="img/logo-masthead.svg">
+					</div>
+					<div class="masthead__text">
+						<h1>
 								<span class="masthead__text--ohio-state-news visually-hidden">Ohio State News</span>
 								<span class="masthead__text--style-guide">Web Style Guide</span>
 							</h1>
-						</div>
 					</div>
-					<div id="sideNav">
-						<ul>
-							<li><a href="#colors">Colors</a></li>
-							<li><a href="#logo">Logo and Wordmarks</a></li>
-							<li><a href="#typography">Typography</a></li>
-							<li><a href="#links_and_buttons">Links &amp; Buttons</a></li>
-							<li><a href="#tables">Tables</a></li>
-							<li><a href="#images">Images</a></li>
-							<li><a href="#pages">Sample Pages</a></li>
+				</div>
+				<div id="sideNav">
+					<ul>
+						<li><a href="#colors">Colors</a></li>
+						<li><a href="#logo">Logo and Wordmarks</a></li>
+						<li><a href="#typography">Typography</a></li>
+						<li><a href="#links_and_buttons">Links &amp; Buttons</a></li>
+						<li><a href="#tables">Tables</a></li>
+						<li><a href="#media">Media</a></li>
+						<li><a href="#pages">Sample Pages</a></li>
+					</ul>
+				</div>
+			</div>
+			<!-- /#side -->
+
+
+
+			<div id="main-content">
+
+				<div class="category category--colors">
+					<a id="colors"></a>
+					<h2 class="category__header">Colors</h2>
+					<div class="sg-pattern-example">
+						<h3 class="category__header">Primary</h3>
+						<ul class="sg-colors">
+							<li>
+								<div class="sg-colors__sample" style="background: #b00;"></div>
+								<div class="sg-info">
+									<code>#b00</code> <br/>
+									<code>$red</code>
+								</div>
+							</li>
+							<li>
+								<div class="sg-colors__sample" style="background: #666;"></div>
+								<div class="sg-info">
+									<code>#666</code> <br/>
+									<code>$gray</code>
+								</div>
+							</li>
+							<li>
+								<div class="sg-colors__sample" style="background: #000;"></div>
+								<div class="sg-info">
+									<code>#000</code> <br/>
+									<code>$black</code>
+								</div>
+							</li>
+							<li>
+								<div class="sg-colors__sample" style="background: #fff; border: 1px solid #ddd;"></div>
+								<div class="sg-info">
+									<code>#fff</code> <br/>
+									<code>$white</code>
+								</div>
+							</li>
+						</ul>
+						<h3 class="category__header">Neutrals</h3>
+						<ul class="sg-colors">
+							<li>
+								<div class="sg-colors__sample" style="background: #f2f2f2;"></div>
+								<div class="sg-info">
+									<code>#f2f2f2</code> <br/>
+									<code>$near-white</code>
+								</div>
+							</li>
+							<li>
+								<div class="sg-colors__sample" style="background: #bbb;"></div>
+								<div class="sg-info">
+									<code>#bbb</code> <br/>
+									<code>$gray-light</code>
+								</div>
+							</li>
+							<li>
+								<div class="sg-colors__sample" style="background: #3f3f3f;"></div>
+								<div class="sg-info">
+									<code>#404040</code> <br/>
+									<code>$gray-dark</code>
+								</div>
+							</li>
+							<li>
+								<div class="sg-colors__sample" style="background: #282828;"></div>
+								<div class="sg-info">
+									<code>#282828</code> <br/>
+									<code>$near-black</code>
+								</div>
+							</li>
+						</ul>
+						<h3 class="category__header">Accents</h3>
+						<ul class="sg-colors">
+
+							<li>
+								<div class="sg-colors__sample" style="background: #909738;"></div>
+								<div class="sg-info">
+									<code>#909738</code> <br/>
+									<code>$green</code>
+								</div>
+							</li>
+							<li>
+								<div class="sg-colors__sample" style="background: #92b0d7;"></div>
+								<div class="sg-info">
+									<code>#92b0d7</code> <br/>
+									<code>$blue</code>
+								</div>
+							</li>
+							<li>
+								<div class="sg-colors__sample" style="background: #dcaa38;"></div>
+								<div class="sg-info">
+									<code>#dcaa38</code> <br/>
+									<code>$gold</code>
+								</div>
+							</li>
+							<li>
+								<div class="sg-colors__sample" style="background: #453831;"></div>
+								<div class="sg-info">
+									<code>#453831</code> <br/>
+									<code>$brown</code>
+								</div>
+							</li>
+							<li>
+								<div class="sg-colors__sample" style="background: #d65828;"></div>
+								<div class="sg-info">
+									<code>#d65828</code> <br/>
+									<code>$orange</code>
+								</div>
+							</li>
+							<li>
+								<div class="sg-colors__sample" style="background: #5d1542;"></div>
+								<div class="sg-info">
+									<code>#5d1542</code> <br/>
+									<code>$violet</code>
+								</div>
+							</li>
+
 						</ul>
 					</div>
 				</div>
 
 
-				<div id="bodyContent">
-					<div id="main-content">
-
-						<div class="category category--colors">
-							<a id="colors"></a>
-							<h2 class="category__header">Colors</h2>
-							<div class="sg-pattern-example">
-								<h3 class="category__header">Primary</h3>
-								<ul class="sg-colors">
-									<li>
-										<div class="sg-colors__sample" style="background: #b00;"></div>
-										<div class="sg-info">
-											<code>#b00</code> <br/>
-											<code>$red</code>
-										</div>
-									</li>
-									<li>
-										<div class="sg-colors__sample" style="background: #666;"></div>
-										<div class="sg-info">
-											<code>#666</code> <br/>
-											<code>$gray</code>
-										</div>
-									</li>
-									<li>
-										<div class="sg-colors__sample" style="background: #000;"></div>
-										<div class="sg-info">
-											<code>#000</code> <br/>
-											<code>$black</code>
-										</div>
-									</li>
-									<li>
-										<div class="sg-colors__sample" style="background: #fff; border: 1px solid #ddd;"></div>
-										<div class="sg-info">
-											<code>#fff</code> <br/>
-											<code>$white</code>
-										</div>
-									</li>
-								</ul>
-								<h3 class="category__header">Neutrals</h3>
-								<ul class="sg-colors">
-									<li>
-										<div class="sg-colors__sample" style="background: #f2f2f2;"></div>
-										<div class="sg-info">
-											<code>#f2f2f2</code> <br/>
-											<code>$near-white</code>
-										</div>
-									</li>
-									<li>
-										<div class="sg-colors__sample" style="background: #bbb;"></div>
-										<div class="sg-info">
-											<code>#bbb</code> <br/>
-											<code>$gray-light</code>
-										</div>
-									</li>
-									<li>
-										<div class="sg-colors__sample" style="background: #3f3f3f;"></div>
-										<div class="sg-info">
-											<code>#404040</code> <br/>
-											<code>$gray-dark</code>
-										</div>
-									</li>
-									<li>
-										<div class="sg-colors__sample" style="background: #282828;"></div>
-										<div class="sg-info">
-											<code>#282828</code> <br/>
-											<code>$near-black</code>
-										</div>
-									</li>
-								</ul>
-								<h3 class="category__header">Accents</h3>
-								<ul class="sg-colors">
-
-									<li>
-										<div class="sg-colors__sample" style="background: #909738;"></div>
-										<div class="sg-info">
-											<code>#909738</code> <br/>
-											<code>$green</code>
-										</div>
-									</li>
-									<li>
-										<div class="sg-colors__sample" style="background: #92b0d7;"></div>
-										<div class="sg-info">
-											<code>#92b0d7</code> <br/>
-											<code>$blue</code>
-										</div>
-									</li>
-									<li>
-										<div class="sg-colors__sample" style="background: #dcaa38;"></div>
-										<div class="sg-info">
-											<code>#dcaa38</code> <br/>
-											<code>$gold</code>
-										</div>
-									</li>
-									<li>
-										<div class="sg-colors__sample" style="background: #453831;"></div>
-										<div class="sg-info">
-											<code>#453831</code> <br/>
-											<code>$brown</code>
-										</div>
-									</li>
-									<li>
-										<div class="sg-colors__sample" style="background: #d65828;"></div>
-										<div class="sg-info">
-											<code>#d65828</code> <br/>
-											<code>$orange</code>
-										</div>
-									</li>
-									<li>
-										<div class="sg-colors__sample" style="background: #5d1542;"></div>
-										<div class="sg-info">
-											<code>#5d1542</code> <br/>
-											<code>$violet</code>
-										</div>
-									</li>
-
-								</ul>
-							</div>
-						</div>
+				<div class="category category--logo">
+					<a id="logo"></a>
+					<h2 class="category__header">Logo and Wordmarks</h2>
+				</div>
 
 
-						<div class="category category--logo">
-							<a id="logo"></a>
-							<h2 class="category__header">Logo and Wordmarks</h2>
-						</div>
-
-
-						<div class="category category--typography">
-							<a id="typography"></a>
-							<h2 class="category__header">Typography</h2>
-							<div class="sample">
-								<h1>Heading 1</h1>
-								<h2>Heading 2</h2>
-								<h3>Heading 3</h3>
-								<h4>Heading 4</h4>
-								<h5>Heading 5</h5>
-								<h6>Heading 6</h6>
-							</div>
-							<div class="sample">
-								<p>Paragraph Text: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident.</p>
-								<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-									non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-							</div>
-							<div class="sample">
-								<pre>P R E F O R M A T T E D T E X T ! " # $ % & ' ( ) * + , - . / 0 1 2 3 4 5 6 7 8 9 : ; < = > ? @ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z [ \ ] ^ _ ` a b c d e f g h i j k l m n o p q r s t u v w x y z { | } ~ </pre>
-							</div>
-						</div>
-
-
-						<div class="category category--links-buttons">
-							<a id="links_and_buttons"></a>
-							<h2 class="category__header">Links &amp; Buttons</h2>
-							<div class="sample">
-								<p> This is a <a href="#">text link</a> within a paragraph, a list, or other block of text. </p>
-								<h2><a href="#"> This is a header that is also a link </a></h2>
-							</div>
-							<div class="one-third first">
-								<div class="sample">
-									<p><button class="button">Button</button></p>
-									<code>button.button</code>
-								</div>
-								<div class="sample">
-									<p><a class="button">Button Link</a></p>
-									<code>a.button</code>
-								</div>
-							</div>
-							<div class="one-third">
-								<div class="sample">
-									<p><button class="button button--gray">Button</button></p>
-									<code>button.button--gray</code>
-								</div>
-								<div class="sample">
-									<p><a class="button button--gray">Button Link</a></p>
-									<code>a.button--gray</code>
-								</div>
-							</div>
-						</div>
-						<div class="clear"></div>
-
-						<div class="category category--tables">
-							<a id="tables"></a>
-							<h2 class="category__header">Tables</h2>
-							<p>Tables should be used for data — not for arranging the layout of a page.</p>
-							<table class="table">
-								<caption>This is a table caption. Always include a caption to label the table, similar to the alt-text of an image.</caption>
-								<tbody>
-									<tr>
-										<th>Table Heading</th>
-										<th>Table Heading</th>
-										<th>Table Heading</th>
-									</tr>
-									<tr>
-										<td>Table Data</td>
-										<td>Table Data</td>
-										<td>Table Data</td>
-									</tr>
-									<tr>
-										<td>Table Data</td>
-										<td>Table Data</td>
-										<td>Table Data</td>
-									</tr>
-									<tr>
-										<td>Table Data</td>
-										<td>Table Data</td>
-										<td>Table Data</td>
-									</tr>
-									<tr>
-										<td>Table Data</td>
-										<td>Table Data</td>
-										<td>Table Data</td>
-									</tr>
-									<tr>
-										<td>Table Data</td>
-										<td>Table Data</td>
-										<td>Table Data</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-
-						<div class="category category--images">
-							<a id="images"></a>
-							<h2 class="category__header">Images</h2>
-						</div>
-
-
-						<div class="category category--sample">
-							<a id="sample"></a>
-							<h2 class="category__header">Sample Category Block</h2>
-						</div>
-
+				<div class="category category--typography">
+					<a id="typography"></a>
+					<h2 class="category__header">Typography</h2>
+					<div class="sample">
+						<h1>Heading 1</h1>
+						<h2>Heading 2</h2>
+						<h3>Heading 3</h3>
+						<h4>Heading 4</h4>
+						<h5>Heading 5</h5>
+						<h6>Heading 6</h6>
+					</div>
+					<div class="sample">
+						<p>Paragraph Text: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident.</p>
+						<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+							non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+					<div class="sample">
+						<pre>P R E F O R M A T T E D T E X T ! " # $ % & ' ( ) * + , - . / 0 1 2 3 4 5 6 7 8 9 : ; < = > ? @ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z [ \ ] ^ _ ` a b c d e f g h i j k l m n o p q r s t u v w x y z { | } ~ </pre>
 					</div>
 				</div>
-			</div>
-		</div>
-	</div>
 
-	<div class="footer" id="footer">
-		/* OSU footer goes here */
-	</div>
+
+				<div class="category category--links-buttons">
+					<a id="links_and_buttons"></a>
+					<h2 class="category__header">Links &amp; Buttons</h2>
+					<div class="sample">
+						<p> This is a <a href="#">text link</a> within a paragraph, a list, or other block of text. </p>
+						<h2><a href="#"> This is a header that is also a link </a></h2>
+					</div>
+					<div class="one-third first">
+						<div class="sample">
+							<p><button class="button">Button</button></p>
+							<code>button.button</code>
+						</div>
+						<div class="sample">
+							<p><a class="button">Button Link</a></p>
+							<code>a.button</code>
+						</div>
+					</div>
+					<div class="one-third">
+						<div class="sample">
+							<p><button class="button button--gray">Button</button></p>
+							<code>button.button--gray</code>
+						</div>
+						<div class="sample">
+							<p><a class="button button--gray">Button Link</a></p>
+							<code>a.button--gray</code>
+						</div>
+					</div>
+				</div>
+				<div class="clear"></div>
+
+				<div class="category category--tables">
+					<a id="tables"></a>
+					<h2 class="category__header">Tables</h2>
+					<p>Tables should be used for data — not for arranging the layout of a page.</p>
+					<table class="table">
+						<caption>This is a table caption. Always include a caption to label the table, similar to the alt-text of an image.</caption>
+						<tbody>
+							<tr>
+								<th>Table Heading</th>
+								<th>Table Heading</th>
+								<th>Table Heading</th>
+							</tr>
+							<tr>
+								<td>Table Data</td>
+								<td>Table Data</td>
+								<td>Table Data</td>
+							</tr>
+							<tr>
+								<td>Table Data</td>
+								<td>Table Data</td>
+								<td>Table Data</td>
+							</tr>
+							<tr>
+								<td>Table Data</td>
+								<td>Table Data</td>
+								<td>Table Data</td>
+							</tr>
+							<tr>
+								<td>Table Data</td>
+								<td>Table Data</td>
+								<td>Table Data</td>
+							</tr>
+							<tr>
+								<td>Table Data</td>
+								<td>Table Data</td>
+								<td>Table Data</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+
+				<div class="category category--media">
+					<a id="media"></a>
+					<h2 class="category__header">Media</h2>
+				</div>
+
+
+				<div class="category category--sample">
+					<a id="sample"></a>
+					<h2 class="category__header">Sample Category Block</h2>
+				</div>
+
+
+			</div>
+			<!-- /#main-content -->
+
+		</div>
+		<!-- /#container -->
+
+		<div id="footer" class="footer">
+			/* OSU footer goes here */
+		</div>
 
 
 
 	</div>
 	<!-- /wrap -->
 
-	</body>
+</body>
 
 </html>

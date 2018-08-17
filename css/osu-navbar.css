@@ -97,10 +97,10 @@ a#skip:active:hover, a#skip:focus:hover {
   float: left;
   margin-right: 1em;
 }
-
+/*
 #osu_navbar div.links ul li:last-child {
   margin-right: 0;
-}
+} */
 
 #osu_navbar div.links ul li a {
   color: #333;
@@ -111,25 +111,9 @@ a#skip:active:hover, a#skip:focus:hover {
   text-decoration: underline;
 }
 
-/* Switch Navbar container from fixed 960px centered to full-width */
+/* Replace text links with icons at 760px */
 
-@media only screen and (max-width: 990px) {
-  #osu_navbar .l-constrained {
-    width: 100%;
-    margin: 0 10px;
-    min-width: 300px;
-  }
-  #osu_navbar div.l-constrained.univ_name a {
-    margin-left: 0;
-  }
-  #osu_navbar div.links ul {
-    margin-right: 10px;
-  }
-}
-
-/* Replace text links with icons at 600px */
-
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 760px) {
   #osu_navbar div.links ul {
     margin-top: -2px;
     margin-right: 10px;
@@ -175,7 +159,7 @@ a#skip:active:hover, a#skip:focus:hover {
 
 /* Retina icons */
 
-@media only screen and (max-width: 700px) and (-webkit-min-device-pixel-ratio: 2), only screen and (max-width: 700px) and (min--moz-device-pixel-ratio: 2), only screen and (max-width: 700px) and (-o-min-device-pixel-ratio: 2/1), only screen and (max-width: 700px) and (min-device-pixel-ratio: 2) {
+@media only screen and (max-width: 760px) and (-webkit-min-device-pixel-ratio: 2), only screen and (max-width: 700px) and (min--moz-device-pixel-ratio: 2), only screen and (max-width: 700px) and (-o-min-device-pixel-ratio: 2/1), only screen and (max-width: 700px) and (min-device-pixel-ratio: 2) {
   #osu_navbar .univ_name a {
     background-image: url(../img/osu-navbar-images/osu_name@2x.png) !important;
     background-size: contain;

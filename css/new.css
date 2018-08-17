@@ -1,18 +1,3 @@
-/* sidebar */
-
-#side {
-  width: 22%;
-  float: left;
-  overflow: hidden;
-  box-sizing: border-box;
-  padding-right: 3em;
-  position: -webkit-sticky;
-  position: -moz-sticky;
-  position: -ms-sticky;
-  position: -o-sticky;
-  position: sticky;
-  top: 0px;
-}
 
 
 

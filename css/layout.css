@@ -1,4 +1,72 @@
+#wrap {
+  padding: 0;
+}
 
-#bodyContent {
-  padding-top: 1.5em;
+.l-constrained {
+  margin: 0 auto;
+  padding: 0 4%;
+}
+
+#container {
+  position: relative;
+  float: left;
+}
+
+#side {
+  width: 22%;
+  float: left;
+  padding-right: 4em;
+  box-sizing: border-box;
+  position: -webkit-sticky;
+  position: -moz-sticky;
+  position: -ms-sticky;
+  position: -o-sticky;
+  position: sticky;
+  top: 0px;
+  overflow-x: hidden;
+}
+
+#main-content {
+  background: #fff;
+  width: 78%;
+  float: right;
+}
+
+#footer {
+  width: 100%;
+  clear: both;
+}
+
+@media only screen and (max-width: 760px) {
+  #side, #main-content {
+    float: none;
+    width: 100%;
+  }
+}
+
+/* grid */
+.five-sixths, .four-fifths, .four-sixths, .one-fifth, .one-fourth, .one-half, .one-sixth, .one-third, .three-fifths, .three-fourths, .three-sixths, .two-fifths, .two-fourths, .two-sixths, .two-thirds, .one-eighth {
+  float: left;
+  margin: 0 0 1px 2.75%;
+}
+
+.one-half, .three-sixths, .two-fourths {
+  width: 48.625%;
+}
+
+.one-third, .two-sixths {
+  width: 31.5%;
+}
+
+.four-sixths, .two-thirds {
+  width: 65.75%;
+}
+
+.one-eighth {
+  width: 10.094%;
+}
+
+.first {
+  float: left;
+  margin-left: 0;
 }

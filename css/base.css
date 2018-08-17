@@ -1,12 +1,24 @@
+html, body {
+  min-height: 100%;
+  position: relative;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #fff;
+  color: #282828;
+  cursor: default;
+}
+
 html {
   //setting base font-size to use rems elsewhere
   font-size: 16px;
   font-family: 'proximanova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-*{
-	margin:0;
-	padding:0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 .visually-hidden {
