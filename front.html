@@ -7,23 +7,28 @@
 	<meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
 	<title>
-		Web Style Guide | Ohio State News
+		Home | Ohio State News
 	</title>
 
 	<!-- CSS -->
 	<link href="./css/main.css" rel="stylesheet" type="text/css" />
 
 	<!-- OSU Webfonts -->
-	<link rel="stylesheet" href="http://www.osu.edu/assets/fonts/webfonts.css">
+	<link rel="stylesheet" href="./fonts/webfonts.css">
+	<!-- using locally hosted fonts; uncomment the line below to use osu hosted fonts -->
+	<!-- <link rel="stylesheet" href="http://www.osu.edu/assets/fonts/webfonts.css"> -->
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
 </head>
 
 <body>
 
-	<div id="wrap">
-
-		<div role="navigation" id="osu_navbar" aria-labelledby="osu_navbar_heading">
-			<h2 id="osu_navbar_heading" class="osu-semantic">Ohio State nav bar</h2>
-			<a href="#main-content" id="skip" class="osu-semantic">Skip to main content</a>
+	<div role="navigation" id="osu_navbar" aria-labelledby="osu_navbar_heading">
+		<h2 id="osu_navbar_heading" class="osu-semantic">Ohio State nav bar</h2>
+		<a href="#main-content" id="skip" class="osu-semantic">Skip to main content</a>
+		<div class="wrapper">
 			<div class="l-constrained">
 				<div class="univ_info">
 					<p class="univ_name"><a href="http://osu.edu" title="The Ohio State University">The Ohio State University</a></p>
@@ -46,28 +51,349 @@
 			</div>
 			<!-- /.l-constrained -->
 		</div>
-		<!-- /#osu_navbar -->
+		<!-- /.wrapper -->
+	</div>
+	<!-- /#osu_navbar -->
 
 
+	<div class="wrapper">
 		<div id="container" class="l-constrained">
-
 			<div id="side">
-				#side
-			</div>
+				<div class="masthead">
+					<div class="masthead__logo">
+						<img src="img/logo-masthead.svg">
+					</div>
+					<div class="masthead__text">
+						<h1>
+								<span class="masthead__text--ohio-state-news visually-hidden">Ohio State News</span>
+							</h1>
+					</div>
+				</div>
+				<div id="sideNav">
+					<ul>
+						<li><a href="#">Campus</a></li>
+						<li><a href="#">Science & Medicine</a></li>
+						<li><a href="#">Arts & Humanities</a></li>
+						<li><a href="#">The Conversation</a></li>
+						<li><a href="#">Sports</a></li>
+					</ul>
+					<div id="site_search">
+						<form>
+							<label class="search-label visually-hidden" for="search">Search News</label>
+							<input id="search" class="input input--search" type="text" placeholder="Search News">
+							<button class="button--search" value="Search"><i class="fas fa-search"></i></button>
+						</form>
+					</div>
 
+
+					social media icons go here <br/> subscribe button goes here
+				</div>
+			</div>
+			<!-- /#side -->
 
 
 			<div id="main-content">
-				#main-content
+
+				<div class="category category--colors">
+					<a id="colors" class="location"></a>
+					<h2 class="category__header">Colors</h2>
+					<div class="sg-pattern-example">
+						<h3 class="category__header">Primary</h3>
+						<ul class="sg-colors">
+							<li>
+								<div class="sg-colors__sample" style="background: #b00;"></div>
+								<div class="sg-info">
+									<code>#b00</code> <br/>
+									<code>$red</code>
+								</div>
+							</li>
+							<li>
+								<div class="sg-colors__sample" style="background: #666;"></div>
+								<div class="sg-info">
+									<code>#666</code> <br/>
+									<code>$gray</code>
+								</div>
+							</li>
+							<li>
+								<div class="sg-colors__sample" style="background: #000;"></div>
+								<div class="sg-info">
+									<code>#000</code> <br/>
+									<code>$black</code>
+								</div>
+							</li>
+							<li>
+								<div class="sg-colors__sample" style="background: #fff; border: 1px solid #ccc;"></div>
+								<div class="sg-info">
+									<code>#fff</code> <br/>
+									<code>$white</code>
+								</div>
+							</li>
+						</ul>
+						<h3 class="category__header">Neutrals</h3>
+						<ul class="sg-colors">
+							<li>
+								<div class="sg-colors__sample" style="background: #f8f8f8;"></div>
+								<div class="sg-info">
+									<code>#f8f8f8</code> <br/>
+									<code>$near-white</code>
+								</div>
+							</li>
+							<li>
+								<div class="sg-colors__sample" style="background: #e2e2e2;"></div>
+								<div class="sg-info">
+									<code>#e2e2e2</code> <br/>
+									<code>$gray-lighter</code>
+								</div>
+							</li>
+							<li>
+								<div class="sg-colors__sample" style="background: #b9b9b9;"></div>
+								<div class="sg-info">
+									<code>#b9b9b9</code> <br/>
+									<code>$gray-light</code>
+								</div>
+							</li>
+							<li>
+								<div class="sg-colors__sample" style="background: #666;"></div>
+								<div class="sg-info">
+									<code>#666</code> <br/>
+									<code>$gray</code>
+								</div>
+							</li>
+							<li>
+								<div class="sg-colors__sample" style="background: #3b3b3b;"></div>
+								<div class="sg-info">
+									<code>#3b3b3b</code> <br/>
+									<code>$gray-dark</code>
+								</div>
+							</li>
+							<li>
+								<div class="sg-colors__sample" style="background: #222;"></div>
+								<div class="sg-info">
+									<code>#222</code> <br/>
+									<code>$gray-darker</code>
+								</div>
+							</li>
+						</ul>
+						<h3 class="category__header">Accents</h3>
+						<ul class="sg-colors">
+
+							<li>
+								<div class="sg-colors__sample" style="background: #909738;"></div>
+								<div class="sg-info">
+									<code>#909738</code> <br/>
+									<code>$green</code>
+								</div>
+							</li>
+							<li>
+								<div class="sg-colors__sample" style="background: #92b0d7;"></div>
+								<div class="sg-info">
+									<code>#92b0d7</code> <br/>
+									<code>$blue</code>
+								</div>
+							</li>
+							<li>
+								<div class="sg-colors__sample" style="background: #dcaa38;"></div>
+								<div class="sg-info">
+									<code>#dcaa38</code> <br/>
+									<code>$gold</code>
+								</div>
+							</li>
+							<li>
+								<div class="sg-colors__sample" style="background: #453831;"></div>
+								<div class="sg-info">
+									<code>#453831</code> <br/>
+									<code>$brown</code>
+								</div>
+							</li>
+							<li>
+								<div class="sg-colors__sample" style="background: #d65828;"></div>
+								<div class="sg-info">
+									<code>#d65828</code> <br/>
+									<code>$orange</code>
+								</div>
+							</li>
+							<li>
+								<div class="sg-colors__sample" style="background: #5d1542;"></div>
+								<div class="sg-info">
+									<code>#5d1542</code> <br/>
+									<code>$violet</code>
+								</div>
+							</li>
+
+						</ul>
+					</div>
+				</div>
+
+
+				<div class="category category--typography">
+					<a id="typography" class="location"></a>
+					<h2 class="category__header">Typography</h2>
+					<div class="sample">
+						<h1>Heading 1</h1>
+						<h2>Heading 2</h2>
+						<h3>Heading 3</h3>
+						<h4>Heading 4</h4>
+						<h5>Heading 5</h5>
+						<h6>Heading 6</h6>
+					</div>
+					<div class="sample">
+						<p>Paragraph Text: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident.</p>
+						<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+							non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+					<div class="sample">
+						<pre>P R E F O R M A T T E D T E X T ! " # $ % & ' ( ) * + , - . / 0 1 2 3 4 5 6 7 8 9 : ; < = > ? @ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z [ \ ] ^ _ ` a b c d e f g h i j k l m n o p q r s t u v w x y z { | } ~ </pre>
+					</div>
+				</div>
+
+
+				<div class="category category--links-buttons">
+					<a id="links_and_buttons" class="location"></a>
+					<h2 class="category__header">Links &amp; Buttons</h2>
+					<div class="sample">
+						<p> This is a <a href="#">text link</a> within a paragraph, a list, or other block of text. </p>
+						<h2><a href="#"> This is a header that is also a link </a></h2>
+					</div>
+					<div class="one-third first">
+						<div class="sample">
+							<p><button class="button">Button</button></p>
+							<code>button.button</code>
+						</div>
+						<div class="sample">
+							<p><a class="button">Button Link</a></p>
+							<code>a.button</code>
+						</div>
+					</div>
+					<div class="one-third">
+						<div class="sample">
+							<p><button class="button button--gray">Button</button></p>
+							<code>button.button--gray</code>
+						</div>
+						<div class="sample">
+							<p><a class="button button--gray">Button Link</a></p>
+							<code>a.button--gray</code>
+						</div>
+					</div>
+				</div>
+				<div class="clear"></div>
+
+				<div class="category category--tables">
+					<a id="tables" class="location"></a>
+					<h2 class="category__header">Tables</h2>
+					<table class="table">
+						<caption>This is a table caption. Always include a caption to label the table, similar to the alt-text of an image.</caption>
+						<tbody>
+							<tr>
+								<th>Table Heading</th>
+								<th>Table Heading</th>
+								<th>Table Heading</th>
+							</tr>
+							<tr>
+								<td>Table Data</td>
+								<td>Table Data</td>
+								<td>Table Data</td>
+							</tr>
+							<tr>
+								<td>Table Data</td>
+								<td>Table Data</td>
+								<td>Table Data</td>
+							</tr>
+							<tr>
+								<td>Table Data</td>
+								<td>Table Data</td>
+								<td>Table Data</td>
+							</tr>
+							<tr>
+								<td>Table Data</td>
+								<td>Table Data</td>
+								<td>Table Data</td>
+							</tr>
+							<tr>
+								<td>Table Data</td>
+								<td>Table Data</td>
+								<td>Table Data</td>
+							</tr>
+						</tbody>
+					</table>
+
+					<table class="table table--zebra">
+						<caption>This is a striped table. It uses the class: <code>table--zebra</code>, and contains <code>odd</code> and <code>even</code> table rows.</caption>
+						<tbody>
+							<tr class="header">
+								<th>Table Heading</th>
+								<th>Table Heading</th>
+								<th>Table Heading</th>
+							</tr>
+							<tr class="odd">
+								<td>Table Data</td>
+								<td>Table Data</td>
+								<td>Table Data</td>
+							</tr>
+							<tr class="even">
+								<td>Table Data</td>
+								<td>Table Data</td>
+								<td>Table Data</td>
+							</tr>
+							<tr class="odd">
+								<td>Table Data</td>
+								<td>Table Data</td>
+								<td>Table Data</td>
+							</tr>
+							<tr class="even">
+								<td>Table Data</td>
+								<td>Table Data</td>
+								<td>Table Data</td>
+							</tr>
+							<tr class="odd">
+								<td>Table Data</td>
+								<td>Table Data</td>
+								<td>Table Data</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+
+				<div class="category category--media">
+					<a id="media" class="location"></a>
+					<h2 class="category__header">Media</h2>
+				</div>
+
+				<div class="category category--sample">
+					<a id="sample" class="location"></a>
+					<h2 class="category__header">Sample Category Block</h2>
+				</div>
+
 			</div>
 			<!-- /#main-content -->
-
-
 		</div>
 		<!-- /#container -->
 	</div>
-	<!-- /#wrap -->
+	<!-- /.wrapper -->
 
+	<div id="footer" class="footer">
+		<div class="wrapper">
+			<section id="footer_info" class="l-constrained clearfix">
+
+				<div id="institutional_info" class="left">
+					<a href="http://www.osu.edu/"><img src="img/osu-footer-images/osu-footer-wordmark-white.svg" id="osu-wordmark" alt="The Ohio State University" title="The Ohio State University home page"/></a>
+					<p>&copy; 2018 | Student Academic Services Building | 281 W. Lane Ave. | Columbus, Ohio 43210 | <a href="tel:614-292-OHIO">614-292-OHIO</a></p>
+					<p>Contact: <a href="mailto:askabuckeye@osu.edu">Admissions</a> | <a href="mailto:webmaster@osu.edu">Webmaster</a> | Page maintained by <a href="http://ucom.osu.edu/">University Communications</a></p>
+					<p><a href="http://www.osu.edu/webmaster.php">Request</a> an alternate format of this page | <a href="http://ocio.osu.edu/status/">Web Services Status</a> | <a href="http://hr.osu.edu/policy/resources/110nondiscrimnotice.pdf">Nondiscrimination notice</a></p>
+				</div>
+				<!-- /institutional_info -->
+
+				<div id="footer_social" class="right">
+					<a href="http://www.facebook.com/osu" class="socialicon"><img src="img/osu-footer-images/facebook-32.png" alt="Facebook link for Ohio State News"/></a>
+					<a href="http://twitter.com/OhioState" class="socialicon"><img src="img/osu-footer-images/twitter-32.png" alt="Twitter link for Ohio State News"/></a>
+					<a href="http://www.youtube.com/user/OhioStateUniversity" class="socialicon"><img src="img/osu-footer-images/youtube-32.png" alt="YouTube link for Ohio State News"/></a>
+				</div>
+				<!-- /footer_social-new -->
+			</section>
+			<!-- /footer_info -->
+		</div>
+		<!-- /.wrapper -->
+	</div>
+	<!-- /#footer -->
 </body>
 
 </html>

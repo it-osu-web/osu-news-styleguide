@@ -1,0 +1,22 @@
+input {
+  box-sizing: border-box;
+  font-size: 12px;
+}
+
+input[type=text] {
+  padding: 0.25em 0.5em;
+  margin: 0.25em 0;
+  border: 1px solid #e2e2e2;
+  min-height: 2em;
+}
+
+input::placeholder {
+  font-size: 0.875rem;
+  line-height: 100%;
+  font-style: italic;
+}
+
+input:focus {
+  outline: 1px dotted #b00;
+  outline-offset: 2px;
+}

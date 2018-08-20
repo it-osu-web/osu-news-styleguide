@@ -63,3 +63,33 @@
   color: #000;
   background-color: #eee;
 }
+
+/* search Bar */
+
+#site_search {
+  margin: 2em 0;
+  border: 1px solid #e2e2e2;
+  padding: 0.25em 0.375em;
+}
+
+.input--search {
+  border: none !important;
+  width: 80%;
+}
+
+.button--search {
+  background: none;
+  border: none;
+  color: #666;
+  float: right;
+  padding: 0.375em 0 0.375em 0.5em;
+  width: 20%;
+}
+
+.button--search i {
+  font-size: 1.3rem;
+}
+
+.button--search:hover {
+  color: #b00;
+}
