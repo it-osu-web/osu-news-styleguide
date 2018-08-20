@@ -32,7 +32,6 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
 .button, a.button {
   font-family: 'proximanova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   background-color: #b00;
-  border: 1px solid white;
   border-radius: 4px;
   color: white;
   cursor: pointer;
@@ -45,6 +44,7 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
   text-decoration: none;
   text-align: center;
   letter-spacing: 0.03em;
+  border: 0;
 }
 
 a.button {
@@ -52,9 +52,7 @@ a.button {
 }
 
 .button:hover, a.button:hover {
-  background-color: white;
-  color: #b00;
-  border-color: #b00;
+  background-color: #800;
 }
 
 .button--gray, a.button--gray {
@@ -62,6 +60,5 @@ a.button {
 }
 
 .button--gray:hover, a.button--gray:hover {
-  color: #666;
-  border-color: #666;
+  background-color: #444;
 }
