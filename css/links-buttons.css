@@ -30,6 +30,7 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
 /* buttons */
 
 .button, a.button {
+  font-family: 'proximanova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   background-color: #b00;
   border: 1px solid white;
   border-radius: 4px;
@@ -43,7 +44,7 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
   display: inline-block;
   text-decoration: none;
   text-align: center;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.03em;
 }
 
 a.button {
