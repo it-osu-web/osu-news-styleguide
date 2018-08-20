@@ -1,8 +1,5 @@
 #footer {
   background: #222;
-  background: url(../img/osu-footer-images/bg-footer.jpg) center top no-repeat;
-  -moz-background-size: cover;
-  background-size: cover;
   color: white;
   padding: 2em 0 3em;
 }
