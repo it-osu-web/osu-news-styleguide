@@ -112,9 +112,9 @@ a#skip:active:hover, a#skip:focus:hover {
   text-decoration: underline;
 }
 
-/* Replace text links with icons at 760px */
+/* Replace text links with icons at 720px */
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 720px) {
   #osu_navbar div.links ul {
     margin-top: -2px;
     margin-right: 10px;
@@ -160,7 +160,7 @@ a#skip:active:hover, a#skip:focus:hover {
 
 /* Retina icons */
 
-@media only screen and (max-width: 760px) and (-webkit-min-device-pixel-ratio: 2), only screen and (max-width: 700px) and (min--moz-device-pixel-ratio: 2), only screen and (max-width: 700px) and (-o-min-device-pixel-ratio: 2/1), only screen and (max-width: 700px) and (min-device-pixel-ratio: 2) {
+@media only screen and (max-width: 720px) and (-webkit-min-device-pixel-ratio: 2), only screen and (max-width: 700px) and (min--moz-device-pixel-ratio: 2), only screen and (max-width: 700px) and (-o-min-device-pixel-ratio: 2/1), only screen and (max-width: 700px) and (min-device-pixel-ratio: 2) {
   #osu_navbar .univ_name a {
     background-image: url(../img/osu-navbar-images/osu_name@2x.png) !important;
     background-size: contain;

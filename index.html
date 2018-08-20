@@ -21,11 +21,10 @@
 
 <body>
 
-	<div id="wrap">
-
-		<div role="navigation" id="osu_navbar" aria-labelledby="osu_navbar_heading">
-			<h2 id="osu_navbar_heading" class="osu-semantic">Ohio State nav bar</h2>
-			<a href="#main-content" id="skip" class="osu-semantic">Skip to main content</a>
+	<div role="navigation" id="osu_navbar" aria-labelledby="osu_navbar_heading">
+		<h2 id="osu_navbar_heading" class="osu-semantic">Ohio State nav bar</h2>
+		<a href="#main-content" id="skip" class="osu-semantic">Skip to main content</a>
+		<div class="wrapper">
 			<div class="l-constrained">
 				<div class="univ_info">
 					<p class="univ_name"><a href="http://osu.edu" title="The Ohio State University">The Ohio State University</a></p>
@@ -48,11 +47,13 @@
 			</div>
 			<!-- /.l-constrained -->
 		</div>
-		<!-- /#osu_navbar -->
+		<!-- /.wrapper -->
+	</div>
+	<!-- /#osu_navbar -->
 
 
+	<div class="wrapper">
 		<div id="container" class="l-constrained">
-
 			<div id="side">
 				<div class="masthead">
 					<div class="masthead__logo">
@@ -345,20 +346,20 @@
 					<h2 class="category__header">Media</h2>
 				</div>
 
-
 				<div class="category category--sample">
 					<a id="sample" class="location"></a>
 					<h2 class="category__header">Sample Category Block</h2>
 				</div>
 
-
 			</div>
 			<!-- /#main-content -->
-
 		</div>
 		<!-- /#container -->
+	</div>
+	<!-- /.wrapper -->
 
-		<div id="footer" class="footer">
+	<div id="footer" class="footer">
+		<div class="wrapper">
 			<section id="footer_info" class="l-constrained clearfix">
 
 				<div id="institutional_info" class="left">
@@ -375,16 +376,12 @@
 					<a href="http://www.youtube.com/user/OhioStateUniversity" class="socialicon"><img src="img/osu-footer-images/youtube-32.png" alt="YouTube"/></a>
 				</div>
 				<!-- /footer_social-new -->
-
 			</section>
 			<!-- /footer_info -->
-
 		</div>
-		<!-- /#footer -->
-
+		<!-- /.wrapper -->
 	</div>
-	<!-- /wrap -->
-
+	<!-- /#footer -->
 </body>
 
 </html>

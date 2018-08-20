@@ -1,10 +1,6 @@
-#wrap {
-  padding: 0;
-}
-
-.l-constrained {
+.wrapper {
+  max-width: 1400px;
   margin: 0 auto;
-  padding: 0 4%;
 }
 
 #container {
@@ -13,8 +9,13 @@
   padding-bottom: 3em;
 }
 
+.l-constrained {
+  margin: 0 auto;
+  padding: 0 4%;
+}
+
 #side {
-  width: 22%;
+  width: 25%;
   float: left;
   padding-right: 4.5em;
   box-sizing: border-box;
@@ -29,7 +30,7 @@
 
 #main-content {
   background: #fff;
-  width: 78%;
+  width: 75%;
   float: right;
 }
 
@@ -38,7 +39,16 @@
   clear: both;
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 960px) {
+  #side {
+    width: 30%;
+  }
+  #main-content {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 720px) {
   #side, #main-content {
     float: none;
     width: 100%;
@@ -71,7 +81,7 @@
   float: right;
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 720px) {
   .left, .right {
     float: none;
     clear: both;
@@ -107,7 +117,7 @@
   margin-left: 0;
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 720px) {
   .five-sixths, .four-fifths, .four-sixths, .one-fifth, .one-fourth, .one-half, .one-sixth, .one-third, .three-fifths, .three-fourths, .three-sixths, .two-fifths, .two-fourths, .two-sixths, .two-thirds, .one-eighth {
     width: 100%;
     margin-left: 0;
