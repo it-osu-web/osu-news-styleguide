@@ -67,7 +67,8 @@
 /* search Bar */
 
 #site_search {
-  margin: 2em 0;
+  margin: 1em 0;
+  margin-top: 2.5em;
   border: 1px solid #e2e2e2;
   padding: 0.25em 0.375em;
 }
@@ -92,4 +93,45 @@
 
 .button--search:hover {
   color: #b00;
+}
+
+/* social media */
+#social_top {
+  margin: 1em 0;
+  margin-top: 2.5em;
+}
+
+ul.social {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+ul.social li {
+  margin: 0 0.75em;
+}
+
+ul.social li i {
+  color: #666;
+  font-size: 2.5rem;
+}
+
+ul.social li i.fa-twitter-square:hover {
+  color: #00aced;
+}
+
+ul.social li i.fa-facebook:hover {
+  color: #3b5998;
+}
+
+ul.social li i.fa-youtube-square:hover {
+  color: #b00;
+}
+
+/* Subscribe */
+
+#subscribe {
+  margin: 1em 0;
+  margin-top: 2.5em;
+  text-align: center;
 }
