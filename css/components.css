@@ -108,15 +108,15 @@ ul.social {
 }
 
 ul.social li {
-  margin: 0 0.75em;
+  margin: 0 0.875em;
 }
 
 ul.social li i {
   color: #666;
-  font-size: 2.5rem;
+  font-size: 2.125rem;
 }
 
-ul.social li i.fa-twitter-square:hover {
+ul.social li i.fa-twitter:hover {
   color: #00aced;
 }
 
@@ -124,7 +124,7 @@ ul.social li i.fa-facebook:hover {
   color: #3b5998;
 }
 
-ul.social li i.fa-youtube-square:hover {
+ul.social li i.fa-youtube:hover {
   color: #b00;
 }
 
@@ -132,6 +132,44 @@ ul.social li i.fa-youtube-square:hover {
 
 #subscribe {
   margin: 1em 0;
-  margin-top: 2.5em;
+  margin-top: 2em;
   text-align: center;
+}
+
+#subscribe .button {
+  width: 90%;
+}
+
+#subscribe p.fine-print {
+  margin: 0.75em auto;
+  width: 85%;
+}
+
+/* pre-footer */
+
+#pre-footer {
+  clear: both;
+  background: #eee;
+  padding: 2em 0;
+}
+
+#tagline_logo {
+  float: right;
+  width: 50%;
+}
+
+
+
+/* teasers */
+
+.teaser-grid {
+  display: flex;
+}
+
+.teaser-item {
+  margin-left: 2em;
+}
+
+.teaser-item--first {
+  margin-left: 0;
 }

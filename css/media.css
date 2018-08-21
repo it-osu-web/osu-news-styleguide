@@ -1,4 +1,4 @@
-img {
+/* img {
   max-width: 100%;
   height: auto;
   width: auto;
@@ -20,4 +20,24 @@ img {
   width: 100%;
   height: 100%;
   border: none;
+} */
+
+figure {
+  background: white;
+}
+
+.photo {
+  margin-bottom: 1.5em;
+}
+
+.photo img {
+  border-bottom: 3px solid #b00;
+  max-width: 100%;
+  height: auto;
+}
+
+.photo figcaption {
+  text-align: right;
+  font-size: 0.875em;
+  padding-top: 0.25em;
 }

@@ -1,14 +1,14 @@
 p {
   color: #282828;
   font-size: 1rem;
-  line-height: 140%;
+  line-height: 1.4;
   margin: 0 0 0.75em;
 }
 
 pre {
   font-family: monospace;
   font-size: 1rem;
-  line-height: 170%;
+  line-height: 1.7;
   padding: 0.75em 1em;
   background: #f2f2f2;
   white-space: pre-wrap;
@@ -20,7 +20,7 @@ code {
 
 h1, h2, h3, h4, h5, h6 {
   color: #282828;
-  line-height: 125%;
+  line-height: 1.25;
   margin: 0.5em 0;
 }
 
@@ -57,4 +57,67 @@ h5 {
 h6 {
   font-size: 1.2rem;
   font-weight: 400;
+}
+
+h2.section__header {
+  font-family: 'proximanova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.6rem;
+  color: #666;
+}
+
+h3.teaser-item__header {
+  font-family: 'proximanova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
+
+.dateline {
+  font-size: 0.875em;
+}
+
+.intro-text {
+  font-family: 'Capita', serif;
+  font-size: 1.3rem;
+  line-height: 1.5;
+  font-weight: 300;
+  font-style: italic;
+  letter-spacing: 0.025em;
+  display: block;
+  width: 97%;
+}
+
+.fine-print {
+  font-size: 0.75em;
+  line-height: 1.1;
+  margin: 0.75em 0;
+}
+
+a.more-link {
+  display: block;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.875rem;
+  margin-top: 1em;
+  text-align: right;
+}
+
+a.more-link::after {
+  content: "";
+  border: solid #b00;
+  border-width: 0 0.2em 0.2em 0;
+  display: inline-block;
+  padding: 0.2em;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  margin-left: 0.2em;
+  margin-bottom: 0.15em;
+}
+
+a.more-link:hover::after {
+  border-color: #666;
 }
