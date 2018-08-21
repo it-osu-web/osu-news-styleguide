@@ -1,47 +1,24 @@
 #footer {
   background: #222;
   color: white;
-  padding: 2em 0 3em;
+  padding: 2em 0;
 }
 
 #footer p, #footer a {
   color: white;
-  font-size: 0.875rem;
+  font-size: 0.8rem;
   font-weight: 300;
   line-height: 1.1;
 }
 
 #footer a {
   color: #ddd;
-  text-decoration: none;
 }
 
 #footer a:hover {
   color: #fff;
-  text-decoration: underline;
 }
 
 #osu-wordmark {
   margin-bottom: 1.25em;
-}
-
-a.socialicon img {
-  height: 32px;
-  width: 32px;
-  margin: 0 .5em .5em 0;
-  border: 1px solid #eaeaea;
-  background: #fff;
-}
-
-a:hover.socialicon img {
-  background: #ccc;
-}
-
-#footer_social a.socialicon img {
-  background: transparent;
-  border: none;
-}
-
-#footer_social a:hover.socialicon img {
-  background: #666;
 }

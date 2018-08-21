@@ -48,10 +48,12 @@
   font-weight: normal;
   text-decoration: none;
   padding: 7px 5px;
-  border: 1px solid #E9E9E9;
-  border-width: 1px 0 1px 0;
-  margin-top: -1px;
+  border-bottom: 1px solid #E9E9E9;
   transition: box-shadow .3s;
+}
+
+#sideNav li.first a {
+  border-top: 1px solid #E9E9E9;
 }
 
 #sideNav li a.current, a.current {
@@ -62,6 +64,7 @@
 #sideNav li a:hover, #sideNav li a:focus {
   color: #000;
   background-color: #eee;
+  outline-offset: -1px;
 }
 
 /* search Bar */
@@ -93,6 +96,11 @@
 
 .button--search:hover {
   color: #b00;
+}
+
+.button--search:focus{
+  outline: 1px dotted #b00;
+  outline-offset: -1px;
 }
 
 /* social media */
@@ -189,4 +197,14 @@ ul.social li i.fa-youtube:hover {
 
 .teaser-item--first {
   margin-left: 0;
+}
+
+
+.teaser-item--around-web .overlay {
+  background: #222;
+}
+
+.teaser-item--around-web .overlay h3,
+.teaser-item--around-web .overlay p {
+  color: white;
 }

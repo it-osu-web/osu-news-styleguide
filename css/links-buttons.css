@@ -12,6 +12,7 @@ a:hover {
 
 a:focus {
   outline: 1px dotted #b00;
+  outline-offset: 1px;
 }
 
 a:active {
@@ -55,12 +56,20 @@ a.button {
   background-color: #800;
 }
 
+.button:focus, a.button:focus {
+  outline: 1px dotted black;
+}
+
 .button--gray, a.button--gray {
   background-color: #666;
 }
 
 .button--gray:hover, a.button--gray:hover {
   background-color: #444;
+}
+
+.button--gray:focus, a.button--gray:focus {
+  outline-offset: 1px;
 }
 
 .button--alt, a.button--alt {

@@ -103,7 +103,6 @@ a.more-link {
   font-weight: 600;
   font-size: 0.875rem;
   margin-top: 1em;
-  text-align: right;
 }
 
 a.more-link::after {
