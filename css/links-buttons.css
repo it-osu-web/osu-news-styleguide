@@ -39,7 +39,7 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
   line-height: 1.4;
   font-weight: 400;
   text-transform: uppercase;
-  padding: 0.5em 1em;
+  padding: 0.65em 1em 0.5em;
   display: inline-block;
   text-decoration: none;
   text-align: center;
@@ -61,4 +61,14 @@ a.button {
 
 .button--gray:hover, a.button--gray:hover {
   background-color: #444;
+}
+
+.button--alt, a.button--alt {
+  background-color: white;
+  color: #666;
+}
+
+.button--alt:hover, a.button--alt:hover {
+  background-color: #666;
+  color: white;
 }
