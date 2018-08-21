@@ -199,12 +199,24 @@ ul.social li i.fa-youtube:hover {
   margin-left: 0;
 }
 
+.teaser-item--around-web {
+  position: relative;
 
-.teaser-item--around-web .overlay {
-  background: #222;
 }
 
-.teaser-item--around-web .overlay h3,
-.teaser-item--around-web .overlay p {
+.overlay {
+  background: rgba(28, 28, 28, 0.8);
+  padding: 0.5em 1em;
+  text-align: center;
+
+}
+
+.overlay h3,
+.overlay p {
   color: white;
+}
+
+
+.photo--teaser--around-web {
+
 }
