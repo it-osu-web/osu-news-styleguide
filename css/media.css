@@ -18,6 +18,11 @@ figure {
   padding-top: 0.25em;
 }
 
+.photo--teaser--around-web {
+  margin-bottom: 0;
+  border: 3px solid #666;
+}
+
 .photo--teaser--around-web img {
   border-bottom: 0;
 }

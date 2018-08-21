@@ -75,8 +75,21 @@ h3.teaser-item__header {
   line-height: 1.2;
 }
 
+h3.teaser-item__header--around-web {
+  margin: 0.25em 0;
+}
+
+.pipe {
+  margin: 0 0.125em;
+}
+
 .dateline {
   font-size: 0.875em;
+}
+
+.dateline--teaser--around-web {
+  margin-bottom: 0.5em;
+  font-size: 1rem;
 }
 
 .intro-text {

@@ -98,7 +98,7 @@
   color: #b00;
 }
 
-.button--search:focus{
+.button--search:focus {
   outline: 1px dotted #b00;
   outline-offset: -1px;
 }
@@ -177,7 +177,6 @@ ul.social li i.fa-youtube:hover {
   font-size: 1rem;
 }
 
-
 @media only screen and (max-width: 720px) {
   #footer_links, #tagline_logo {
     float: none;
@@ -199,24 +198,21 @@ ul.social li i.fa-youtube:hover {
   margin-left: 0;
 }
 
-.teaser-item--around-web {
-  position: relative;
-
+.teaser-item--around-web a {
+  text-decoration: none;
 }
 
-.overlay {
-  background: rgba(28, 28, 28, 0.8);
-  padding: 0.5em 1em;
+.teaser-item--around-web:hover {
+  filter: brightness(120%);
+}
+
+.box {
+  background: #666;
+  padding: 0.25em 1em;
   text-align: center;
-
+  margin-top: -0.5em;
 }
 
-.overlay h3,
-.overlay p {
+.box h3, .box p {
   color: white;
-}
-
-
-.photo--teaser--around-web {
-
 }
