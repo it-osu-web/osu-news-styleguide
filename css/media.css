@@ -26,3 +26,11 @@ figure {
 .photo--teaser--around-web img {
   border-bottom: 0;
 }
+
+.photo--story-link {
+  margin-bottom: 0.25em;
+}
+
+.photo--story-link img {
+  border-bottom: 3px solid #666;
+}
