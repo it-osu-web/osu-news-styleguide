@@ -79,6 +79,27 @@ h3.teaser-item__header--around-web {
   margin: 0.25em 0;
 }
 
+p.date-kicker {
+  font-size: 1.2rem;
+  line-height: 1;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  display: inline-block;
+  background: #b00;
+  color: white;
+  padding: 0.5em 0.675em;
+  margin-bottom: 0.25em;
+}
+
+/* p.date-kicker {
+  font-size: 1.4rem;
+  line-height: 1;
+  font-weight: 600;
+  color: #b00;
+  padding-top: 0.5em;
+  margin-bottom: 0;
+} */
+
 .pipe {
   margin: 0 0.125em;
 }

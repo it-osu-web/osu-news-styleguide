@@ -216,3 +216,31 @@ ul.social li i.fa-youtube:hover {
 .box h3, .box p {
   color: white;
 }
+
+/* byline elements */
+
+.byline {
+  margin-bottom: 1.5em;
+  display: flex;
+  align-items: center;
+}
+
+.byline__image {
+  margin-right: 1.5em;
+}
+
+.byline__image img {
+  height: 7em;
+  width: 7em;
+  border-radius: 50%;
+}
+
+.byline__text p {
+  margin-bottom: 0;
+}
+
+.byline__name {
+  font-family: 'Capita', serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
