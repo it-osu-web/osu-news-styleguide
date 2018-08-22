@@ -1,0 +1,60 @@
+/* teasers */
+
+.teaser-grid {
+  display: flex;
+}
+
+.teaser-item {
+  margin-left: 2em;
+}
+
+.teaser-item--first {
+  margin-left: 0;
+}
+
+.teaser-item--around-web a {
+  text-decoration: none;
+}
+
+.teaser-item--around-web:hover {
+  filter: brightness(120%);
+}
+
+.box {
+  background: #666;
+  padding: 0.25em 1em;
+  text-align: center;
+  margin-top: -0.5em;
+}
+
+.box h3, .box p {
+  color: white;
+}
+
+/* byline elements */
+
+.byline {
+  margin-bottom: 1.5em;
+  display: flex;
+  align-items: center;
+}
+
+.byline__image {
+  margin-right: 1.5em;
+}
+
+.byline__image img {
+  height: 7em;
+  width: 7em;
+  border-radius: 50%;
+}
+
+.byline__text p {
+  margin-bottom: 0;
+}
+
+.byline__name {
+  font-family: 'Capita', serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+}

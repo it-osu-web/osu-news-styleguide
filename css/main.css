@@ -1,12 +1,13 @@
 @import url("styleguide.css");
-@import url("base.css");
 @import url("layout.css");
+@import url("base.css");
 @import url("typography.css");
 @import url("links-buttons.css");
 @import url("forms.css");
 @import url("tables.css");
 @import url("media.css");
-@import url("components.css");
+@import url("sidebar.css");
+@import url("main-content.css");
 @import url("pre-footer.css");
 @import url("osu-navbar.css");
 @import url("osu-footer.css");
