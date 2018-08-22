@@ -168,3 +168,63 @@ a.story-link:hover {
   margin-top: 0.5em;
   display: block;
 }
+
+.pulled-quote {
+  margin: 2em auto;
+  position: relative;
+  width: 75%;
+}
+
+.pulled-quote__icon {
+  position: absolute;
+  top: -0.375em;
+  color: #e2e2e2;
+  font-size: 3rem;
+}
+
+.pulled-quote__text p {
+  font-family: 'Capita', serif;
+  font-weight: 100;
+  font-style: italic;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  padding: 0;
+  padding-left: 3.5em;
+}
+
+.pulled-quote__attribution p {
+  text-align: right;
+  padding-right: 2em;
+  font-weight: 600;
+  margin-top: -0.5em;
+}
+
+.tweet-quote {
+  margin: 2em auto;
+  position: relative;
+  width: 75%;
+  padding-top: 1.25em;
+  border-top: 1px solid #e2e2e2;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.tweet-quote__text p {
+  font-weight: 300;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  padding: 0;
+  padding-left: 3.75em;
+}
+
+.tweet-quote__icon {
+  color: #00aced;
+  position: absolute;
+  top: 0.45em;
+  font-size: 3rem;
+}
+
+.tweet-quote__attribution p {
+  font-weight: 600;
+  text-align: right;
+  margin-top: -0.5em;
+}
