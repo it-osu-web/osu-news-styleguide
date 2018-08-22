@@ -3,7 +3,7 @@ figure {
 }
 
 .photo {
-  margin-bottom: 1.5em;
+  margin-bottom: 2em;
 }
 
 .photo img {
@@ -14,6 +14,10 @@ figure {
 
 .photo figcaption {
   font-size: 0.875em;
+}
+
+.photo--teaser {
+  margin-bottom: 1em;
 }
 
 .photo--teaser--around-web {

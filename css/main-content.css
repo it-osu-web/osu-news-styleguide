@@ -27,8 +27,12 @@
   margin-top: -0.5em;
 }
 
-.box h3, .box p {
+.box h3, .box p, .box a {
   color: white;
+}
+
+.box p {
+  font-weight: 400;
 }
 
 /* byline elements */
