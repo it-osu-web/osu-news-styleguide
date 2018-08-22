@@ -13,9 +13,7 @@ figure {
 }
 
 .photo figcaption {
-  text-align: right;
   font-size: 0.875em;
-  padding-top: 0.25em;
 }
 
 .photo--teaser--around-web {

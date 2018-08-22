@@ -155,34 +155,6 @@ ul.social li i.fa-youtube:hover {
   width: 85%;
 }
 
-/* pre-footer */
-
-#pre-footer {
-  clear: both;
-  background: #f2f2f2;
-  padding: 2em 0;
-}
-
-#tagline_logo {
-  float: right;
-  width: 50%;
-}
-
-#footer_links {
-  float: left;
-}
-
-#footer_links .button {
-  margin-right: 1em;
-  font-size: 1rem;
-}
-
-@media only screen and (max-width: 720px) {
-  #footer_links, #tagline_logo {
-    float: none;
-    width: 100%;
-  }
-}
 
 /* teasers */
 
