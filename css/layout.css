@@ -16,8 +16,8 @@
 
 #side {
   width: 25%;
-  float: left;
-  padding-right: 4.5em;
+  float: right;
+  padding-left: 2.5em;
   box-sizing: border-box;
   position: -webkit-sticky;
   position: -moz-sticky;

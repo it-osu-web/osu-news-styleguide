@@ -13,7 +13,6 @@ input[type=text] {
 input::placeholder {
   font-size: 0.875rem;
   line-height: 100%;
-  font-style: italic;
 }
 
 input:focus {

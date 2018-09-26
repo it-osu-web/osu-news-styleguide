@@ -1,12 +1,13 @@
 /* masthead */
 
 .masthead {
-  padding-top: 2em;
+  padding-top: 2.25em;
   margin-bottom: 1em;
 }
 
 .masthead__logo {
-  margin-bottom: 3em;
+  margin-bottom: 1.5em;
+  margin-left: -0.125em;
 }
 
 .masthead__text {
@@ -31,11 +32,10 @@
   list-style: none;
   margin: 0;
   padding: 0;
-  text-align: center;
 }
 
 #sideNav li {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   padding: 0;
   margin: 0;
 }
@@ -48,12 +48,6 @@
   font-weight: normal;
   text-decoration: none;
   padding: 7px 5px;
-  border-bottom: 1px solid #E9E9E9;
-  transition: box-shadow .3s;
-}
-
-#sideNav li.first a {
-  border-top: 1px solid #E9E9E9;
 }
 
 #sideNav li a.current, a.current {
@@ -61,9 +55,13 @@
   background-color: #eee;
 }
 
-#sideNav li a:hover, #sideNav li a:focus {
+#sideNav li a:hover {
   color: #000;
-  background-color: #eee;
+  text-decoration: underline;
+}
+
+#sideNav li a:focus {
+  color: #000;
   outline-offset: -1px;
 }
 
@@ -71,7 +69,7 @@
 
 #site_search {
   margin: 1em 0;
-  margin-top: 2.5em;
+  margin-top: 1.5em;
   border: 1px solid #e2e2e2;
   padding: 0.25em 0.375em;
 }
