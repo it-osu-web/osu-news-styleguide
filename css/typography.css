@@ -2,7 +2,7 @@ p {
   color: #282828;
   font-size: 1rem;
   line-height: 1.4;
-  margin: 0 0 0.75em;
+  margin: 0 0 1em;
 }
 
 pre {
@@ -20,14 +20,14 @@ code {
 
 h1, h2, h3, h4, h5, h6 {
   color: #282828;
-  line-height: 1.20;
+  line-height: 1.1;
   margin: 0.5em 0;
 }
 
 h1 {
   font-size: 2.8rem;
   font-weight: 700;
-  margin-bottom: 0.25em;
+  margin: 0.25em 0;
 }
 
 h2 {
@@ -80,25 +80,13 @@ h3.teaser-item__header--around-web {
 }
 
 p.date-kicker {
-  font-size: 1.2rem;
+  font-size: 1.125rem;
   line-height: 1;
-  font-weight: 600;
-  letter-spacing: 0.03em;
+  font-weight: 400;
   display: inline-block;
-  background: #b00;
-  color: white;
-  padding: 0.5em 0.675em;
-  margin-bottom: 0.25em;
+  color: #666;
+  margin: 0.5em 0 0;
 }
-
-/* p.date-kicker {
-  font-size: 1.4rem;
-  line-height: 1;
-  font-weight: 600;
-  color: #b00;
-  padding-top: 0.5em;
-  margin-bottom: 0;
-} */
 
 .pipe {
   margin: 0 0.125em;
@@ -137,6 +125,7 @@ a.more-link {
   font-weight: 600;
   font-size: 0.875rem;
   margin-top: 1em;
+  transition: 0.25s;
 }
 
 a.more-link::after {

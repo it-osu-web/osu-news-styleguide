@@ -54,6 +54,7 @@ a.button {
 
 .button:hover, a.button:hover {
   background-color: #800;
+  transition: 0.25s;
 }
 
 .button:focus, a.button:focus {
@@ -65,7 +66,7 @@ a.button {
 }
 
 .button--gray:hover, a.button--gray:hover {
-  background-color: #444;
+  background-color: #b00;
 }
 
 .button--gray:focus, a.button--gray:focus {

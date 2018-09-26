@@ -1,12 +1,12 @@
 /* masthead */
 
 .masthead {
-  padding-top: 2.25em;
+  padding-top: 2.5em;
   margin-bottom: 1em;
 }
 
 .masthead__logo {
-  margin-bottom: 1.5em;
+  margin-bottom: 1.75em;
   margin-left: -0.125em;
 }
 
@@ -35,7 +35,7 @@
 }
 
 #sideNav li {
-  font-size: 1.2rem;
+  font-size: 1.125rem;
   padding: 0;
   margin: 0;
 }
@@ -51,17 +51,17 @@
 }
 
 #sideNav li a.current, a.current {
-  color: #000;
+  color: #282828;
   background-color: #eee;
 }
 
 #sideNav li a:hover {
-  color: #000;
+  color: #282828;
   text-decoration: underline;
 }
 
 #sideNav li a:focus {
-  color: #000;
+  color: #282828;
   outline-offset: -1px;
 }
 
@@ -121,6 +121,7 @@ ul.social li {
 ul.social li i {
   color: #666;
   font-size: 2.125rem;
+  transition: 0.25s;
 }
 
 ul.social li i.fa-twitter:hover {
