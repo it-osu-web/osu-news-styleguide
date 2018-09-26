@@ -10,10 +10,6 @@
   margin-left: -0.125em;
 }
 
-.masthead__text {
-  text-align: center;
-}
-
 .masthead__text--style-guide {
   font-size: 1.6rem;
   font-weight: 400;
@@ -121,7 +117,7 @@ ul.social li {
 ul.social li i {
   color: #666;
   font-size: 2.125rem;
-  transition: 0.25s;
+  transition: 0.3s;
 }
 
 ul.social li i.fa-twitter:hover {

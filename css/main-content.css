@@ -12,18 +12,45 @@
   margin-left: 0;
 }
 
+/* around the web */
+
+.wrapper--around-web {
+  z-index: 0;
+  position: relative;
+}
+
+.nav-button {
+  background: #eee;
+  z-index: 99;
+  position: absolute;
+  top: 38%;
+  box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.65);
+}
+
+.nav-button--prev {
+  left: 1em;
+}
+
+.nav-button--next {
+  right: 1em;
+}
+
+.teaser-grid--around-web {
+
+}
+
 .teaser-item--around-web a {
   text-decoration: none;
 }
 
 .teaser-item--around-web:hover {
-  filter: brightness(120%);
+  filter: brightness(115%);
+  transition: 0.3s;
 }
 
 .box {
   background: #666;
   padding: 0.25em 1em;
-  text-align: center;
   margin-top: -0.5em;
 }
 
@@ -34,6 +61,8 @@
 .box p {
   font-weight: 400;
 }
+
+
 
 /* byline elements */
 

@@ -70,8 +70,8 @@ h2.section__header {
 h3.teaser-item__header {
   font-family: 'proximanova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-style: normal;
-  font-weight: 600;
-  font-size: 1.5rem;
+  font-weight: 400;
+  font-size: 1.3rem;
   line-height: 1.2;
 }
 
@@ -98,7 +98,8 @@ p.date-kicker {
 
 .dateline--teaser--around-web {
   margin-bottom: 0.5em;
-  font-size: 1rem;
+  font-size: 0.875rem;
+  font-weight: 300 !important;
 }
 
 .intro-text {
@@ -125,7 +126,7 @@ a.more-link {
   font-weight: 600;
   font-size: 0.875rem;
   margin-top: 1em;
-  transition: 0.25s;
+  transition: 0.3s;
 }
 
 a.more-link::after {
