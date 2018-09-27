@@ -65,32 +65,42 @@ h2.section__header {
   font-weight: 600;
   font-size: 1.6rem;
   color: #666;
-}
-
-a.header-link {
-
+  margin-top: 1em;
 }
 
 a.header-link:hover {
   text-decoration: none;
 }
 
-.more-icon {
-  margin-left: 0.25em;
-  font-size: 90%;
+a.header-link .more-icon {
+  margin-left: 0.375em;
+  font-size: 85%;
 }
 
-.more-icon:hover {
-  margin-left: 0.5em;
-  transition: 0.2s;
+a.header-link:hover > .more-icon {
+  margin-left: 0.45em;
+  transition: 0.3s;
+}
+
+a.more-link .more-icon {
+  margin-left: 0.25em;
+}
+
+a.more-link:hover > .more-icon {
+  margin-left: 0.3em;
+  transition: 0.3s;
 }
 
 h3.teaser-item__header {
   font-family: 'proximanova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 1.3rem;
   line-height: 1.2;
+}
+
+h3.teaser-item__header a {
+  color: #282828;
 }
 
 h3.teaser-item__header--around-web {
@@ -147,10 +157,6 @@ a.more-link {
   transition: 0.3s;
 }
 
-a.more-link:hover::after {
-  border-color: #666;
-}
-
 a.story-link {
   text-decoration: none;
   font-weight: 400;
@@ -165,10 +171,24 @@ a.story-link:hover {
   display: block;
 }
 
+.blockquote {
+  margin: 2em auto;
+  position: relative;
+  width: 80%;
+  background: #f2f2f2;
+  padding: 1.5em 2em;
+  border-left: 4px solid #b9b9b9;
+}
+
+.blockquote__text p {
+  line-height: 160%;
+  margin-bottom: 0;
+}
+
 .pulled-quote {
   margin: 2em auto;
   position: relative;
-  width: 75%;
+  width: 80%;
 }
 
 .pulled-quote__icon {
@@ -198,7 +218,7 @@ a.story-link:hover {
 .tweet-quote {
   margin: 2em auto;
   position: relative;
-  width: 75%;
+  width: 80%;
   padding-top: 1.25em;
   border-top: 1px solid #e2e2e2;
   border-bottom: 1px solid #e2e2e2;
@@ -212,6 +232,10 @@ a.story-link:hover {
   padding-left: 3.75em;
 }
 
+.tweet-quote__text a {
+  font-weight: 400;
+}
+
 .tweet-quote__icon {
   color: #00aced;
   position: absolute;
@@ -223,4 +247,9 @@ a.story-link:hover {
   font-weight: 600;
   text-align: right;
   margin-top: -0.5em;
+  font-size: 110%;
+}
+
+.tweet-quote__attribution a {
+  text-decoration: none;
 }

@@ -16,6 +16,11 @@ figure {
   font-size: 0.875em;
 }
 
+.photo--headshot {
+  width: 200px;
+  height: auto;
+}
+
 .photo--teaser {
   margin-bottom: 1em;
 }
@@ -34,5 +39,22 @@ figure {
 }
 
 .photo--story-link img {
-  border-bottom: 3px solid #666;
+  border-bottom: 3px solid #b00;
 }
+
+.caption-image-container {
+
+}
+
+.caption-image-text {
+  background: #eee;
+  padding: 0.5em;
+}
+
+/* positioning */
+
+.image--right {
+  float: right;
+}
+
+/* sizing */

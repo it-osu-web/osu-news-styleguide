@@ -17,7 +17,7 @@
 #side {
   width: 27%;
   float: right;
-  padding-left: 2.5em;
+  padding-left: 3.5em;
   box-sizing: border-box;
   position: -webkit-sticky;
   position: -moz-sticky;
@@ -56,7 +56,7 @@
   }
   #side {
     position: relative;
-    padding-right: 0;
+    padding-left: 0;
     margin-bottom: 3em;
   }
   .l-constrained {
