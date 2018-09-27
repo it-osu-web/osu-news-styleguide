@@ -13,6 +13,7 @@ figure {
 }
 
 .image figcaption {
+  padding-top: 0.125em;
   font-size: 0.875em;
 }
 
@@ -52,6 +53,11 @@ figure {
 }
 
 /* sizing */
+
+.image-full {
+  width: 100%;
+  height: auto;
+}
 
 .image--headshot {
   width: 190px;
