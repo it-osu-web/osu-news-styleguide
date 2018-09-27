@@ -2,59 +2,58 @@ figure {
   background: white;
 }
 
-.photo {
+.image {
   margin-bottom: 2em;
 }
 
-.photo img {
+.image img {
   border-bottom: 3px solid #b00;
   max-width: 100%;
   height: auto;
 }
 
-.photo figcaption {
+.image figcaption {
   font-size: 0.875em;
 }
 
-.photo--headshot {
-  width: 200px;
-  height: auto;
+.image--inline figcaption {
+  background: #eee;
+  padding: 0.5em 0.75em;
+  margin-top: -5px;
 }
 
-.photo--teaser {
+.image--teaser {
   margin-bottom: 1em;
 }
 
-.photo--teaser--around-web {
+.image--teaser--around-web {
   margin-bottom: 0;
   border: 3px solid #666;
 }
 
-.photo--teaser--around-web img {
+.image--teaser--around-web img {
   border-bottom: 0;
 }
 
-.photo--story-link {
+.image--story-link {
   margin-bottom: 0.25em;
 }
 
-.photo--story-link img {
+.image--story-link img {
   border-bottom: 3px solid #b00;
 }
 
-.caption-image-container {
-
-}
-
-.caption-image-text {
-  background: #eee;
-  padding: 0.5em;
-}
 
 /* positioning */
 
 .image--right {
   float: right;
+  margin-left: 2em;
 }
 
 /* sizing */
+
+.image--headshot {
+  width: 190px;
+  height: auto;
+}
