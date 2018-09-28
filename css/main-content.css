@@ -12,6 +12,13 @@
   margin-left: 0;
 }
 
+
+/* News categories */
+
+.section--news-categories {
+  clear: both;
+}
+
 /* around the web */
 
 .wrapper--around-web {
@@ -28,15 +35,19 @@
 }
 
 .nav-button--prev {
+  left: 1.125em;
+}
+
+.nav-button--prev:hover {
   left: 1em;
 }
 
 .nav-button--next {
-  right: 1em;
+  right: 1.125em;
 }
 
-.teaser-grid--around-web {
-
+.nav-button--next:hover {
+  right: 1em;
 }
 
 .teaser-item--around-web a {

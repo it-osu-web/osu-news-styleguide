@@ -27,6 +27,16 @@ figure {
   margin-bottom: 1em;
 }
 
+.image--teaser {
+  margin-bottom: 1em;
+}
+
+.image--teaser--news-categories {
+  float: left;
+  width: 42%;
+  margin-right: 2em;
+}
+
 .image--teaser--around-web {
   margin-bottom: 0;
   border: 3px solid #666;
