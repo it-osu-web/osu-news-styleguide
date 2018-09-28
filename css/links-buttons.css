@@ -46,6 +46,7 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
   text-align: center;
   letter-spacing: 0.03em;
   border: 0;
+  margin-bottom: 0.5em;
 }
 
 a.button {

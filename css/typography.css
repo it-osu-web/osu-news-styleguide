@@ -128,6 +128,10 @@ p.date-kicker {
   font-size: 0.875em;
 }
 
+.dateline--teaser {
+  color: #666;
+}
+
 .dateline--teaser--around-web {
   margin-bottom: 0.5em;
   font-size: 0.875rem;

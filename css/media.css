@@ -33,8 +33,9 @@ figure {
 
 .image--teaser--news-categories {
   float: left;
-  width: 42%;
-  margin-right: 2em;
+  width: 41.5%;
+  margin-right: 1.5em;
+  margin-bottom: 0.5em;
 }
 
 .image--teaser--around-web {
@@ -72,4 +73,17 @@ figure {
 .image--headshot {
   width: 190px;
   height: auto;
+}
+
+
+/* Adjustments for small screens */
+
+@media only screen and (max-width: 720px) {
+
+  .image--teaser--news-categories {
+    float: none;
+    width: 100%;
+    margin-right: 0;
+  }
+
 }
