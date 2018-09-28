@@ -111,6 +111,10 @@ h3.teaser-item__header--around-web {
   margin: 0.25em 0;
 }
 
+h3.teaser-item__header--more-news {
+  font-size: 1.3rem;
+}
+
 p.date-kicker {
   font-size: 1.125rem;
   line-height: 1;
